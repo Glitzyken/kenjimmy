@@ -1,7 +1,7 @@
 <template>
   <div class="flex h-128 mt-20">
     <div class="flex-1">
-      <p class="text-5xl font-black">Kenneth Jimmy</p>
+      <h1 class="text-5xl font-black">Kenneth Jimmy</h1>
       <p class="uppercase">Programmer and Designer</p>
       <p class="text-gray-600 text-sm mt-10 w-64">
         25 year old code ninja from Lagos Nigeria. Happy to work with you on
