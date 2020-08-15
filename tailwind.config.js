@@ -17,7 +17,13 @@ module.exports = {
         kjColorGold: '#e29d51'
       },
       fontFamily: {
-        sans: ['Roboto']
+        sans: ['Roboto', 'sans-serif']
+      },
+      height: {
+        '128': '320px'
+      },
+      width: {
+        '128': '320px'
       }
     }
   },
