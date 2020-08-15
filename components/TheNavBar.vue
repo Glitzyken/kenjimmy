@@ -13,6 +13,8 @@
         </a>
       </span>
     </div>
-    <button>Blog 🗄</button>
+    <nuxt-link to="/blog">
+      <button class="focus:outline-none">Blog 🗄</button>
+    </nuxt-link>
   </div>
 </template>

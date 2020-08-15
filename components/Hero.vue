@@ -8,7 +8,7 @@
         your next big project.
       </p>
       <button
-        class="bg-kjColorPrime py-2 px-4 uppercase mt-10 rounded-lg text-kjColorLight font-medium text-xs transition duration-200 hover:bg-kjColorDark"
+        class="bg-kjColorPrime py-2 px-4 uppercase mt-10 rounded-lg text-kjColorLight font-medium text-xs transition duration-200 hover:bg-kjColorDark focus:outline-none"
       >
         Let's chat!
       </button>
