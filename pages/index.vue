@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="test"></div>
+    <div class="bg-kjColorPrime w-24 h-20">Something</div>
   </div>
 </template>
 
@@ -14,10 +14,4 @@ export default {};
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
-
-.test {
-  width: 5rem;
-  height: 5rem;
-  background-color: orangered;
-}
 </style>

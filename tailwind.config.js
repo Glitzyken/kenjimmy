@@ -1,11 +1,23 @@
 /*
-** TailwindCSS Configuration File
-**
-** Docs: https://tailwindcss.com/docs/configuration
-** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
-*/
+ ** TailwindCSS Configuration File
+ **
+ ** Docs: https://tailwindcss.com/docs/configuration
+ ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
+ */
 module.exports = {
-  theme: {},
+  theme: {
+    extend: {
+      colors: {
+        kjColorPrime: '#d1412a',
+        kjColorPrimeLight: '#d8c7b8',
+        kjColorLight: '#f2f0ee',
+        kjColorDark: '#2b2929',
+        kjColorSecondaryLight: '#bab6b5',
+        kjColorSecondary: '#607393',
+        kjColorGold: '#e29d51'
+      }
+    }
+  },
   variants: {},
   plugins: [],
   purge: {
@@ -19,4 +31,4 @@ module.exports = {
       'nuxt.config.js'
     ]
   }
-}
+};
