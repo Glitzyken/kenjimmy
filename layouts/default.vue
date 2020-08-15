@@ -1,6 +1,8 @@
 <template>
-  <div class="bg-kjColorLight py-16">
-    <div class="bg-white max-w-6xl m-auto rounded-lg p-8 flex">
+  <div class="md:bg-kjColorLight md:py-16">
+    <div
+      class="bg-white md:max-w-6xl md:m-auto sm:rounded-lg p-2 md:p-8 md:flex"
+    >
       <div>
         <TheSideBar />
       </div>
