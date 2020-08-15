@@ -15,6 +15,9 @@ module.exports = {
         kjColorSecondaryLight: '#bab6b5',
         kjColorSecondary: '#607393',
         kjColorGold: '#e29d51'
+      },
+      fontFamily: {
+        sans: ['Roboto']
       }
     }
   },

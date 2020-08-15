@@ -1,5 +1,9 @@
 <template>
-  <div></div>
+  <div>
+    <div class="sm:bg-kjColorPrime w-24 h-20 xl:bg-kjColorSecondary">
+      <p class="font-bold">Content</p>
+    </div>
+  </div>
 </template>
 
 <script>
