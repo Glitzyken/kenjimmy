@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <div class="bg-kjColorPrime w-24 h-20">Something</div>
-  </div>
+  <div></div>
 </template>
 
 <script>
