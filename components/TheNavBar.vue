@@ -14,7 +14,9 @@
       </span>
     </div>
     <nuxt-link to="/blog">
-      <button class="focus:outline-none">Blog 🗄</button>
+      <button class="focus:outline-none capitalize">
+        shelf 🗄
+      </button>
     </nuxt-link>
   </div>
 </template>

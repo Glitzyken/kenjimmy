@@ -6,11 +6,18 @@
       </nuxt-link>
     </div>
     <div class="text-center md:w-2/4">
-      <span class="uppercase text-xs mr-2 md:mr-6">about</span>
-      <span class="uppercase text-xs mr-2 md:mr-6">works</span>
-      <span class="uppercase text-xs mr-2 md:mr-6">services</span>
-      <span class="uppercase text-xs mr-2 md:mr-6">blog</span>
-      <span class="uppercase text-xs">contact</span>
+      <nuxt-link to="/about">
+        <span class="uppercase text-xs mr-2 md:mr-6">about me</span>
+      </nuxt-link>
+      <nuxt-link to="/portfolio">
+        <span class="uppercase text-xs mr-2 md:mr-6">works</span>
+      </nuxt-link>
+      <nuxt-link to="/blog">
+        <span class="uppercase text-xs mr-2 md:mr-6">my shelf</span>
+      </nuxt-link>
+      <nuxt-link to="/contact">
+        <span class="uppercase text-xs">contact</span>
+      </nuxt-link>
     </div>
     <div class="uppercase text-center text-xs md:w-1/4">
       &copy; 2020 ken. all rights reserved
