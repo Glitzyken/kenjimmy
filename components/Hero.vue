@@ -1,8 +1,8 @@
 <template>
-  <div class="md:flex h-128 mt-20">
+  <div class="md:flex mt-20">
     <div class="md:flex-1">
       <h1 class="text-5xl font-black leading-none mb-4">Kenneth Jimmy</h1>
-      <p class="uppercase">Programmer and Designer</p>
+      <p class="uppercase font-bold">Programmer, Designer and Chess lover</p>
       <p class="text-gray-600 text-sm mt-10 w-64">
         25 year old code ninja from Lagos Nigeria. Happy to work with you on
         your next big project.
@@ -13,7 +13,7 @@
         Let's chat!
       </button>
     </div>
-    <div class="mt-10  md:mt-0 md:flex-1">
+    <div class="mt-10 md:mt-0 md:flex-1">
       <img
         class="w-128"
         src="../assets/images/kenjimmydotmepic.png"
