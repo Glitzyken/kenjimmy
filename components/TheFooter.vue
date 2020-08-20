@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-10 md:flex">
+  <footer class="mt-10 md:flex">
     <div class="uppercase text-xs md:w-1/4">
       <nuxt-link to="/">
         <img class="w-12 pb-2" src="~/assets/images/kjlogo.png" alt="logo" />
@@ -22,5 +22,5 @@
     <div class="uppercase text-center text-xs md:w-1/4">
       &copy; 2020 ken. all rights reserved
     </div>
-  </div>
+  </footer>
 </template>

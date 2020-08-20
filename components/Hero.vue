@@ -1,5 +1,5 @@
 <template>
-  <div class="md:flex mt-20">
+  <header class="md:flex mt-20">
     <div class="md:flex-1">
       <h1 class="text-5xl font-black leading-none mb-4">Kenneth Jimmy</h1>
       <p class="uppercase font-bold">Programmer, Designer and Chess lover</p>
@@ -20,5 +20,5 @@
         alt="ken photo"
       />
     </div>
-  </div>
+  </header>
 </template>
