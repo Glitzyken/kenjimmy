@@ -1,6 +1,7 @@
 <template>
   <div>
     <Hero />
+    <StayConnected />
   </div>
 </template>
 

@@ -9,7 +9,7 @@
       /
       <span class="font-bold md:ml-4">
         <a href="mailto:kenjimmy17@gmail.com">
-          kenjimmy@gmail.com 📭
+          kenjimmy17@gmail.com 📭
         </a>
       </span>
     </div>
