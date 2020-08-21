@@ -13,6 +13,12 @@
         </div>
       </div>
       <TheFooter />
+      <div class="h-3 mt-10 flex">
+        <div class="h-full w-1/4 bg-kjColorPrime"></div>
+        <div class="h-full w-1/4 bg-kjColorGold"></div>
+        <div class="h-full w-1/4 bg-kjColorPrimeLight"></div>
+        <div class="h-full w-1/4 bg-kjColorSecondary"></div>
+      </div>
     </div>
   </div>
 </template>
