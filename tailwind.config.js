@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        kjColorRed: '#d30071',
         kjColorPrime: '#d1412a',
         kjColorPrimeLight: '#d8c7b8',
         kjColorLight: '#f2f0ee',

@@ -7,7 +7,7 @@
     </div>
     <div class="text-center md:w-2/4">
       <nuxt-link to="/about">
-        <span class="uppercase text-xs mr-2 md:mr-6">about me</span>
+        <span class="uppercase text-xs mr-2 md:mr-6">skills</span>
       </nuxt-link>
       <nuxt-link to="/portfolio">
         <span class="uppercase text-xs mr-2 md:mr-6">works</span>
