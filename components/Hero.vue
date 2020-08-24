@@ -10,7 +10,7 @@
       <button
         class="bg-kjColorPrime py-2 px-4 uppercase mt-10 rounded-lg text-kjColorLight font-medium text-xs transition duration-200 hover:bg-kjColorDark focus:outline-none"
       >
-        Let's chat!
+        Download my CV
       </button>
     </div>
     <div class="mt-10 md:mt-0 md:flex-1">
