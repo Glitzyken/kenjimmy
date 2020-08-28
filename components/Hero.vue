@@ -10,7 +10,7 @@
       <button
         class="bg-kjColorRed w-32 shadow-xl py-2 px-4 uppercase mt-10 rounded text-kjColorLight text-xs transition duration-200 hover:bg-kjColorDark focus:outline-none"
       >
-        my CV
+        Hire me
       </button>
     </div>
     <div class="mt-10 md:mt-0 md:flex-1">
