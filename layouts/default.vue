@@ -12,6 +12,8 @@
           <Nuxt />
         </div>
       </div>
+    </div>
+    <div class="md:max-w-6xl md:m-auto p-2 md:p-8 text-gray-800">
       <TheFooter />
       <div class="h-3 mt-5 flex">
         <div class="h-full w-1/4 bg-kjColorPrime"></div>
