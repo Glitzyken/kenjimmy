@@ -9,7 +9,7 @@
       <div
         v-for="(service, index) in services"
         :key="index"
-        class="md:w-1/3 h-128 md:mr-4 rounded-lg shadow-2xl card"
+        class="md:w-1/3 h-128 rounded-lg shadow-2xl card"
       >
         <div class="w-full h-48"></div>
         <div class="w-full h-auto py-2 px-4">
@@ -60,8 +60,9 @@ export default {
 .card {
   transition: all 0.2s;
 
+  // Write a media query to fix this
   // &:not(:last-child) {
-  //   background-color: red;
+  //   margin-right: 1rem;
   // }
 
   &:hover {
