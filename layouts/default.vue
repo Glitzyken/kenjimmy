@@ -1,7 +1,7 @@
 <template>
   <div class="md:bg-kjColorLight md:py-16">
     <div
-      class="bg-white md:max-w-6xl md:m-auto sm:rounded-lg p-2 md:p-8 text-gray-800"
+      class="bg-white md:max-w-6xl md:m-auto sm:rounded-lg p-2 md:p-8 text-gray-800 md:shadow-2xl"
     >
       <div class="md:flex">
         <div>

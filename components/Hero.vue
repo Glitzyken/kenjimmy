@@ -1,7 +1,10 @@
 <template>
   <header class="md:flex mt-20">
     <div class="md:flex-1">
-      <h1 class="text-5xl font-black leading-none mb-4">Kenneth Jimmy</h1>
+      <h1 class="text-5xl font-black leading-none mb-4">
+        <span class="text-kjColorGold">Ken</span
+        ><span class="text-kjColorPrime">neth</span> Jimmy
+      </h1>
       <p class="uppercase font-bold">Programmer, Designer and Chess lover</p>
       <p class="text-gray-600 text-sm mt-10 w-64">
         25 year old code ninja from Lagos Nigeria. Happy to work with you on
