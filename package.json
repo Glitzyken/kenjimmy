@@ -10,10 +10,10 @@
     "serve": "nuxt serve"
   },
   "dependencies": {
-    "nuxt": "^2.13.0"
+    "nuxt": "^2.14.4"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^2.0.0",
+    "@nuxtjs/tailwindcss": "^3.0.0",
     "node-sass": "^4.14.1",
     "sass-loader": "^9.0.3"
   }

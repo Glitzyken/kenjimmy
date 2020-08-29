@@ -5,26 +5,64 @@
     </h1>
     <p class="capitalize mt-2 text-lg">service offers</p>
     <CustomBorder />
-    <div class="flex mt-10">
-      <div class="w-1/3 h-128 mr-4 rounded-lg shadow-2xl card">
+    <div class="md:flex mt-10">
+      <div
+        v-for="(service, index) in services"
+        :key="index"
+        class="md:w-1/3 h-128 md:mr-4 rounded-lg shadow-2xl card"
+      >
         <div class="w-full h-48"></div>
         <div class="w-full h-auto py-2 px-4">
-          <span class="text-xl font-bold capitalize">web development</span>
+          <div>
+            <span class="text-xl font-bold capitalize">{{
+              service.title
+            }}</span>
+            <p>{{ service.des }}</p>
+          </div>
+          <div class="relative mt-2">
+            <div class="absolute right-0">
+              <nuxt-link to="/portfolio">
+                <Button />
+              </nuxt-link>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="w-1/3 h-128 mr-4 bg-red-500">
-        UI-UX
-      </div>
-      <div class="w-1/3 h-128 bg-red-300">
-        Graphic Design
       </div>
     </div>
   </section>
 </template>
 
+<script>
+export default {
+  name: 'Services',
+  data() {
+    return {
+      services: [
+        {
+          title: 'Web development',
+          des: 'I build websites and web applications.'
+        },
+        {
+          title: 'Ux/ui design',
+          des: 'I design application user interface.'
+        },
+        {
+          title: 'Graphic design',
+          des: 'I design logos, flyers, cards, etc.'
+        }
+      ]
+    };
+  }
+};
+</script>
+
 <style lang="scss" scoped>
 .card {
   transition: all 0.2s;
+
+  // &:not(:last-child) {
+  //   background-color: red;
+  // }
 
   &:hover {
     border: 3px solid #607393;
