@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="btn">See Projects &rarr;</div>
+    <div class="btn">Read &rarr;</div>
   </div>
 </template>
 <style lang="scss" scoped>
