@@ -12,7 +12,7 @@
             </div>
           </div>
           <div class="inline-block publish">
-            <p class="text-sm">Published on {{ article.createdAt }} ...</p>
+            <p class="text-sm">{{ article.createdAt }} ...</p>
           </div>
         </div>
       </div>
