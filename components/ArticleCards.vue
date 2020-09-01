@@ -1,20 +1,22 @@
 <template>
   <div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-      <div v-for="(article, index) in articles" :key="index" class="card">
-        <div class="w-full p-8 preview">
-          <div>
-            <div class="text-xl font-bold capitalize mb-5">
-              {{ article.title }}
+    <nuxt-link to="/">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div v-for="(article, index) in articles" :key="index" class="card">
+          <div class="p-8 mb-12">
+            <div>
+              <div class="text-xl font-bold capitalize mb-5">
+                {{ article.title }}
+              </div>
+              <p class="md:mt-10">{{ article.preview }}</p>
             </div>
-            <p class="md:mt-10">{{ article.preview }}</p>
+          </div>
+          <div class="inline-block publish">
+            <p class="text-sm">Published on {{ article.createdAt }} ...</p>
           </div>
         </div>
-        <div class="w-full flex justify-end px-10">
-          <Button />
-        </div>
       </div>
-    </div>
+    </nuxt-link>
   </div>
 </template>
 
@@ -27,11 +29,13 @@ export default {
         {
           title: 'Web scraping using Puppeteer',
           preview:
-            "Learn how to use some commonly used Puppeteer methods like .waitFor, .click and .evaluate to do web scraping. Finally, you'll learn how to automatically save your scraped data into a file."
+            "Learn how to use some commonly used Puppeteer methods like .waitFor, .click and .evaluate to do web scraping. Finally, you'll learn how to automatically save your scraped data into a file.",
+          createdAt: 'August 23, 2020'
         },
         {
           title: 'How to create sticky nav in Angular',
-          preview: 'Some preview text here.'
+          preview: 'Some preview text here.',
+          createdAt: 'September 1, 2020'
         }
       ]
     };
@@ -41,7 +45,8 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-  min-height: 23rem;
+  position: relative;
+  min-height: 18rem;
   box-shadow: 0 0.332071px 2.21381px rgba(0, 0, 0, 0.0119),
     0 0.798012px 5.32008px rgba(0, 0, 0, 0.0258),
     0 1.50259px 10.0172px rgba(0, 0, 0, 0.0368),
@@ -55,7 +60,9 @@ export default {
   }
 }
 
-.preview {
-  min-height: 19rem;
+.publish {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
 }
 </style>
