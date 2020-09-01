@@ -1,23 +1,17 @@
 <template>
   <div>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-      <div v-for="(article, index) in articles" :key="index" class="card h-">
-        <div class="w-full p-8 bg-red-500">
+      <div v-for="(article, index) in articles" :key="index" class="card">
+        <div class="w-full p-8 preview">
           <div>
             <div class="text-xl font-bold capitalize mb-5">
               {{ article.title }}
             </div>
-            <p>{{ article.preview }}</p>
+            <p class="md:mt-10">{{ article.preview }}</p>
           </div>
         </div>
-        <div class="w-full h-auto py-2 px-8">
-          <div class="relative mt-2">
-            <div class="absolute right-0">
-              <nuxt-link to="/">
-                <Button />
-              </nuxt-link>
-            </div>
-          </div>
+        <div class="w-full flex justify-end px-10">
+          <Button />
         </div>
       </div>
     </div>
@@ -33,7 +27,7 @@ export default {
         {
           title: 'Web scraping using Puppeteer',
           preview:
-            "In this article, you'll learn how to use Puppeteer to fetch a bunch of image urls from a comic website automatically. In the process, you'll learn how to use some commonly used Puppeteer methods like .waitFor, .click and .evaluate to do web scraping. Finally, you'll learn how to automatically save your scraped data into a file."
+            "Learn how to use some commonly used Puppeteer methods like .waitFor, .click and .evaluate to do web scraping. Finally, you'll learn how to automatically save your scraped data into a file."
         },
         {
           title: 'How to create sticky nav in Angular',
@@ -59,5 +53,9 @@ export default {
   &:hover {
     transform: translateY(-5px);
   }
+}
+
+.preview {
+  min-height: 19rem;
 }
 </style>
