@@ -7,12 +7,12 @@
 <style lang="scss" scoped>
 .kj-border {
   position: relative;
-  height: 0.15rem;
+  height: 0.2rem;
 
   &__elips {
     position: absolute;
     top: -0.2rem;
-    left: -0.1rem;
+    left: -0.2rem;
   }
 }
 </style>
