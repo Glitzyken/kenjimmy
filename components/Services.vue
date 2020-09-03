@@ -32,19 +32,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-// .card {
-//   transition: all 0.2s;
-
-//   // Write a media query to fix this
-//   // &:not(:last-child) {
-//   //   margin-right: 1rem;
-//   // }
-
-//   &:hover {
-//     border: 3px solid #607393;
-//     box-shadow: 1px 1px 30px #bab6b5;
-//     transform: translateY(-5px);
-//   }
-// }
-</style>
+<style lang="scss" scoped></style>
