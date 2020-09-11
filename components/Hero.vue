@@ -31,6 +31,23 @@
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-export default {};
+export default {
+  mounted() {
+    this.startAnimations();
+  },
+  methods: {
+    startAnimations() {
+      gsap.registerPlugin(ScrollTrigger);
+
+      gsap.from('#profile-pic', {
+        scrollTrigger: '#profile-pic',
+        opacity: 0,
+        duration: 2.5,
+        ease: 'power4.out',
+        x: 300
+      });
+    }
+  }
+};
 </script>
 >
