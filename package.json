@@ -10,7 +10,9 @@
     "serve": "nuxt serve"
   },
   "dependencies": {
-    "nuxt": "^2.14.4"
+    "gsap": "^3.5.1",
+    "nuxt": "^2.14.4",
+    "vue-scrollmagic": "^1.2.0"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^3.0.0",

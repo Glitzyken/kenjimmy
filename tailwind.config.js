@@ -13,6 +13,7 @@ module.exports = {
         kjColorPrimeLight: '#d8c7b8',
         kjColorLight: '#f2f0ee',
         kjColorDark: '#2b2929',
+        kjColorGray: '#58595b',
         kjColorSecondaryLight: '#bab6b5',
         kjColorSecondary: '#607393',
         kjColorGold: '#e29d51'

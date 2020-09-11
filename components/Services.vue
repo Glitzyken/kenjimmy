@@ -1,6 +1,6 @@
 <template>
-  <section>
-    <h1 class="capitalize mt-20 text-3xl md:text-4xl font-bold leading-none">
+  <section class="mt-12 md:mt-56">
+    <h1 class="capitalize text-3xl md:text-4xl font-bold leading-none">
       what i can do
     </h1>
     <p class="capitalize mt-2 text-lg">service offers</p>
