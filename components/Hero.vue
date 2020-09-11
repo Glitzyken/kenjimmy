@@ -18,6 +18,7 @@
     </div>
     <div class="mt-10 md:mt-0 md:flex-1">
       <img
+        id="profile-pic"
         class="w-128"
         src="../assets/images/kenjimmydotmepic.png"
         alt="ken photo"
@@ -25,3 +26,11 @@
     </div>
   </header>
 </template>
+
+<script>
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+export default {};
+</script>
+>
