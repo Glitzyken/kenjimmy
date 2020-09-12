@@ -5,7 +5,7 @@
     </h1>
     <p class="capitalize mt-2 text-lg">service offers</p>
     <CustomBorder />
-    <div class="grid grid-cols-1 md:grid-cols-2 mt-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 mt-10 bg-kjColorLight">
       <div class="">services</div>
       <div class="hidden lg:block illustration">
         <img
