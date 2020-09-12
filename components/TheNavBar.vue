@@ -1,6 +1,6 @@
 <template>
   <div class="w-full md:flex">
-    <div class="text-gray-700 text-sm md:flex-1">
+    <div class="text-kjColorGray text-sm md:flex-1">
       <span class="font-bold md:mr-4">
         <a href="tel:+2348139113069">
           Call me (+234) 8139113069 📳
