@@ -5,6 +5,46 @@
     </h1>
     <p class="capitalize mt-2 text-lg">service offers</p>
     <CustomBorder />
+    <div class="grid grid-cols-1 md:grid-cols-2 mt-10">
+      <div class="">services</div>
+      <div class="hidden lg:block illustration">
+        <img
+          class="illustration__img illustration__img--1"
+          src="../assets/images/Illustrations/illustration-01.png"
+          alt="illustration 1"
+        />
+        <img
+          class="illustration__img illustration__img--2"
+          src="../assets/images/Illustrations/illustration-02.png"
+          alt="illustration 2"
+        />
+        <img
+          class="illustration__img illustration__img--3"
+          src="../assets/images/Illustrations/illustration-03.png"
+          alt="illustration 3"
+        />
+        <img
+          class="illustration__img illustration__img--4"
+          src="../assets/images/Illustrations/illustration-04.png"
+          alt="illustration 4"
+        />
+        <img
+          class="illustration__img illustration__img--5"
+          src="../assets/images/Illustrations/illustration-05.png"
+          alt="illustration 5"
+        />
+        <img
+          class="illustration__img illustration__img--6"
+          src="../assets/images/Illustrations/illustration-06.png"
+          alt="illustration 6"
+        />
+        <img
+          class="illustration__img illustration__img--7"
+          src="../assets/images/Illustrations/illustration-07.png"
+          alt="illustration 7"
+        />
+      </div>
+    </div>
   </section>
 </template>
 
@@ -57,4 +97,49 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.illustration {
+  position: relative;
+  height: 30rem;
+
+  &__img {
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+
+    &--1 {
+      left: 0;
+      z-index: 2;
+    }
+
+    &--2 {
+      top: 25%;
+      z-index: 1;
+    }
+
+    &--3 {
+      top: -2%;
+    }
+
+    &--4 {
+      top: -20%;
+      left: -20%;
+    }
+
+    &--5 {
+      top: -20%;
+      right: -5%;
+    }
+
+    &--7 {
+      top: -2%;
+      right: -2%;
+    }
+
+    &--6 {
+      top: 0;
+      left: -22%;
+    }
+  }
+}
+</style>
