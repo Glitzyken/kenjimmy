@@ -1,5 +1,5 @@
 <template>
-  <header class="md:flex mt-20">
+  <header class="md:flex mt-10">
     <div class="md:flex-1">
       <div class="callout top-right">it's me</div>
       <h1 class="text-5xl font-black leading-none mb-4 names">
@@ -24,11 +24,16 @@
         25 year old code ninja from Lagos Nigeria. Happy to work with you on
         your next big project.
       </p>
-      <button
-        class="bg-kjColorRed w-32 shadow-xl py-2 px-4 uppercase mt-10 rounded text-kjColorLight text-xs transition duration-200 hover:bg-kjColorDark focus:outline-none"
-      >
-        Hire me
-      </button>
+      <div class="mt-10 hire-wrapper">
+        <div ref="hire" class="hire">
+          <img
+            src="../assets/images/hireMeButton.svg"
+            alt="hire button"
+            class="hire-img"
+          />
+          <div ref="hirePulse" class="hire-pulse"></div>
+        </div>
+      </div>
     </div>
     <div class="mt-10 md:mt-0 md:flex-1">
       <img
@@ -41,7 +46,7 @@
 </template>
 
 <script>
-import { gsap } from 'gsap';
+import { gsap, Back, Elastic, Expo } from 'gsap';
 // import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 export default {
@@ -50,8 +55,9 @@ export default {
   },
   methods: {
     startAnimations() {
+      const { hire, hirePulse } = this.$refs;
       // gsap.registerPlugin(ScrollTrigger);
-      let tl = gsap.timeline();
+      const tl = gsap.timeline();
 
       tl.to('.callout', {
         scale: 1,
@@ -64,6 +70,35 @@ export default {
           '.message',
           { opacity: 0, y: 100, duration: 1, ease: 'back.out(1.7)' },
           '-=.5'
+        )
+        .to(hire, 0.4, {
+          scale: 0.8,
+          rotation: 16,
+          ease: Back.easeOut.config(1.7)
+        })
+        .to(
+          hirePulse,
+          0.5,
+          {
+            scale: 0.9,
+            opacity: 1
+          },
+          '-=0.6'
+        )
+        .to(hire, 1.2, {
+          scale: 1,
+          rotation: '-=16',
+          ease: Elastic.easeOut.config(2.5, 0.5)
+        })
+        .to(
+          hirePulse,
+          1.1,
+          {
+            scale: 3,
+            opacity: 0,
+            ease: Expo.easeOut
+          },
+          '-=1.2'
         );
     }
   }
@@ -105,5 +140,41 @@ export default {
   right: 7px;
   bottom: -20px;
   border-top: 10px solid #2b2929;
+}
+
+.hire-wrapper {
+  position: relative;
+}
+
+.hire {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  background: #f3c6dd;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.hire-pulse {
+  position: absolute;
+  z-index: 1;
+  height: 120px;
+  width: 120px;
+  top: 50%;
+  left: 50%;
+  margin-top: -60px;
+  margin-left: -60px;
+  background: #d30071;
+  border-radius: 50%;
+  opacity: 0;
+  transform: scale(0);
+}
+
+.hire-img {
+  height: 70%;
 }
 </style>

@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors: {
         kjColorRed: '#d30071',
+        kjColorRedLight: '#f3c6dd',
         kjColorPrime: '#e45447',
         kjColorPrimeLight: '#d8c7b8',
         kjColorLight: '#f2f0ee',
