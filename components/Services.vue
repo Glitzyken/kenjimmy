@@ -10,7 +10,6 @@
 
 <script>
 import { gsap, Back, Elastic, Expo } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 export default {
   name: 'Services',
@@ -31,6 +30,29 @@ export default {
         }
       ]
     };
+  },
+  mounted() {
+    this.animateServices();
+  },
+  methods: {
+    animateServices() {
+      let tl = new TimelineMax({ onUpdate: updatePercentage });
+
+      const scene = this.$scrollmagic
+        .scene({
+          triggerElement: '.wrapper',
+          triggerHook: 0,
+          duration: '300%'
+        })
+        .setPin('.wrapper')
+        .setTween(tl);
+
+      this.$scrollmagic.addScene(scene);
+
+      function updatePercentage() {
+        tl.progress();
+      }
+    }
   }
 };
 </script>
