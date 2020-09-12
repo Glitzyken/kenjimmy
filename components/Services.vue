@@ -6,7 +6,31 @@
     <p class="capitalize mt-2 text-lg">service offers</p>
     <CustomBorder />
     <div class="grid grid-cols-1 md:grid-cols-2 mt-10 bg-kjColorLight">
-      <div class="">services</div>
+      <div class="p-5 md:mx-8 services">
+        <h2 class="text-lg font-black uppercase mb-3">
+          app development
+        </h2>
+        <p class="mb-5">
+          I build modern-driven web and mobile applications using modern
+          technology stacks such as Node.js
+        </p>
+        <h2 class="text-lg font-black uppercase mb-3">
+          ui/ux design
+        </h2>
+        <p class="mb-5">
+          I create jaw-dropping mobile and web designs and prototypes using
+          Adobe XD or Figma
+        </p>
+        <h2 class="text-lg font-black uppercase mb-3">
+          graphic design
+        </h2>
+        <p>
+          Creating illustrations, logos and vector graphics used for app
+          development or designing a book, flyer, magazine, brochure or even a
+          banner is a cinch. Feel free to check out one of my books on
+          <a href="" target="_blank" class="font-bold underline"> Amazon </a>
+        </p>
+      </div>
       <div class="hidden lg:block illustration">
         <img
           class="illustration__img illustration__img--1"
@@ -141,5 +165,9 @@ export default {
       left: -22%;
     }
   }
+}
+
+.services {
+  text-align: center;
 }
 </style>
