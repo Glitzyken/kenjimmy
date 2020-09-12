@@ -9,6 +9,9 @@
 </template>
 
 <script>
+import { gsap, Back, Elastic, Expo } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
 export default {
   name: 'Services',
   data() {

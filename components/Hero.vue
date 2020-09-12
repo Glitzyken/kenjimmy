@@ -47,23 +47,25 @@
 
 <script>
 import { gsap, Back, Elastic, Expo } from 'gsap';
-// import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 export default {
   mounted() {
-    this.startAnimations();
+    this.animateHero();
   },
   methods: {
-    startAnimations() {
+    animateHero() {
       const { hire, hirePulse } = this.$refs;
-      // gsap.registerPlugin(ScrollTrigger);
       const tl = gsap.timeline();
 
-      tl.to('.callout', {
-        scale: 1,
-        duration: 1,
-        ease: 'elastic.out(1, 0.3)'
-      })
+      tl.to(
+        '.callout',
+        {
+          scale: 1,
+          duration: 1,
+          ease: 'elastic.out(1, 0.3)'
+        },
+        1
+      )
         .to('.letter', { fontSize: '3rem', duration: 0.05, stagger: 0.1 })
         .from('.des', { opacity: 0, y: 70, duration: 0.7 })
         .from(
@@ -71,29 +73,35 @@ export default {
           { opacity: 0, y: 100, duration: 1, ease: 'back.out(1.7)' },
           '-=.5'
         )
-        .to(hire, 0.4, {
-          scale: 0.8,
-          rotation: 16,
-          ease: Back.easeOut.config(1.7)
-        })
+        .to(
+          hire,
+          {
+            duration: 0.4,
+            scale: 0.8,
+            rotation: 16,
+            ease: Back.easeOut.config(1.7)
+          },
+          5
+        )
         .to(
           hirePulse,
-          0.5,
           {
+            duration: 0.5,
             scale: 0.9,
             opacity: 1
           },
           '-=0.6'
         )
-        .to(hire, 1.2, {
+        .to(hire, {
+          duration: 1.2,
           scale: 1,
           rotation: '-=16',
           ease: Elastic.easeOut.config(2.5, 0.5)
         })
         .to(
           hirePulse,
-          1.1,
           {
+            duration: 1.1,
             scale: 3,
             opacity: 0,
             ease: Expo.easeOut
