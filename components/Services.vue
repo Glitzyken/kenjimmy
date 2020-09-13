@@ -1,30 +1,30 @@
 <template>
-  <section class="mt-12 md:mt-56">
+  <section class="mt-12 md:mt-56 services">
     <h1 class="capitalize text-3xl md:text-4xl font-bold leading-none">
       what i can do
     </h1>
     <p class="capitalize mt-2 text-lg">service offers</p>
     <CustomBorder />
     <div class="grid grid-cols-1 md:grid-cols-2 mt-10 bg-kjColorLight">
-      <div class="p-5 md:mx-8 services">
-        <h2 class="text-lg font-black uppercase mb-3">
+      <div class="p-5 md:mx-8 services__data">
+        <h2 class="text-lg font-black uppercase mb-3 data-1">
           app development
         </h2>
-        <p class="mb-5">
+        <p class="mb-5 data-1">
           I build modern-driven web and mobile applications using modern
           technology stacks such as Node.js
         </p>
-        <h2 class="text-lg font-black uppercase mb-3">
+        <h2 class="text-lg font-black uppercase mb-3 data-2">
           ui/ux design
         </h2>
-        <p class="mb-5">
+        <p class="mb-5 data-2">
           I create jaw-dropping mobile and web designs and prototypes using
           Adobe XD or Figma
         </p>
-        <h2 class="text-lg font-black uppercase mb-3">
+        <h2 class="text-lg font-black uppercase mb-3 data-3">
           graphic design
         </h2>
-        <p>
+        <p class="data-3">
           Creating illustrations, logos and vector graphics used for app
           development or designing a book, flyer, magazine, brochure or even a
           banner is a cinch. Feel free to check out one of my books on
@@ -100,15 +100,27 @@ export default {
   },
   methods: {
     animateServices() {
+      const { services } = this.$refs;
       let tl = new TimelineMax({ onUpdate: updatePercentage });
+
+      tl.from('.illustration__img--1', 0.5, { scale: 0.5 }, 0)
+        .from('.illustration__img--2', 0.5, { opacity: 0, y: -50 }, 0.2)
+        .from('.illustration__img--3', 0.5, { opacity: 0, y: -50 }, 0.5)
+        .from('.data-1', 1, { opacity: 0, stagger: 1 }, 0.7)
+        .from('.illustration__img--5', 0.5, { opacity: 0, x: 100 }, 1)
+        .from('.illustration__img--6', 0.5, { opacity: 0, x: -100 }, 1.2)
+        .from('.data-2', 1, { opacity: 0, stagger: 1 }, 1.5)
+        .from('.illustration__img--4', 0.5, { opacity: 0, x: -100 }, 2)
+        .from('.illustration__img--7', 0.5, { opacity: 0, x: 100 }, 2.2)
+        .from('.data-3', 1, { opacity: 0, stagger: 1 }, 2.5);
 
       const scene = this.$scrollmagic
         .scene({
-          triggerElement: '.wrapper',
+          triggerElement: '.services',
           triggerHook: 0,
           duration: '300%'
         })
-        .setPin('.wrapper')
+        .setPin('.services')
         .setTween(tl);
 
       this.$scrollmagic.addScene(scene);
@@ -168,6 +180,8 @@ export default {
 }
 
 .services {
-  text-align: center;
+  &__data {
+    text-align: center;
+  }
 }
 </style>
