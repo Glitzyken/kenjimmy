@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-12 md:mt-56 services">
+  <section class="mt-12 md:mt-32 services">
     <h1 class="capitalize text-3xl md:text-4xl font-bold leading-none">
       what i can do
     </h1>
@@ -107,12 +107,12 @@ export default {
         .from('.illustration__img--2', 0.5, { opacity: 0, y: -50 }, 0.2)
         .from('.illustration__img--3', 0.5, { opacity: 0, y: -50 }, 0.5)
         .from('.data-1', 1, { opacity: 0, stagger: 1 }, 0.7)
-        .from('.illustration__img--5', 0.5, { opacity: 0, x: 100 }, 1)
-        .from('.illustration__img--6', 0.5, { opacity: 0, x: -100 }, 1.2)
-        .from('.data-2', 1, { opacity: 0, stagger: 1 }, 1.5)
-        .from('.illustration__img--4', 0.5, { opacity: 0, x: -100 }, 2)
-        .from('.illustration__img--7', 0.5, { opacity: 0, x: 100 }, 2.2)
-        .from('.data-3', 1, { opacity: 0, stagger: 1 }, 2.5);
+        .from('.illustration__img--5', 0.5, { opacity: 0, x: 100 }, 1.4)
+        .from('.illustration__img--6', 0.5, { opacity: 0, x: -100 }, 1.7)
+        .from('.data-2', 1, { opacity: 0, stagger: 1 }, 1.9)
+        .from('.illustration__img--4', 0.5, { opacity: 0, x: -100 }, 2.6)
+        .from('.illustration__img--7', 0.5, { opacity: 0, x: 100 }, 2.9)
+        .from('.data-3', 1, { opacity: 0, stagger: 1 }, 3.1);
 
       const scene = this.$scrollmagic
         .scene({
