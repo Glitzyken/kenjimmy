@@ -35,7 +35,7 @@
         </div>
       </div>
     </div>
-    <div class="mt-10 md:mt-0 md:flex-1">
+    <div class="mt-10 md:flex-1">
       <img
         class="w-128"
         src="../assets/images/kenjimmydotmepic.png"
