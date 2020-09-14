@@ -30,6 +30,7 @@
           banner is a cinch. Feel free to check out one of my books on
           <a href="" target="_blank" class="font-bold underline"> Amazon </a>
         </p>
+        <Button displayTitle="SEE PROJECTS" />
       </div>
       <div class="hidden lg:block illustration">
         <img
