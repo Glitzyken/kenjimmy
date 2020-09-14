@@ -67,12 +67,13 @@ export default {
         1
       )
         .to('.letter', { fontSize: '3rem', duration: 0.05, stagger: 0.1 })
-        .from('.des', { opacity: 0, y: 70, duration: 0.7 })
-        .from(
+        .to('.des', { opacity: 1, y: 0, duration: 0.7 })
+        .to(
           '.message',
-          { opacity: 0, y: 100, duration: 1, ease: 'back.out(1.7)' },
+          { opacity: 1, y: 0, duration: 1, ease: 'back.out(1.7)' },
           '-=.5'
         )
+        .to('.hire-wrapper', { opacity: 1 })
         .to(
           hire,
           {
@@ -150,8 +151,19 @@ export default {
   border-top: 10px solid #2b2929;
 }
 
+.des {
+  transform: translateY(70px);
+  opacity: 0;
+}
+
+.message {
+  transform: translateY(100px);
+  opacity: 0;
+}
+
 .hire-wrapper {
   position: relative;
+  opacity: 0;
 }
 
 .hire {
