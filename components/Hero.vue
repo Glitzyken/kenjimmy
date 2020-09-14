@@ -64,7 +64,7 @@ export default {
           duration: 1,
           ease: 'elastic.out(1, 0.3)'
         },
-        1
+        0.5
       )
         .to('.letter', { fontSize: '3rem', duration: 0.05, stagger: 0.1 })
         .to('.des', { opacity: 1, y: 0, duration: 0.7 })
