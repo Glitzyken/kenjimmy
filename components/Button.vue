@@ -66,6 +66,5 @@ export default {
 #btn {
   font-weight: 700;
   overflow: visible;
-  cursor: pointer;
 }
 </style>

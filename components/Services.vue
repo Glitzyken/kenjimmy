@@ -31,7 +31,9 @@
           <a href="" target="_blank" class="font-bold underline"> Amazon </a>
         </p>
         <div class="mt-8">
-          <Button displayTitle="SEE PROJECTS" />
+          <nuxt-link to="/portfolio">
+            <Button displayTitle="SEE PROJECTS" />
+          </nuxt-link>
         </div>
       </div>
       <div class="hidden lg:block illustration">
