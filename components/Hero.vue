@@ -24,16 +24,18 @@
         Code ninja from Lagos Nigeria. Happy to work with you on your next
         project.
       </p>
-      <div class="mt-10 hire-wrapper">
-        <div ref="hire" class="hire">
-          <img
-            src="../assets/images/hireMeButton.svg"
-            alt="hire button"
-            class="hire-img"
-          />
-          <div ref="hirePulse" class="hire-pulse"></div>
+      <nuxt-link to="/contact">
+        <div class="mt-10 hire-wrapper">
+          <div ref="hire" class="hire">
+            <img
+              src="../assets/images/hireMeButton.svg"
+              alt="hire button"
+              class="hire-img"
+            />
+            <div ref="hirePulse" class="hire-pulse"></div>
+          </div>
         </div>
-      </div>
+      </nuxt-link>
     </div>
     <div class="mt-10 md:flex-1">
       <img
