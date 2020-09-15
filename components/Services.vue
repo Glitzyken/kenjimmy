@@ -30,7 +30,7 @@
           banner is a cinch. Feel free to check out one of my books on
           <a href="" target="_blank" class="font-bold underline"> Amazon </a>
         </p>
-        <div class="mt-8">
+        <div class="mt-8 see-project-btn">
           <nuxt-link to="/portfolio">
             <Button displayTitle="SEE PROJECTS" />
           </nuxt-link>
@@ -117,7 +117,8 @@ export default {
         .from('.data-2', 1, { opacity: 0, stagger: 1 }, 1.9)
         .from('.illustration__img--4', 0.5, { opacity: 0, x: -100 }, 2.6)
         .from('.illustration__img--7', 0.5, { opacity: 0, x: 100 }, 2.9)
-        .from('.data-3', 1, { opacity: 0, stagger: 1 }, 3.1);
+        .from('.data-3', 1, { opacity: 0, stagger: 1 }, 3.1)
+        .to('.see-project-btn', 1, { opacity: 1 }, 3.5);
 
       const scene = this.$scrollmagic
         .scene({
@@ -188,5 +189,9 @@ export default {
   &__data {
     text-align: center;
   }
+}
+
+.see-project-btn {
+  opacity: 0;
 }
 </style>
