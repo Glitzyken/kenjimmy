@@ -35,7 +35,7 @@
   </footer>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .f-link {
   transition: all 0.2s;
 
