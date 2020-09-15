@@ -21,8 +21,8 @@
         Programmer, Designer and Chess lover
       </p>
       <p class="text-kjColorGray text-sm mt-10 w-64 message">
-        25 year old code ninja from Lagos Nigeria. Happy to work with you on
-        your next big project.
+        Code ninja from Lagos Nigeria. Happy to work with you on your next
+        project.
       </p>
       <div class="mt-10 hire-wrapper">
         <div ref="hire" class="hire">
