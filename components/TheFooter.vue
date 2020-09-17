@@ -30,7 +30,9 @@
       </ul>
     </div>
     <div class="uppercase text-center text-xs md:w-1/4">
-      &copy; 2020 ken. all rights reserved
+      <p class="py-1 px-2">
+        &copy; 2020 ken. all rights reserved
+      </p>
     </div>
   </footer>
 </template>
