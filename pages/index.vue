@@ -2,6 +2,7 @@
   <div>
     <Hero />
     <Services />
+    <StayConnected />
   </div>
 </template>
 

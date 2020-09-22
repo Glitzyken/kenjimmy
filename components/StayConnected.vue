@@ -12,7 +12,7 @@
     <div class="text-sm mt-2">
       (+234) 813 - 9113 - 069
     </div>
-    <div class="mt-12 flex">
+    <div class="mt-12 flex justify-center">
       <div class="w-8 h-8 rounded-full bg-kjColorLight">s</div>
       <div class="w-8 h-8 rounded-full bg-kjColorLight">s</div>
       <div class="w-8 h-8 rounded-full bg-kjColorLight">s</div>
