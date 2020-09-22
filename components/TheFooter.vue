@@ -7,9 +7,9 @@
     </div>
     <div class="text-center md:w-2/4">
       <ul>
-        <nuxt-link to="/skills">
+        <nuxt-link to="/resume">
           <li class="uppercase inline-block text-xs md:mr-6 py-1 px-2 f-link">
-            my skills
+            resume
           </li>
         </nuxt-link>
         <nuxt-link to="/portfolio">
