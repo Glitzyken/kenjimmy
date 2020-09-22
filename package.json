@@ -10,8 +10,13 @@
     "serve": "nuxt serve"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/vue-fontawesome": "^2.0.0",
     "gsap": "^3.5.1",
     "nuxt": "^2.14.4",
+    "nuxt-fontawesome": "^0.4.0",
     "vue-scrollmagic": "^1.2.0"
   },
   "devDependencies": {

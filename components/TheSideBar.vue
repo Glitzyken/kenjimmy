@@ -5,9 +5,33 @@
         <img class="w-12 pb-2" src="~/assets/images/kjlogo.png" alt="logo" />
       </nuxt-link>
       <div class="md:mt-64">
-        <div class="md:bg-pink-300 md:h-6 md:w-6"></div>
-        <div class="md:bg-green-300 md:h-6 md:w-6"></div>
-        <div class="md:bg-yellow-300 md:h-6 md:w-6"></div>
+        <div class="md:h-6 md:w-6">
+          <a
+            href="https://www.linkedin.com/in/kenneth-jimmy-b84092191/"
+            target="_blank"
+          >
+            <font-awesome-icon
+              :icon="['fab', 'linkedin']"
+              class="text-2xl hidden md:block"
+            />
+          </a>
+        </div>
+        <div class="md:h-6 md:w-6 md:mt-2">
+          <a href="https://github.com/Glitzyken" target="_blank">
+            <font-awesome-icon
+              :icon="['fab', 'github']"
+              class="text-2xl hidden md:block"
+            />
+          </a>
+        </div>
+        <div class="md:h-6 md:w-6 md:mt-2">
+          <a href="https://twitter.com/glitzyken17" target="_blank">
+            <font-awesome-icon
+              :icon="['fab', 'twitter']"
+              class="text-2xl hidden md:block"
+            />
+          </a>
+        </div>
       </div>
     </div>
   </div>

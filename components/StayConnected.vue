@@ -13,9 +13,30 @@
       (+234) 813 - 9113 - 069
     </div>
     <div class="mt-12 flex justify-center">
-      <div class="w-8 h-8 rounded-full bg-kjColorLight">s</div>
-      <div class="w-8 h-8 rounded-full bg-kjColorLight">s</div>
-      <div class="w-8 h-8 rounded-full bg-kjColorLight">s</div>
+      <div class="w-8 h-8 rounded-full">
+        <a href="https://t.me/Glitzyken" target="_blank">
+          <font-awesome-icon :icon="['fab', 'telegram']" class="text-2xl" />
+        </a>
+      </div>
+      <div class="w-8 h-8 rounded-full ml-1">
+        <a href="https://www.instagram.com/glitzyken/" target="_blank">
+          <font-awesome-icon :icon="['fab', 'instagram']" class="text-2xl" />
+        </a>
+      </div>
+      <div class="w-8 h-8 rounded-full ml-1 md:hidden">
+        <a href="https://wa.me/2348139113069">
+          <font-awesome-icon :icon="['fab', 'whatsapp']" class="text-2xl" />
+        </a>
+      </div>
+      <div class="w-8 h-8 rounded-full ml-1 md:block hidden">
+        <a
+          target="_blank"
+          title="Contact Kenneth Jimmy On WhatsApp"
+          href="https://web.whatsapp.com/send?phone=+2348139113069&amp;text=Hi, I would like to get more information..."
+        >
+          <font-awesome-icon :icon="['fab', 'whatsapp']" class="text-2xl" />
+        </a>
+      </div>
     </div>
   </section>
 </template>

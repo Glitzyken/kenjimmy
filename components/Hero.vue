@@ -1,15 +1,18 @@
 <template>
   <header class="md:flex mt-10">
     <div class="md:flex-1">
-      <div class="callout top-right">it's me</div>
-      <h1 class="text-5xl font-black leading-none mb-4 names">
+      <div class="callout top-right">It's me</div>
+      <h1 class="text-5xl font-black leading-none mb-4">
         <span class="letter">K</span>
         <span class="letter">e</span>
         <span class="letter">n</span>
         <span class="letter">n</span>
         <span class="letter">e</span>
         <span class="letter">t</span>
-        <span class="letter">h</span>
+        <span class="letter">h</span> <br />
+        <span class="letter"> &nbsp; </span>
+        <span class="letter"> &nbsp; </span>
+        <span class="letter"> &nbsp; </span>
         <span class="letter"> &nbsp; </span>
         <span class="letter">J</span>
         <span class="letter">i</span>
@@ -21,11 +24,12 @@
         Programmer, Designer and Chess lover
       </p>
       <p class="text-kjColorGray text-sm mt-10 w-64 message">
-        Code ninja from Lagos Nigeria. Happy to work with you on your next
-        project.
+        AKA Glitzyken, I'm a code ninja from Lagos Nigeria and am happy to work
+        with you on your next project.
       </p>
-      <nuxt-link to="/contact">
-        <div class="mt-10 hire-wrapper">
+
+      <div class="mt-10 hire-wrapper">
+        <nuxt-link to="/contact">
           <div ref="hire" class="hire">
             <img
               src="../assets/images/hireMeButton.svg"
@@ -34,8 +38,8 @@
             />
             <div ref="hirePulse" class="hire-pulse"></div>
           </div>
-        </div>
-      </nuxt-link>
+        </nuxt-link>
+      </div>
     </div>
     <div class="mt-10 md:flex-1">
       <img
@@ -69,7 +73,7 @@ export default {
         0.5
       )
         .to('.letter', { fontSize: '3rem', duration: 0.05, stagger: 0.1 })
-        .to('.des', { opacity: 1, y: 0, duration: 0.7 })
+        .to('.des', { opacity: 1, y: 0, duration: 0.7 }, 4)
         .to(
           '.message',
           { opacity: 1, y: 0, duration: 1, ease: 'back.out(1.7)' },
@@ -170,6 +174,7 @@ export default {
 
 .hire {
   position: relative;
+  right: -55px;
   z-index: 2;
   display: flex;
   align-items: center;
