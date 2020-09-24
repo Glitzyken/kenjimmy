@@ -34,7 +34,7 @@
         </p>
         <div class="mt-8 see-project-btn">
           <nuxt-link to="/portfolio">
-            <Button displayTitle="SEE PROJECTS" />
+            <Button displayTitle="SEE MY WORKS" />
           </nuxt-link>
         </div>
       </div>
