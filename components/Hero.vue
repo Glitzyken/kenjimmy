@@ -32,7 +32,7 @@
         <nuxt-link to="/contact">
           <div ref="hire" class="hire">
             <img
-              src="../assets/images/hireMeButton.svg"
+              src="../assets/images/hireMeButton.png"
               alt="hire button"
               class="hire-img"
             />
@@ -180,7 +180,7 @@ export default {
   align-items: center;
   justify-content: center;
   border: 1px solid white;
-  background: #f3c6dd;
+  background: #e6ce99;
   border-radius: 50%;
   height: 100px;
   width: 100px;
@@ -195,7 +195,7 @@ export default {
   left: 50%;
   margin-top: -60px;
   margin-left: -60px;
-  background: #d30071;
+  background: #e29d51;
   border-radius: 50%;
   opacity: 0;
   transform: scale(0);
