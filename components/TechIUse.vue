@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- FRONT-END TOOLS -->
-    <div class="mb-8 px-10 py-5 bg-kjColorLight">
+    <div class="mb-8 p-3 md:px-10 md:py-5 bg-kjColorLight">
       <h2 class="text-gray mb-10">
         <i
           >These are, but not limited to, the tech I use to develop beautiful
@@ -11,7 +11,7 @@
       <div
         v-for="front in frontStack"
         :key="front.name"
-        class="w-16 inline-block brand"
+        class="w-16 inline-block mb-2 brand"
       >
         <a :href="front.website" target="_blank">
           <img
@@ -23,7 +23,7 @@
       </div>
     </div>
     <!-- BACK-END TOOLS -->
-    <div class="mb-8 px-10 py-5 bg-kjColorLight">
+    <div class="mb-8 p-3 md:px-10 md:py-5 bg-kjColorLight">
       <h2 class="text-gray mb-10">
         <i
           >These are, but not limited to, the tech I use to develop fast and
@@ -45,7 +45,7 @@
       </div>
     </div>
     <!-- BUILD TOOLS -->
-    <div class="mb-8 px-10 py-5 bg-kjColorLight">
+    <div class="mb-8 p-3 md:px-10 md:py-5 bg-kjColorLight">
       <h2 class="text-gray mb-10">
         <i>These are, but not limited to, the build tools I use</i>
       </h2>
@@ -64,7 +64,7 @@
       </div>
     </div>
     <!-- CMS TOOLS -->
-    <div class="mb-8 px-10 py-5 bg-kjColorLight">
+    <div class="mb-8 p-3 md:px-10 md:py-5 bg-kjColorLight">
       <h2 class="text-gray mb-10">
         <i>Some Content Management tools I use</i>
       </h2>
@@ -83,7 +83,7 @@
       </div>
     </div>
     <!-- OTHER -->
-    <div class="mb-8 px-10 py-5 bg-kjColorLight">
+    <div class="mb-8 p-3 md:px-10 md:py-5 bg-kjColorLight">
       <h2 class="text-gray mb-10">
         <i>Other tech tools I use...and much more!</i>
       </h2>
@@ -102,10 +102,9 @@
       </div>
     </div>
     <!-- GRAPHIC TOOLS -->
-    <h1 class="uppercase text-black text-4xl font-bold leading-none my-10">
-      graphic tools I use
-    </h1>
-    <div class="mb-8 px-10 py-5 bg-kjColorLight">
+    <h1 class="mt-6 text-2xl font-bold capitalize">graphic tools I use</h1>
+    <CustomBorder />
+    <div class="mt-8 mb-8 p-3 md:px-10 md:py-5 bg-kjColorLight">
       <h2 class="text-gray mb-10">
         <i>These are the tools I use to do my graphic works</i>
       </h2>
@@ -184,7 +183,7 @@ export default {
   text-align: center;
 
   &:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 25px;
   }
 
   &__img {

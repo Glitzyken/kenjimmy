@@ -4,6 +4,48 @@
     <CustomBorder />
     <div class="mt-8">
       <TechIUse />
+      <h1 class="mt-6 text-2xl font-bold capitalize">experience</h1>
+      <CustomBorder />
+      <div
+        class="mt-10 md:mt-8 mb-10 max-w-lg h-32 md:h-24 p-5 shadow-xl relative"
+      >
+        <div
+          class="p-2 mr-4 md:mr-10 -mt-2 md:-mt-4 w-40 text-center text-white font-semibold bg-kjColorSecondary shadow-lg absolute right-0 top-0"
+        >
+          2016 - Present
+        </div>
+        <h3 class="mt-8 md:mt-0 font-bold">Working remotely</h3>
+        <p class="mt-2">Full-stack developer</p>
+      </div>
+      <div class="ml-8">
+        <h3 class="font-bold">Freelance</h3>
+        <p class="mt-2">Front-end developer</p>
+      </div>
+      <a
+        href="https://drive.google.com/file/d/18nk5iRW-djBp5XkR55ApVq8DKzVckfrI/view?usp=sharing"
+        target="_blank"
+      >
+        <button
+          class="p-2 mt-10 w-40 text-center text-white font-semibold bg-kjColorSecondary shadow-lg cursor-pointer my-cv"
+        >
+          Download My CV
+        </button>
+      </a>
     </div>
   </div>
 </template>
+
+<style lang="scss" scoped>
+.my-cv {
+  transition: all 0.2s;
+
+  &:hover {
+    transform: translateY(-0.2rem);
+  }
+
+  &:focus {
+    outline: none;
+    transform: translateY(0rem);
+  }
+}
+</style>
