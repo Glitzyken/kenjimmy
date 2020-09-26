@@ -29,7 +29,7 @@
       </p>
 
       <div class="mt-10 hire-wrapper">
-        <nuxt-link to="/contact">
+        <a href="tel:+2348139113069">
           <div ref="hire" class="hire">
             <img
               src="../assets/images/hireMeButton.png"
@@ -38,7 +38,7 @@
             />
             <div ref="hirePulse" class="hire-pulse"></div>
           </div>
-        </nuxt-link>
+        </a>
       </div>
     </div>
     <div class="mt-10 md:flex-1">

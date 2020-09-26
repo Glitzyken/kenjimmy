@@ -7,7 +7,8 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "export": "nuxt export",
-    "serve": "nuxt serve"
+    "serve": "nuxt serve",
+    "heroku-postbuild": "nuxt build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",

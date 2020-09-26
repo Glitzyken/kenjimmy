@@ -22,11 +22,6 @@
             my shelf
           </li>
         </nuxt-link>
-        <nuxt-link to="/contact">
-          <li class="uppercase inline-block text-xs md:mr-6 py-1 px-2 f-link">
-            contact me
-          </li>
-        </nuxt-link>
       </ul>
     </div>
     <div class="uppercase text-center text-xs md:w-1/4">
