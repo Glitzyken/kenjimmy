@@ -18,17 +18,17 @@
           <font-awesome-icon :icon="['fab', 'telegram']" class="text-2xl" />
         </a>
       </div>
-      <div class="w-8 h-8 rounded-full ml-1">
+      <div class="w-8 h-8 rounded-full ml-5">
         <a href="https://www.instagram.com/glitzyken/" target="_blank">
           <font-awesome-icon :icon="['fab', 'instagram']" class="text-2xl" />
         </a>
       </div>
-      <div class="w-8 h-8 rounded-full ml-1 md:hidden">
+      <div class="w-8 h-8 rounded-full ml-5 md:hidden">
         <a href="https://wa.me/2348139113069">
           <font-awesome-icon :icon="['fab', 'whatsapp']" class="text-2xl" />
         </a>
       </div>
-      <div class="w-8 h-8 rounded-full ml-1 md:block hidden">
+      <div class="w-8 h-8 rounded-full ml-5 md:block hidden">
         <a
           target="_blank"
           title="Contact Kenneth Jimmy On WhatsApp"
