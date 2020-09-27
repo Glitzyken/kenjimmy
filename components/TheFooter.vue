@@ -1,11 +1,17 @@
 <template>
   <footer class="mt-10 md:flex">
-    <div class="uppercase text-xs md:w-1/4">
+    <div
+      class="uppercase text-xs md:w-1/4 text-center mb-3 md:mb-0 md:text-left"
+    >
       <nuxt-link to="/">
-        <img class="w-12 pb-2" src="~/assets/images/kjlogo.png" alt="logo" />
+        <img
+          class="w-12 pb-2 inline-block"
+          src="~/assets/images/kjlogo.png"
+          alt="logo"
+        />
       </nuxt-link>
     </div>
-    <div class="text-center md:w-2/4">
+    <div class="text-center md:w-2/4 mb-3 md:mb-0">
       <ul>
         <nuxt-link to="/resume">
           <li class="uppercase inline-block text-xs md:mr-6 py-1 px-2 f-link">
