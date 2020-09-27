@@ -28,15 +28,15 @@
         with you on your next project.
       </p>
 
-      <div class="mt-10 hire-wrapper">
+      <div class="mt-10 talk-wrapper">
         <a href="tel:+2348139113069">
-          <div ref="hire" class="hire">
+          <div ref="talk" class="talk">
             <img
-              src="../assets/images/hireMeButton.png"
-              alt="hire button"
-              class="hire-img"
+              src="../assets/images/talkButton.png"
+              alt="talk button"
+              class="talk-img"
             />
-            <div ref="hirePulse" class="hire-pulse"></div>
+            <div ref="talkPulse" class="talk-pulse"></div>
           </div>
         </a>
       </div>
@@ -60,7 +60,7 @@ export default {
   },
   methods: {
     animateHero() {
-      const { hire, hirePulse } = this.$refs;
+      const { talk, talkPulse } = this.$refs;
       const tl = gsap.timeline();
 
       tl.to(
@@ -79,9 +79,9 @@ export default {
           { opacity: 1, y: 0, duration: 1, ease: 'back.out(1.7)' },
           '-=.5'
         )
-        .to('.hire-wrapper', { opacity: 1 })
+        .to('.talk-wrapper', { opacity: 1 })
         .to(
-          hire,
+          talk,
           {
             duration: 0.4,
             scale: 0.8,
@@ -91,7 +91,7 @@ export default {
           5
         )
         .to(
-          hirePulse,
+          talkPulse,
           {
             duration: 0.5,
             scale: 0.9,
@@ -99,14 +99,14 @@ export default {
           },
           '-=0.6'
         )
-        .to(hire, {
+        .to(talk, {
           duration: 1.2,
           scale: 1,
           rotation: '-=16',
           ease: Elastic.easeOut.config(2.5, 0.5)
         })
         .to(
-          hirePulse,
+          talkPulse,
           {
             duration: 1.1,
             scale: 3,
@@ -167,12 +167,12 @@ export default {
   opacity: 0;
 }
 
-.hire-wrapper {
+.talk-wrapper {
   position: relative;
   opacity: 0;
 }
 
-.hire {
+.talk {
   position: relative;
   right: -55px;
   z-index: 2;
@@ -186,7 +186,7 @@ export default {
   width: 100px;
 }
 
-.hire-pulse {
+.talk-pulse {
   position: absolute;
   z-index: 1;
   height: 120px;
@@ -201,7 +201,7 @@ export default {
   transform: scale(0);
 }
 
-.hire-img {
+.talk-img {
   height: 70%;
 }
 </style>
