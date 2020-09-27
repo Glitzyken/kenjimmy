@@ -180,7 +180,7 @@ export default {
   align-items: center;
   justify-content: center;
   border: 1px solid white;
-  background: #e6ce99;
+  background: #f3877e;
   border-radius: 50%;
   height: 100px;
   width: 100px;
@@ -195,7 +195,7 @@ export default {
   left: 50%;
   margin-top: -60px;
   margin-left: -60px;
-  background: #e29d51;
+  background: #e45447;
   border-radius: 50%;
   opacity: 0;
   transform: scale(0);

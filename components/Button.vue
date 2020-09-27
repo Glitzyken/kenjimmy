@@ -14,7 +14,7 @@
         height="60"
         rx="30"
         ry="30"
-        fill="#FFCC66"
+        fill="#e45447"
         style="opacity: 0.4;"
       />
       <text
@@ -47,7 +47,7 @@ export default {
 
       const tl = new TimelineMax();
       tl.to(document.querySelector('#btn').children[0], 0.4, {
-        attr: { width: 160, fill: '#e29d51' },
+        attr: { width: 160, fill: '#e45447' },
         autoAlpha: 0.8,
         ease: Elastic.easeOut.config(1, 1)
       });
