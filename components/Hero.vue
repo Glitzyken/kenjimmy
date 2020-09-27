@@ -1,29 +1,34 @@
 <template>
   <header class="md:flex mt-10">
     <div class="md:flex-1">
-      <div class="callout top-right">It's me</div>
-      <h1 class="text-5xl font-black leading-none mb-4">
-        <span class="letter">K</span>
-        <span class="letter">e</span>
-        <span class="letter">n</span>
-        <span class="letter">n</span>
-        <span class="letter">e</span>
-        <span class="letter">t</span>
-        <span class="letter">h</span> <br />
-        <span class="letter"> &nbsp; </span>
-        <span class="letter"> &nbsp; </span>
-        <span class="letter"> &nbsp; </span>
-        <span class="letter"> &nbsp; </span>
-        <span class="letter">J</span>
-        <span class="letter">i</span>
-        <span class="letter">m</span>
-        <span class="letter">m</span>
-        <span class="letter">y</span>
-      </h1>
-      <p class="uppercase font-bold des">
+      <div class="text-center md:text-left">
+        <div class="callout top-right inline-block">It's me</div>
+        <h1 class="text-5xl font-black leading-none mb-4">
+          <span class="letter">K</span>
+          <span class="letter">e</span>
+          <span class="letter">n</span>
+          <span class="letter">n</span>
+          <span class="letter">e</span>
+          <span class="letter">t</span>
+          <span class="letter">h</span> <br />
+          <span class="letter"> &nbsp; </span>
+          <span class="letter"> &nbsp; </span>
+          <span class="letter"> &nbsp; </span>
+          <span class="letter"> &nbsp; </span>
+          <span class="letter">J</span>
+          <span class="letter">i</span>
+          <span class="letter">m</span>
+          <span class="letter">m</span>
+          <span class="letter">y</span>
+        </h1>
+      </div>
+
+      <p class="uppercase font-bold des text-center md:text-left px-5 md:px-0">
         Programmer, Designer and Chess lover
       </p>
-      <p class="text-kjColorGray text-sm mt-10 w-64 message">
+      <p
+        class="text-kjColorGray text-sm mt-10 text-center md:text-left px-5 md:px-0 md:w-64 message"
+      >
         AKA Glitzyken, I'm a code ninja from Lagos Nigeria and am happy to work
         with you on your next project.
       </p>
