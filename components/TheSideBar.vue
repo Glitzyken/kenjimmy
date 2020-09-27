@@ -2,7 +2,11 @@
   <div>
     <div class="w-32">
       <nuxt-link to="/">
-        <img class="w-12 pb-2" src="~/assets/images/kjlogo.png" alt="logo" />
+        <img
+          class="w-12 pb-2 inline-block"
+          src="~/assets/images/kjlogo.png"
+          alt="logo"
+        />
       </nuxt-link>
       <div class="md:mt-64">
         <div class="md:h-6 md:w-6">
