@@ -38,8 +38,8 @@
 
   &:hover,
   &:active {
-    background-color: #2b2929;
-    color: #bab6b5;
+    background-color: #e45447;
+    color: #f2f0ee;
     box-shadow: 0 1rem 2rem rgba(#2b2929, 0.4);
     transform: rotate(-5deg) scale(1.1);
   }

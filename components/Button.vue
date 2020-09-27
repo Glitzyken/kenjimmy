@@ -51,7 +51,7 @@ export default {
         autoAlpha: 0.8,
         ease: Elastic.easeOut.config(1, 1)
       });
-      tl.to('text', 0.2, { fill: '#fff', ease: Linear.easeNone }, 0);
+      tl.to('text', 0.2, { fill: '#f2f0ee', ease: Linear.easeNone }, 0);
       tl.reversed(true);
 
       function animate() {
