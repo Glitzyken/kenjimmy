@@ -29,5 +29,7 @@
     </div>
 
     <!--ON MOBILE VIEW-->
+    <Sidebar />
+    <Burger />
   </nav>
 </template>

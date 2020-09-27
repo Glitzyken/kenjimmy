@@ -7,6 +7,9 @@
 module.exports = {
   theme: {
     extend: {
+      backgroundColor: {
+        'black-t-50': 'rgba(0, 0, 0, 0.5)'
+      },
       colors: {
         kjColorRed: '#d30071',
         kjColorRedLight: '#f3c6dd',
