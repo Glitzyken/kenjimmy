@@ -83,5 +83,9 @@ export default {
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
-  build: { transpile: ['gsap'] }
+  build: { transpile: ['gsap'] },
+  transition: {
+    name: 'page',
+    mode: 'out-in'
+  }
 };

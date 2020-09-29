@@ -27,7 +27,6 @@
 
 <style lang="scss">
 // GLOBAL STYLES
-
 .card {
   position: relative;
   min-height: 18rem;
@@ -42,5 +41,20 @@
   &:hover {
     transform: translateY(-5px);
   }
-}</style
->>
+}
+
+// PAGE TRANSITION CLASS
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.3s;
+}
+
+.page-enter {
+  opacity: 0;
+  transform: translateX(25px);
+}
+.page-leave-to {
+  opacity: 0;
+  transform: translateX(-25px);
+}
+</style>
