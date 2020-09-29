@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nuxt-link to="/">
+    <nuxt-link to="/blog/id">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div v-for="(article, index) in articles" :key="index" class="card">
           <div class="p-8 mb-12">
@@ -34,7 +34,8 @@ export default {
         },
         {
           title: 'How to create sticky nav in Angular',
-          preview: 'Some preview text here.',
+          preview:
+            'You are in for the know-how of creating sticky nav on scroll trigger in the Angualar way!',
           createdAt: 'September 1, 2020'
         }
       ]
