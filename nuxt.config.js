@@ -57,7 +57,8 @@ export default {
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode'
   ],
   /*
    ** Nuxt.js modules
@@ -84,7 +85,7 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: { transpile: ['gsap'] },
-  transition: {
+  pageTransition: {
     name: 'page',
     mode: 'out-in'
   }

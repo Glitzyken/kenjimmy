@@ -13,13 +13,15 @@
         :key="front.name"
         class="w-16 inline-block mb-2 brand"
       >
-        <a :href="front.website" target="_blank">
-          <img
-            :src="front.url"
-            :alt="front.name"
-            class="h-12 inline brand__img"
-          />
-        </a>
+        <span :title="front.name">
+          <a :href="front.website" target="_blank">
+            <img
+              :src="front.url"
+              :alt="front.name"
+              class="h-12 inline brand__img"
+            />
+          </a>
+        </span>
       </div>
     </div>
     <!-- BACK-END TOOLS -->
@@ -35,13 +37,15 @@
         :key="back.name"
         class="w-16 inline-block brand"
       >
-        <a :href="back.website" target="_blank">
-          <img
-            :src="back.url"
-            :alt="back.name"
-            class="h-12 inline brand__img"
-          />
-        </a>
+        <span :title="back.name">
+          <a :href="back.website" target="_blank">
+            <img
+              :src="back.url"
+              :alt="back.name"
+              class="h-12 inline brand__img"
+            />
+          </a>
+        </span>
       </div>
     </div>
     <!-- BUILD TOOLS -->
@@ -54,13 +58,15 @@
         :key="buildTool.name"
         class="w-16 inline-block brand"
       >
-        <a :href="buildTool.website" target="_blank">
-          <img
-            :src="buildTool.url"
-            :alt="buildTool.name"
-            class="h-12 inline brand__img"
-          />
-        </a>
+        <span :title="buildTool.name">
+          <a :href="buildTool.website" target="_blank">
+            <img
+              :src="buildTool.url"
+              :alt="buildTool.name"
+              class="h-12 inline brand__img"
+            />
+          </a>
+        </span>
       </div>
     </div>
     <!-- CMS TOOLS -->
@@ -73,13 +79,15 @@
         :key="cmsTool.name"
         class="w-16 inline-block brand"
       >
-        <a :href="cmsTool.website" target="_blank">
-          <img
-            :src="cmsTool.url"
-            :alt="cmsTool.name"
-            class="h-12 inline brand__img"
-          />
-        </a>
+        <span :title="cmsTool.name">
+          <a :href="cmsTool.website" target="_blank">
+            <img
+              :src="cmsTool.url"
+              :alt="cmsTool.name"
+              class="h-12 inline brand__img"
+            />
+          </a>
+        </span>
       </div>
     </div>
     <!-- OTHER -->
@@ -92,13 +100,15 @@
         :key="other.name"
         class="w-16 inline-block brand"
       >
-        <a :href="other.website" target="_blank">
-          <img
-            :src="other.url"
-            :alt="other.name"
-            class="h-12 inline brand__img"
-          />
-        </a>
+        <span :title="other.name">
+          <a :href="other.website" target="_blank">
+            <img
+              :src="other.url"
+              :alt="other.name"
+              class="h-12 inline brand__img"
+            />
+          </a>
+        </span>
       </div>
     </div>
     <!-- GRAPHIC TOOLS -->
@@ -113,13 +123,15 @@
         :key="graphicTool.name"
         class="w-16 inline-block brand"
       >
-        <a :href="graphicTool.website" target="_blank">
-          <img
-            :src="graphicTool.url"
-            :alt="graphicTool.name"
-            class="h-12 inline brand__img"
-          />
-        </a>
+        <span :title="graphicTool.name">
+          <a :href="graphicTool.website" target="_blank">
+            <img
+              :src="graphicTool.url"
+              :alt="graphicTool.name"
+              class="h-12 inline brand__img"
+            />
+          </a>
+        </span>
       </div>
     </div>
   </div>
