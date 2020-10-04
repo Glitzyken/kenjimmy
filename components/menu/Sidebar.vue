@@ -7,7 +7,7 @@
     ></div>
     <transition name="slide">
       <div
-        class="overflow-y-auto bg-kjColorLight shadow-2xl fixed left-0 top-0 h-full z-50 w-2/3"
+        class="overflow-y-auto bg-kjColorLight dark:bg-kjColorDark shadow-2xl fixed left-0 top-0 h-full z-50 w-2/3"
         v-if="isPanelOpen"
       >
         <div class="h-full pt-10 px-5 relative">

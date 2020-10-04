@@ -33,6 +33,11 @@
     </div>
 
     <!--ON MOBILE VIEW-->
+    <!--DARK MODE TOGGLE-->
+    <span class="absolute left-0 top-0 ml-24 mt-3 md:hidden">
+      <ToggleDarkLightMode />
+    </span>
+    <!------------------------------>
     <Sidebar />
     <Burger />
   </nav>
