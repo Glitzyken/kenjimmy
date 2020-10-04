@@ -88,5 +88,9 @@ export default {
   pageTransition: {
     name: 'page',
     mode: 'out-in'
+  },
+
+  purgeCSS: {
+    whitelist: ['dark-mode']
   }
 };

@@ -1,5 +1,5 @@
 <template>
-  <footer class="mt-10 md:flex">
+  <footer class="mt-10 md:flex dark:text-kjColorLight">
     <div
       class="uppercase text-xs md:w-1/4 text-center mb-3 md:mb-0 md:text-left"
     >

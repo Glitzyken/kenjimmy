@@ -2,7 +2,11 @@
   <header class="md:flex mt-10">
     <div class="md:flex-1">
       <div class="text-center md:text-left">
-        <div class="callout top-right inline-block">It's me</div>
+        <div
+          class="callout top-right inline-block bg-kjColorDark text-kjColorLight shadow"
+        >
+          It's me
+        </div>
         <h1 class="text-5xl font-black leading-none mb-4">
           <span class="letter">K</span>
           <span class="letter">e</span>
@@ -27,7 +31,7 @@
         Programmer, Designer and Chess lover
       </p>
       <p
-        class="text-kjColorGray text-sm mt-10 text-center md:text-left px-5 md:px-0 md:w-64 message"
+        class="text-kjColorGray dark:text-kjColorLight text-sm mt-10 text-center md:text-left px-5 md:px-0 md:w-64 message"
       >
         AKA Glitzyken, I'm a code ninja from Lagos Nigeria and am happy to work
         with you on your next project.
@@ -134,13 +138,10 @@ export default {
 .callout {
   height: 18px;
   width: 80px;
-  background-color: #2b2929;
   background-image: -moz-linear-gradient(top, #2b2929, #2b2929);
   position: relative;
-  color: #ccc;
   padding: 10px;
   border-radius: 3px;
-  box-shadow: 0px 0px 20px #999;
   margin: 25px;
   min-height: 50px;
   border: 1px solid #2b2929;

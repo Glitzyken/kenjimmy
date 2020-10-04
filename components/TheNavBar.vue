@@ -2,7 +2,7 @@
   <nav>
     <!--ON DESKTOP VIEW-->
     <div class="hidden md:flex">
-      <div class="text-kjColorGray text-sm md:flex-1">
+      <div class="text-kjColorGray dark:text-kjColorLight text-sm md:flex-1">
         <div class="font-bold md:mr-4 inline-block py-1 px-2 f-link">
           <a href="tel:+2348139113069">
             Call me (+234) 8139113069
@@ -19,6 +19,10 @@
             />
           </a>
         </div>
+
+        <!--DARK MODE TOGGLE-->
+        <ToggleDarkLightMode />
+        <!------------------------------>
       </div>
       <nuxt-link to="/blog">
         <button class="focus:outline-none py-1 px-2 capitalize f-link">
