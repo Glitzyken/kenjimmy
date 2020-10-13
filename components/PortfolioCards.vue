@@ -1,26 +1,29 @@
 <template>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-8 dark:text-kjColorGray">
-    <div id="natours" class="h-128 rounded-lg card">
-      <div class="p-8 md:flex justify-between align-bottom">
-        <h2 class="font-bold text-lg capitalize">
-          natours
-        </h2>
-        <p class="text-xs mt-2">
-          Node.js Express.js MongoDb
-        </p>
+    <a href="https://www.natours.dev">
+      <div id="natours" class="h-128 rounded-lg card">
+        <div class="p-8 md:flex justify-between align-bottom">
+          <h2 class="font-bold text-lg capitalize">
+            natours
+          </h2>
+          <p class="text-xs mt-2">
+            Node.js Express.js MongoDb
+          </p>
+        </div>
       </div>
-    </div>
-
-    <div id="eloquent" class="h-128 rounded-lg card">
-      <div class="p-8 md:flex justify-between align-bottom">
-        <h2 class="font-bold text-lg capitalize">
-          eloquent english
-        </h2>
-        <p class="text-xs mt-2">
-          Angular
-        </p>
+    </a>
+    <a href="https://readeloquentenglish.netlify.app">
+      <div id="eloquent" class="h-128 rounded-lg card">
+        <div class="p-8 md:flex justify-between align-bottom">
+          <h2 class="font-bold text-lg capitalize">
+            eloquent english
+          </h2>
+          <p class="text-xs mt-2">
+            Angular
+          </p>
+        </div>
       </div>
-    </div>
+    </a>
 
     <div id="graphics" class="h-128 rounded-lg card">
       <div class="p-8 md:flex justify-between align-bottom">
