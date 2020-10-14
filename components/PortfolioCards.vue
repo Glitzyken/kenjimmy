@@ -1,6 +1,6 @@
 <template>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-8 dark:text-kjColorGray">
-    <a href="https://www.natours.dev">
+    <a href="https://www.natours.dev" target="_blank">
       <div id="natours" class="h-128 rounded-lg card">
         <div class="p-8 md:flex justify-between align-bottom">
           <h2 class="font-bold text-lg capitalize">
@@ -12,7 +12,7 @@
         </div>
       </div>
     </a>
-    <a href="https://readeloquentenglish.netlify.app">
+    <a href="https://eloquent.kenjimmy.me/" target="_blank">
       <div id="eloquent" class="h-128 rounded-lg card">
         <div class="p-8 md:flex justify-between align-bottom">
           <h2 class="font-bold text-lg capitalize">
