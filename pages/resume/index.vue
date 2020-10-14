@@ -22,7 +22,7 @@
         <p class="mt-2">Front-end developer</p>
       </div>
       <a
-        href="https://drive.google.com/file/d/18nk5iRW-djBp5XkR55ApVq8DKzVckfrI/view?usp=sharing"
+        href="https://drive.google.com/file/d/15F2-4P6mO2LmFtjvIWHGFbDeK-NGDCCY/view?usp=sharing"
         target="_blank"
       >
         <button
