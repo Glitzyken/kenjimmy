@@ -5,5 +5,13 @@
     <div class="mt-8">
       <PortfolioCards />
     </div>
+    <div
+      class="max-w-xl shadow-2xl h-40 py-5 md:py-0 px-5 md:px-10 mt-10 md:flex justify-between items-center"
+    >
+      <p class="text-lg font-bold mb-3 md:mb-0">Want to know more about me?</p>
+      <nuxt-link to="/resume">
+        <Button displayTitle="SEE MY RESUME" />
+      </nuxt-link>
+    </div>
   </div>
 </template>
