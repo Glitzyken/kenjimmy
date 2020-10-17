@@ -41,7 +41,7 @@
         <a href="tel:+2348139113069">
           <div ref="talk" class="talk">
             <img
-              src="../assets/images/talkButton.png"
+              src="@/assets/images/talkButton.png"
               alt="talk button"
               class="talk-img"
             />
@@ -53,7 +53,7 @@
     <div class="mt-10 md:flex-1">
       <img
         class="w-128"
-        src="../assets/images/kenjimmydotmepic.png"
+        src="@/assets/images/kenjimmydotmepic.png"
         alt="ken photo"
       />
     </div>

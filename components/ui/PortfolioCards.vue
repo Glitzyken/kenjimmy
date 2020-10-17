@@ -40,19 +40,19 @@
 
 <style lang="scss" scoped>
 #natours {
-  background: url('../assets/images/My-works/natours.jpg');
+  background: url('../../assets/images/My-works/natours.jpg');
   background-size: cover;
   background-position: center;
 }
 
 #eloquent {
-  background: url('../assets/images/My-works/eloquent.jpg');
+  background: url('../../assets/images/My-works/eloquent.jpg');
   background-size: cover;
   background-position: center;
 }
 
 #graphics {
-  background: url('../assets/images/My-works/graphics.jpg');
+  background: url('../../assets/images/My-works/graphics.jpg');
   background-size: cover;
   background-position: center;
 }
