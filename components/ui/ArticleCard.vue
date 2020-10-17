@@ -1,53 +1,29 @@
 <template>
-  <div>
-    <nuxt-link to="/blog/id">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div v-for="(article, index) in articles" :key="index" class="card">
-          <div class="p-8 mb-12">
-            <div>
-              <div class="text-xl font-bold capitalize mb-5">
-                {{ article.title }}
-              </div>
-              <p class="md:mt-10">{{ article.preview }}</p>
-            </div>
-          </div>
-          <div class="inline-block publish">
-            <p class="text-sm">{{ article.createdAt }} ...</p>
-          </div>
-        </div>
+  <nuxt-link class="card p-4 md:p-8" :to="`/${slug}`">
+    <header class="text-2xl font-bold capitalize mb-5">{{ title }}</header>
+    <p class="md:mt-5 text-lg">{{ description }}</p>
+    <footer class="flex items-center absolute bottom-0 mb-3">
+      <img
+        class="w-10 md:w-12 rounded-full border-4 border-kjColorPrime"
+        :src="author.image"
+        :alt="author.name"
+      />
+      <div class="ml-6">
+        <p class="font-bold text-sm md:text-base">{{ author.name }}</p>
+        <p class="text-xs md:text-sm mt-1">{{ date }}</p>
       </div>
-    </nuxt-link>
-  </div>
+    </footer>
+  </nuxt-link>
 </template>
 
 <script>
 export default {
-  name: 'Services',
-  data() {
-    return {
-      articles: [
-        {
-          title: 'Web scraping using Puppeteer',
-          preview:
-            "Learn how to use some commonly used Puppeteer methods like .waitFor, .click and .evaluate to do web scraping. Finally, you'll learn how to automatically save your scraped data into a file.",
-          createdAt: 'August 23, 2020'
-        },
-        {
-          title: 'How to create sticky nav in Angular',
-          preview:
-            'You are in for the know-how of creating sticky nav on scroll trigger in the Angualar way!',
-          createdAt: 'September 1, 2020'
-        }
-      ]
-    };
+  props: {
+    title: String,
+    slug: String,
+    description: String,
+    author: Object,
+    date: String
   }
 };
 </script>
-
-<style lang="scss" scoped>
-.publish {
-  position: absolute;
-  bottom: 20px;
-  right: 30px;
-}
-</style>
