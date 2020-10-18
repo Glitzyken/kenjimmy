@@ -29,7 +29,7 @@
               </div>
             </a>
 
-            <nuxt-link to="/blog">
+            <nuxt-link to="/shelf">
               <div class="mt-3">
                 <font-awesome-icon :icon="['fas', 'book']" class="text-lg" />
                 <span class="ml-4 capitalize">shelf</span>

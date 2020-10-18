@@ -24,7 +24,7 @@
         <ToggleDarkLightMode />
         <!------------------------------>
       </div>
-      <nuxt-link to="/blog">
+      <nuxt-link to="/shelf">
         <button class="focus:outline-none py-1 px-2 capitalize f-link">
           shelf
           <font-awesome-icon :icon="['fas', 'book']" class="text-lg ml-1" />

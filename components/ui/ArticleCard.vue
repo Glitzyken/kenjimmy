@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link class="card p-4 md:p-8" :to="`/${slug}`">
+  <nuxt-link class="card p-4 md:p-8" :to="slug">
     <header class="text-2xl font-bold capitalize mb-5">{{ title }}</header>
     <p class="md:mt-5 text-lg">{{ description }}</p>
     <footer class="flex items-center absolute bottom-0 mb-3">

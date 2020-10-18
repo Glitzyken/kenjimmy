@@ -8,6 +8,7 @@
           <ArticleCard
             v-for="article in articles"
             :key="article.content.title"
+            :slug="`/shelf/${article.slug}`"
             :title="article.content.title"
             :description="article.content.intro"
             :author="article.content.author"
