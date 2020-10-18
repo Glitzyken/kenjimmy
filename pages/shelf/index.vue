@@ -22,7 +22,7 @@
 
 <script>
 export default {
-  async asyncData({ app }) {
+  async asyncData({ app, error }) {
     const res = await app.$storyapi.get('cdn/stories', {
       starts_with: 'articles/',
       resolve_relations: 'author'
@@ -33,6 +33,7 @@ export default {
       story.content.date = new Date(story.content.date);
       return story;
     });
+    if (!articles) return error(`Articles not found`);
 
     return { articles };
   }

@@ -4,7 +4,7 @@
       <h2 class="text-5xl">{{ article.content.title }}</h2>
       <div class="flex items-center mt-6">
         <img
-          class="w-20 rounded-full border-4 border-main"
+          class="w-20 rounded-full border-4 border-kjColorSecondary"
           :src="author.content.Avatar.filename"
           :alt="author.content.name"
         />
@@ -17,7 +17,7 @@
       </div>
     </header>
     <div class="mt-8">
-      {{ article.content.content }}
+      {{ article.content.long_text }}
     </div>
   </div>
 </template>

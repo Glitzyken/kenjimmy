@@ -4,7 +4,7 @@
     <p class="md:mt-5 text-lg">{{ description }}</p>
     <footer class="flex items-center absolute bottom-0 mb-3">
       <img
-        class="w-10 md:w-12 rounded-full border-4 border-kjColorPrime"
+        class="w-10 md:w-12 rounded-full border-4 border-kjColorSecondary"
         :src="author.content.Avatar.filename"
         :alt="author.content.name"
       />
