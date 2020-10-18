@@ -51,7 +51,7 @@ export default {
 // GLOBAL STYLES
 .card {
   position: relative;
-  min-height: 18rem;
+  min-height: 23rem;
   box-shadow: 0 0.332071px 2.21381px rgba(0, 0, 0, 0.0119),
     0 0.798012px 5.32008px rgba(0, 0, 0, 0.0258),
     0 1.50259px 10.0172px rgba(0, 0, 0, 0.0368),

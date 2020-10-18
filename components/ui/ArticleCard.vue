@@ -5,8 +5,8 @@
     <footer class="flex items-center absolute bottom-0 mb-3">
       <img
         class="w-10 md:w-12 rounded-full border-4 border-kjColorPrime"
-        :src="author.image"
-        :alt="author.name"
+        :src="author.content.Avatar.filename"
+        :alt="author.content.name"
       />
       <div class="ml-6">
         <p class="font-bold text-sm md:text-base">{{ author.name }}</p>

@@ -37,10 +37,15 @@ export default {
    ** Global CSS
    */
   css: [],
-    /*
+  /*
    ** Customize the progress-bar color
    */
-  loading: { color: '#607393', failedColor: '#e45447', height: '5px', duration: 5000 },
+  loading: {
+    color: '#607393',
+    failedColor: '#e45447',
+    height: '5px',
+    duration: 5000
+  },
   /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
@@ -69,6 +74,13 @@ export default {
    */
   modules: [
     [
+      'storyblok-nuxt',
+      {
+        accessToken: process.env.STORYBLOK_KEY,
+        cacheProvider: 'memory'
+      }
+    ],
+    [
       'nuxt-fontawesome',
       {
         imports: [
@@ -81,7 +93,7 @@ export default {
             icons: ['fab']
           }
         ]
-      }
+      },
     ]
   ],
   /*
