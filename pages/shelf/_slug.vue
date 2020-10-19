@@ -16,7 +16,10 @@
         </div>
       </div>
     </header>
-    <div v-html="$md.render(article.content.long_text)" class="prose mt-8">
+    <div
+      v-html="$md.render(article.content.long_text)"
+      class="prose dark:text-kjColorLight mt-8"
+    >
       {{ article.content.long_text }}
     </div>
   </div>
