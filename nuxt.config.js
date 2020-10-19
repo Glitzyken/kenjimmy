@@ -30,6 +30,11 @@ export default {
         href:
           'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,500&display=swap',
         rel: 'stylesheet'
+      },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://cdn.jsdelivr.net/npm/prismjs@1.20.0/themes/prism-tomorrow.css'
       }
     ]
   },
@@ -74,6 +79,10 @@ export default {
    */
   modules: [
     [
+      '@nuxtjs/markdownit',
+      { html: true, injected: true, use: ['markdown-it-prism'] }
+    ],
+    [
       'storyblok-nuxt',
       {
         accessToken: process.env.STORYBLOK_KEY,
@@ -93,7 +102,7 @@ export default {
             icons: ['fab']
           }
         ]
-      },
+      }
     ]
   ],
   /*

@@ -16,7 +16,7 @@
         </div>
       </div>
     </header>
-    <div class="mt-8">
+    <div v-html="$md.render(article.content.long_text)" class="prose mt-8">
       {{ article.content.long_text }}
     </div>
   </div>
