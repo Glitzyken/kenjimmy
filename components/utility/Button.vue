@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <nuxt-link class="inline-block" :to="linkTo">
     <svg
       id="btn"
       xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@
         {{ displayTitle }}
       </text>
     </svg>
-  </div>
+  </nuxt-link>
 </template>
 
 <script>
@@ -38,7 +38,7 @@ export default {
   },
   props: {
     displayTitle: String,
-    required: true
+    linkTo: String
   },
   methods: {
     animateButtonOnHover() {
