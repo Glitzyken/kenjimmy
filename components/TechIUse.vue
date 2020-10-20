@@ -157,6 +157,8 @@ import {
   postman,
   webpack,
   npm,
+  puppeteer,
+  storyblok,
   wordpress,
   vapid,
   git,
@@ -185,7 +187,7 @@ export default {
       backStack: [nodejs, express, mongodb, mongoose],
       buildTools: [vscode, postman, webpack, npm],
       cmsTools: [wordpress, vapid],
-      others: [git, github, netlify, heroku],
+      others: [git, github, netlify, heroku, puppeteer, storyblok],
       graphicTools: [indesign, illustrator, photoshop, xd]
     };
   }

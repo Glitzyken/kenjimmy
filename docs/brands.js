@@ -138,6 +138,18 @@ export const heroku = {
   website: 'https://heroku.com/'
 };
 
+export const puppeteer = {
+  name: 'heroku',
+  url: require('../assets/brands/puppeteer.png'),
+  website: 'https://pptr.dev/'
+};
+
+export const storyblok = {
+  name: 'heroku',
+  url: require('../assets/brands/storyblok.png'),
+  website: 'https://www.storyblok.com/'
+};
+
 // GRAPHICS
 
 export const indesign = {
