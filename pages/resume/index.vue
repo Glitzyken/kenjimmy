@@ -21,16 +21,27 @@
         <h3 class="font-bold">Freelance</h3>
         <p class="mt-2">Front-end developer</p>
       </div>
-      <a
-        href="https://drive.google.com/file/d/15F2-4P6mO2LmFtjvIWHGFbDeK-NGDCCY/view?usp=sharing"
-        target="_blank"
-      >
-        <button
-          class="p-2 mt-10 w-40 text-center text-white font-semibold bg-kjColorSecondary shadow-lg cursor-pointer my-cv"
+      <div class="flex justify-between items-center flex-wrap">
+        <a
+          href="https://drive.google.com/file/d/15F2-4P6mO2LmFtjvIWHGFbDeK-NGDCCY/view?usp=sharing"
+          target="_blank"
         >
-          Download My CV
-        </button>
-      </a>
+          <button
+            class="p-2 mt-10 mb-10 md:mb-0 w-40 text-center text-white font-semibold bg-kjColorSecondary shadow-lg cursor-pointer my-cv"
+          >
+            Download My CV
+          </button>
+        </a>
+        <div
+          class="max-w-xl shadow-2xl h-40 py-5 md:py-0 px-5 md:px-10 mt-10 md:flex justify-between items-center"
+        >
+          <p class="text-lg font-bold mr-4 mb-3 md:mb-0">
+            I also write about tech I use! <br />
+            See my articles.
+          </p>
+          <Button displayTitle="ARTICLES" linkTo="/shelf" />
+        </div>
+      </div>
     </div>
   </div>
 </template>
