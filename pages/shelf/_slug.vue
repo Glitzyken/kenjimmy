@@ -61,11 +61,12 @@ export default {
     }
   },
   head() {
-    const { title, description } = this.article.content;
+    const url = this.article.slug;
+    const { title, intro, Asset } = this.article.content;
 
     return {
       title,
-      meta: createSEOMeta({ description })
+      meta: createSEOMeta({ title, intro, Asset: Asset.filename, url })
     };
   }
 };

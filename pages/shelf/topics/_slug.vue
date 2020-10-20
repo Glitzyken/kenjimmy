@@ -47,7 +47,7 @@ export default {
   },
   head() {
     return {
-      title: `${this.topic.name} - NarutoDose`
+      title: `${this.topic.name} - Kenneth Jimmy`
     };
   }
 };
