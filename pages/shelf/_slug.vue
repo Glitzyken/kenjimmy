@@ -16,6 +16,15 @@
         </div>
       </div>
     </header>
+    <div class="mt-4">
+      <nuxt-link
+        v-for="tag in article.tag_list"
+        :key="tag"
+        :to="`/topics/${tagSlug(tag)}`"
+        class="rounded-full text-kjColorLight bg-kjColorSecondary uppercase text-sm mr-2 px-2 py-1"
+        >{{ tag }}
+      </nuxt-link>
+    </div>
     <div
       v-html="$md.render(article.content.long_text)"
       class="prose dark:text-kjColorLight mt-8"
@@ -26,7 +35,8 @@
 </template>
 
 <script>
-import gsap from 'gsap';
+import { createSEOMeta } from '@/utils/seo';
+import kebabCase from 'lodash/kebabCase';
 
 export default {
   async asyncData({ app, route, error }) {
@@ -44,6 +54,19 @@ export default {
     article.content.date = new Date(article.content.date);
 
     return { article, author: article.content.author };
+  },
+  methods: {
+    tagSlug(tag) {
+      return kebabCase(tag);
+    }
+  },
+  head() {
+    const { title, description } = this.article.content;
+
+    return {
+      title,
+      meta: createSEOMeta({ description })
+    };
   }
 };
 </script>

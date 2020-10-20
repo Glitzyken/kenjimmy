@@ -33,7 +33,6 @@ export default {
       story.content.date = new Date(story.content.date);
       return story;
     });
-    if (!articles) return error(`Articles not found`);
 
     return { articles };
   }
