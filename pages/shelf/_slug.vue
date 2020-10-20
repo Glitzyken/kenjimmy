@@ -20,7 +20,7 @@
       <nuxt-link
         v-for="tag in article.tag_list"
         :key="tag"
-        :to="`/topics/${tagSlug(tag)}`"
+        :to="`/shelf/topics/${tagSlug(tag)}`"
         class="rounded-full text-kjColorLight bg-kjColorSecondary uppercase text-sm mr-2 px-2 py-1"
         >{{ tag }}
       </nuxt-link>
