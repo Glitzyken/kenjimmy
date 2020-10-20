@@ -3,7 +3,7 @@
     <h1 class="mt-6 text-2xl font-bold capitalize">My articles</h1>
     <CustomBorder />
     <section class="mt-8">
-      <div class="container mx-auto px-4">
+      <div class="container mx-auto px-1 md:px-4">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-4">
           <ArticleCard
             v-for="article in articles"

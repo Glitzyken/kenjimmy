@@ -1,7 +1,9 @@
 <template>
   <div class="container mx-auto px-4 mt-4">
     <header>
-      <h2 class="text-5xl">{{ article.content.title }}</h2>
+      <h2 class="text-3xl md:text-5xl leading-tight">
+        {{ article.content.title }}
+      </h2>
       <div class="flex items-center mt-6">
         <img
           class="w-20 rounded-full border-4 border-kjColorSecondary"
@@ -16,12 +18,12 @@
         </div>
       </div>
     </header>
-    <div class="mt-4">
+    <div class="mt-4 flex">
       <nuxt-link
         v-for="tag in article.tag_list"
         :key="tag"
         :to="`/shelf/topics/${tagSlug(tag)}`"
-        class="rounded-full text-kjColorLight bg-kjColorSecondary uppercase text-sm mr-2 px-2 py-1"
+        class="rounded-full text-kjColorLight bg-kjColorSecondary uppercase text-sm mr-2 mb-2 px-2 py-1"
         >{{ tag }}
       </nuxt-link>
     </div>
