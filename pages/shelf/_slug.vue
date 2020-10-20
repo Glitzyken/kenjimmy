@@ -18,7 +18,7 @@
         </div>
       </div>
     </header>
-    <div class="mt-4 flex">
+    <div class="mt-4 flex flex-wrap">
       <nuxt-link
         v-for="tag in article.tag_list"
         :key="tag"
