@@ -39,7 +39,7 @@
             I also write about tech I use! <br />
             See my articles.
           </p>
-          <Button displayTitle="ARTICLES" linkTo="/shelf" />
+          <Button displayTitle="MY SHELF" linkTo="/shelf" />
         </div>
       </div>
     </div>

@@ -11,7 +11,7 @@
       <p class="text-lg font-bold mb-3 md:mb-0">
         Want to know more about my skills? See my resume.
       </p>
-      <Button displayTitle="RESUME" linkTo="/resume" />
+      <Button displayTitle="MY RESUME" linkTo="/resume" />
     </div>
   </div>
 </template>

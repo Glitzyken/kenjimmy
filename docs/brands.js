@@ -139,13 +139,13 @@ export const heroku = {
 };
 
 export const puppeteer = {
-  name: 'heroku',
+  name: 'puppeteer',
   url: require('../assets/brands/puppeteer.png'),
   website: 'https://pptr.dev/'
 };
 
 export const storyblok = {
-  name: 'heroku',
+  name: 'storyblok',
   url: require('../assets/brands/storyblok.png'),
   website: 'https://www.storyblok.com/'
 };
