@@ -6,7 +6,7 @@
     <CustomBorder />
     <section class="mt-8">
       <div class="container mx-auto px-4">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
           <ArticleCard
             v-for="article in articles"
             :key="article.content.title"
