@@ -14,7 +14,7 @@
             :title="article.content.title"
             :description="article.content.intro"
             :author="article.content.author"
-            :date="article.content.date.toLocaleDateString()"
+            :date="article.content.date.toDateString()"
           />
         </div>
       </div>
