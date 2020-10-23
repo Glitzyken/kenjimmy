@@ -27,12 +27,12 @@
           <font-awesome-icon :icon="['fab', 'instagram']" class="text-2xl" />
         </a>
       </div>
-      <div class="w-8 h-8 rounded-full ml-5 md:hidden">
+      <div class="w-8 h-8 rounded-full ml-5 lg:hidden">
         <a href="https://wa.me/2348139113069">
           <font-awesome-icon :icon="['fab', 'whatsapp']" class="text-2xl" />
         </a>
       </div>
-      <div class="w-8 h-8 rounded-full ml-5 md:block hidden">
+      <div class="w-8 h-8 rounded-full ml-5 lg:block hidden">
         <a
           target="_blank"
           title="Contact Kenneth Jimmy On WhatsApp"
