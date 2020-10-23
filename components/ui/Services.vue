@@ -39,37 +39,37 @@
       <div class="hidden lg:block illustration">
         <img
           class="illustration__img illustration__img--1"
-          src="../assets/images/Illustrations/illustration-01.png"
+          src="../../assets/images/Illustrations/illustration-01.png"
           alt="illustration 1"
         />
         <img
           class="illustration__img illustration__img--2"
-          src="../assets/images/Illustrations/illustration-02.png"
+          src="../../assets/images/Illustrations/illustration-02.png"
           alt="illustration 2"
         />
         <img
           class="illustration__img illustration__img--3"
-          src="../assets/images/Illustrations/illustration-03.png"
+          src="../../assets/images/Illustrations/illustration-03.png"
           alt="illustration 3"
         />
         <img
           class="illustration__img illustration__img--4"
-          src="../assets/images/Illustrations/illustration-04.png"
+          src="../../assets/images/Illustrations/illustration-04.png"
           alt="illustration 4"
         />
         <img
           class="illustration__img illustration__img--5"
-          src="../assets/images/Illustrations/illustration-05.png"
+          src="../../assets/images/Illustrations/illustration-05.png"
           alt="illustration 5"
         />
         <img
           class="illustration__img illustration__img--6"
-          src="../assets/images/Illustrations/illustration-06.png"
+          src="../../assets/images/Illustrations/illustration-06.png"
           alt="illustration 6"
         />
         <img
           class="illustration__img illustration__img--7"
-          src="../assets/images/Illustrations/illustration-07.png"
+          src="../../assets/images/Illustrations/illustration-07.png"
           alt="illustration 7"
         />
       </div>
