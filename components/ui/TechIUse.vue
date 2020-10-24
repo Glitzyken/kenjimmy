@@ -1,7 +1,9 @@
 <template>
   <div>
     <!-- FRONT-END TOOLS -->
-    <div class="mb-8 p-3 md:px-10 md:py-5 bg-kjColorLight dark:bg-kjColorGray">
+    <div
+      class="mb-8 p-3 md:px-10 md:py-5 bg-kjColorLight dark:bg-kjColorDark border-2 border-kjColorLight"
+    >
       <h2 class="text-gray mb-10">
         <i
           >These are, but not limited to, the tech I use to develop beautiful
@@ -25,7 +27,9 @@
       </div>
     </div>
     <!-- BACK-END TOOLS -->
-    <div class="mb-8 p-3 md:px-10 md:py-5 bg-kjColorLight dark:bg-kjColorGray">
+    <div
+      class="mb-8 p-3 md:px-10 md:py-5 bg-kjColorLight dark:bg-kjColorDark border-2 border-kjColorLight"
+    >
       <h2 class="text-gray mb-10">
         <i
           >These are, but not limited to, the tech I use to develop fast and
@@ -49,7 +53,9 @@
       </div>
     </div>
     <!-- BUILD TOOLS -->
-    <div class="mb-8 p-3 md:px-10 md:py-5 bg-kjColorLight dark:bg-kjColorGray">
+    <div
+      class="mb-8 p-3 md:px-10 md:py-5 bg-kjColorLight dark:bg-kjColorDark border-2 border-kjColorLight"
+    >
       <h2 class="text-gray mb-10">
         <i>These are, but not limited to, the build tools I use</i>
       </h2>
@@ -70,7 +76,9 @@
       </div>
     </div>
     <!-- CMS TOOLS -->
-    <div class="mb-8 p-3 md:px-10 md:py-5 bg-kjColorLight dark:bg-kjColorGray">
+    <div
+      class="mb-8 p-3 md:px-10 md:py-5 bg-kjColorLight dark:bg-kjColorDark border-2 border-kjColorLight"
+    >
       <h2 class="text-gray mb-10">
         <i>Some Content Management tools I use</i>
       </h2>
@@ -91,7 +99,9 @@
       </div>
     </div>
     <!-- OTHER -->
-    <div class="mb-8 p-3 md:px-10 md:py-5 bg-kjColorLight dark:bg-kjColorGray">
+    <div
+      class="mb-8 p-3 md:px-10 md:py-5 bg-kjColorLight dark:bg-kjColorDark border-2 border-kjColorLight"
+    >
       <h2 class="text-gray mb-10">
         <i>Other tech tools I use...and much more!</i>
       </h2>
@@ -115,7 +125,7 @@
     <h1 class="mt-6 text-2xl font-bold capitalize">graphic tools I use</h1>
     <CustomBorder />
     <div
-      class="mt-8 mb-8 p-3 md:px-10 md:py-5 bg-kjColorLight dark:bg-kjColorGray"
+      class="mt-8 mb-8 p-3 md:px-10 md:py-5 bg-kjColorLight dark:bg-kjColorDark border-2 border-kjColorLight"
     >
       <h2 class="text-gray mb-10">
         <i>These are the tools I use to do my graphic works</i>

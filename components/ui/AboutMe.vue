@@ -9,7 +9,9 @@
       </div>
 
       <div class="px-4 relative">
-        <div class="bg-white dark:bg-kjColorDark rounded-lg shadow-2xl border">
+        <div
+          class="bg-kjColorLight dark:bg-kjColorDark rounded-lg shadow-2xl border-2 border-kjColorLight"
+        >
           <div class="p-4">
             <div class="mt-20">
               <div class="text-lg mb-5">
