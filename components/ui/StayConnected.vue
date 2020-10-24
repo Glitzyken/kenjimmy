@@ -1,5 +1,5 @@
 <template>
-  <section class="max-w-xs m-auto mt-32 text-center">
+  <section class="max-w-xs m-auto mt-12 md:mt-32 text-center">
     <div class="capitalize font-bold text-lg">
       stay connected
     </div>
