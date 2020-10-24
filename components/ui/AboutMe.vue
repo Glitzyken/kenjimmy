@@ -9,10 +9,10 @@
       </div>
 
       <div class="px-4 relative">
-        <div class="bg-white rounded-lg shadow-2xl border">
+        <div class="bg-white dark:bg-kjColorDark rounded-lg shadow-2xl border">
           <div class="p-4">
             <div class="mt-20">
-              <div class="text-gray-800 text-lg mb-5">
+              <div class="text-lg mb-5">
                 <span class="font-medium uppercase">About Ken</span>
                 <CustomBorder />
               </div>
