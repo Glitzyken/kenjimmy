@@ -64,7 +64,7 @@ export default {
     }
   },
   head() {
-    const url = process.env.HOST_NAME + this.article.slug;
+    const url = this.article.slug;
     const { title, intro, Asset } = this.article.content;
 
     return {
