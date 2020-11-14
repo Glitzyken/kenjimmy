@@ -19,9 +19,10 @@ export default {
     title: 'Kenneth Jimmy. Full-stack developer',
     meta: [
       ...createSEOMeta({
+        title: 'Kenneth Jimmy. Full-stack developer',
         description:
           'I am a software developer in Lagos Nigeria. I build anything with javascript - from mobile to web app. Feel free to say hi.',
-        image: '~/assets/images/kenjimmydotmepic.png',
+        image: './assets/images/kenjimmydotmepic.png',
         url: process.env.HOST_NAME
       }),
       { charset: 'utf-8' },

@@ -53,6 +53,7 @@ export default {
 
     const article = res.data.stories[0];
     if (!article) return error(`Article with slug ${slug} not found`);
+
     article.content.date = new Date(article.content.date);
 
     return { article, author: article.content.author };
@@ -63,12 +64,12 @@ export default {
     }
   },
   head() {
-    const url = this.article.slug;
+    const url = process.env.HOST_NAME + this.article.slug;
     const { title, intro, Asset } = this.article.content;
 
     return {
       title,
-      meta: createSEOMeta({ title, intro, Asset: Asset.filename, url })
+      meta: createSEOMeta({ title, intro, image: Asset.filename, url })
     };
   }
 };
