@@ -12,6 +12,7 @@
         </div>
       </div>
     </a>
+
     <a href="https://eloquent.kenjimmy.me/" target="_blank">
       <div id="eloquent" class="h-128 rounded-lg card">
         <div class="p-8 md:flex justify-between align-bottom">
@@ -20,6 +21,19 @@
           </h2>
           <p class="text-xs mt-2">
             Angular
+          </p>
+        </div>
+      </div>
+    </a>
+
+    <a href="https://kenjimmy.me/">
+      <div id="kenjimmy" class="h-128 rounded-lg card">
+        <div class="p-8 md:flex justify-between align-bottom">
+          <h2 class="font-bold text-lg capitalize">
+            kenneth jimmy
+          </h2>
+          <p class="text-xs mt-2">
+            Nuxt.js TailwindCSS GSAP Storyblok
           </p>
         </div>
       </div>
@@ -47,6 +61,12 @@
 
 #eloquent {
   background: url('../../assets/images/My-works/eloquent.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#kenjimmy {
+  background: url('../../assets/images/My-works/kenjimmy.jpg');
   background-size: cover;
   background-position: center;
 }
