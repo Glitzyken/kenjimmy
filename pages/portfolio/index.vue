@@ -1,5 +1,10 @@
 <template>
   <div>
+    <AlertMessage
+      v-if="showAlert"
+      @alertJimmy="showHideAlert"
+      :message="message"
+    />
     <h1 class="mt-6 text-2xl font-bold capitalize">My works</h1>
     <CustomBorder />
     <div class="mt-8">
@@ -15,3 +20,22 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      message: "You are already on Ken's website. Thanks for being here! :)",
+      showAlert: false
+    };
+  },
+  methods: {
+    showHideAlert() {
+      this.showAlert = true;
+      setTimeout(() => {
+        this.showAlert = false;
+      }, 5000);
+    }
+  }
+};
+</script>

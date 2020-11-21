@@ -12,7 +12,6 @@ module.exports = {
         'black-t-50': 'rgba(0, 0, 0, 0.5)'
       },
       colors: {
-        kjColorRed: '#d30071',
         kjColorRedLight: '#f3c6dd',
         kjColorPrime: '#e45447',
         kjColorPrimeLight: '#d8c7b8',

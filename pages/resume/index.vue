@@ -23,13 +23,13 @@
       </div>
       <div class="flex justify-between items-center flex-wrap">
         <a
-          href="https://drive.google.com/file/d/15F2-4P6mO2LmFtjvIWHGFbDeK-NGDCCY/view?usp=sharing"
+          href="https://drive.google.com/file/d/1HrlRYkmdvfEwx2YqSG31xoXMQnGzUZhP/view?usp=sharing"
           target="_blank"
         >
           <button
-            class="p-2 mt-10 mb-10 md:mb-0 w-40 text-center text-white font-semibold bg-kjColorSecondary shadow-lg cursor-pointer my-cv"
+            class="p-2 mt-10 mb-10 md:mb-0 w-48 text-center text-white font-semibold bg-kjColorSecondary shadow-lg cursor-pointer my-cv"
           >
-            Download My CV
+            Download My Resume
           </button>
         </a>
         <div

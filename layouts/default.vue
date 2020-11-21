@@ -1,8 +1,6 @@
 <template>
   <div>
-    <div v-if="showHideSpinner">
-      <PreLoader />
-    </div>
+    <PreLoader v-if="showHideSpinner" />
 
     <div class="md:bg-kjColorLight dark:bg-kjColorGray md:py-16">
       <div

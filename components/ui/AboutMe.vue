@@ -24,8 +24,8 @@
               </p>
 
               <p class="mt-2">
-                Apart from participating in many tech programs where he has been
-                trained to have both technical and soft skills, he has also
+                Apart from participating in many tech programs where I have been
+                trained to have both technical and soft skills, I have also
                 acquired high level programming knowledge from taking online
                 courses on Udemy, Pluralsight and Udacity, bagging a Node.js
                 certificate, Expert in JavaScript IQ test and JavaScript
@@ -33,12 +33,12 @@
               </p>
 
               <p class="mt-2">
-                When you engage his services for your project, you can rest
-                assured that he will deliver high-quality content and keep to
-                deadlines. He has worked on many clients' projects, and 95% of
-                his clients have left an excellent remarks for him, which shows
-                just how important he showed that they were to him. He will be
-                bringing his A-game to the table always.
+                When you engage my services for your project, you can rest
+                assured that I will deliver high-quality content and keep to
+                deadlines. I have worked on many clients' projects, and 95% of
+                my clients have left an excellent remarks for me, which shows
+                just how important I showed that they were to me. I will be
+                bringing my A-game to the table always.
               </p>
             </div>
           </div>

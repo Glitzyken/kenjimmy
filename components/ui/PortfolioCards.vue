@@ -26,18 +26,20 @@
       </div>
     </a>
 
-    <a href="https://kenjimmy.me/">
-      <div id="kenjimmy" class="h-128 rounded-lg card">
-        <div class="p-8 md:flex justify-between align-bottom">
-          <h2 class="font-bold text-lg capitalize">
-            kenneth jimmy
-          </h2>
-          <p class="text-xs mt-2">
-            Nuxt.js TailwindCSS GSAP Storyblok
-          </p>
-        </div>
+    <div
+      id="kenjimmy"
+      class="h-128 rounded-lg cursor-pointer card"
+      @click="alertJimmy"
+    >
+      <div class="p-8 md:flex justify-between align-bottom">
+        <h2 class="font-bold text-lg capitalize">
+          kenneth jimmy
+        </h2>
+        <p class="text-xs mt-2">
+          Nuxt.js TailwindCSS GSAP Storyblok
+        </p>
       </div>
-    </a>
+    </div>
 
     <div id="graphics" class="h-128 rounded-lg card">
       <div class="p-8 md:flex justify-between align-bottom">
@@ -51,6 +53,17 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    alertJimmy() {
+      this.$emit('alertJimmy');
+      // alert('Card was clicked!');
+    }
+  }
+};
+</script>
 
 <style lang="scss" scoped>
 #natours {
