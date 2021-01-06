@@ -47,10 +47,10 @@ export const nuxt = {
   website: 'https://nuxtjs.org/'
 };
 
-export const dart = {
-  name: 'dart',
-  url: require('../assets/brands/dart.png'),
-  website: 'https://dart.dev/guides'
+export const flutter = {
+  name: 'flutter',
+  url: require('../assets/brands/flutter.png'),
+  website: 'https://api.flutter.dev/'
 };
 
 // BACK-END STACK
