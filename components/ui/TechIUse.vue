@@ -178,7 +178,8 @@ import {
   indesign,
   illustrator,
   photoshop,
-  xd
+  xd,
+  dart
 } from '~/docs/brands.js';
 export default {
   name: 'Resume',
@@ -192,7 +193,8 @@ export default {
         angular,
         vuejs,
         vuetify,
-        nuxt
+        nuxt,
+        dart
       ],
       backStack: [nodejs, express, mongodb, mongoose],
       buildTools: [vscode, postman, webpack, npm],

@@ -47,6 +47,12 @@ export const nuxt = {
   website: 'https://nuxtjs.org/'
 };
 
+export const dart = {
+  name: 'dart',
+  url: require('../assets/brands/dart.png'),
+  website: 'https://dart.dev/guides'
+};
+
 // BACK-END STACK
 export const nodejs = {
   name: 'nodejs',
