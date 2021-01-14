@@ -23,7 +23,7 @@
       </div>
       <div class="flex justify-between items-center flex-wrap">
         <a
-          href="https://drive.google.com/file/d/1rsINp81qyTcVYod_R1LF1zxOA6pJr7Np/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Rqx1MuXN8oIINTlIOH6x1LCdBK2TFSqZ/view?usp=sharing"
           target="_blank"
         >
           <button
