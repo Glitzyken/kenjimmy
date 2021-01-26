@@ -20,7 +20,8 @@ module.exports = {
         kjColorGray: '#58595b',
         kjColorSecondaryLight: '#bab6b5',
         kjColorSecondary: '#607393',
-        kjColorGold: '#e29d51'
+        kjColorGold: '#e29d51',
+        kjColorBlack: '#0d1017'
       },
       fontFamily: {
         sans: ['Roboto', 'sans-serif']

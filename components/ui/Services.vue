@@ -6,7 +6,7 @@
     <p class="capitalize mt-2 text-lg">service offers</p>
     <CustomBorder />
     <div
-      class="grid grid-cols-1 lg:grid-cols-2 mt-10 rounded-lg bg-kjColorLight dark:bg-kjColorDark border-2 border-kjColorLight"
+      class="grid grid-cols-1 lg:grid-cols-2 mt-10 rounded-lg bg-kjColorLight dark:bg-kjColorBlack border-2 border-kjColorLight"
     >
       <div class="p-5 md:mx-8 services__data">
         <h2 class="text-lg font-black uppercase mb-3 data-1">

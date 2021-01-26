@@ -10,7 +10,7 @@
 
       <div class="px-4 relative">
         <div
-          class="bg-kjColorLight dark:bg-kjColorDark rounded-lg shadow-2xl border-2 border-kjColorLight"
+          class="bg-kjColorLight dark:bg-kjColorBlack rounded-lg shadow-2xl border-2 border-kjColorLight"
         >
           <div class="p-4">
             <div class="mt-20">
