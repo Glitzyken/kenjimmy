@@ -4,8 +4,8 @@
     <div class="hidden md:flex">
       <div class="text-kjColorGray dark:text-kjColorLight text-sm md:flex-1">
         <div class="font-bold md:mr-4 inline-block py-1 px-2 f-link">
-          <a href="tel:+2348139113069">
-            Call me (+234) 8139113069
+          <a href="tel:+2348133930845">
+            Call me (+234) 8133930845
             <font-awesome-icon :icon="['fas', 'phone']" class="text-lg ml-1" />
           </a>
         </div>

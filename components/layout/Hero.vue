@@ -38,7 +38,7 @@
       </p>
 
       <div class="mt-10 talk-wrapper">
-        <a href="tel:+2348139113069">
+        <a href="tel:+2348133930845">
           <div ref="talk" class="talk">
             <img
               src="@/assets/images/talkButton.png"
