@@ -20,8 +20,9 @@ export const eloquent = {
 // NATIVE APPS
 export const ipaMastery = {
   name: 'IPA Mastery',
-  bgImage: require('~/assets/images/My-works/natours.jpg'),
-  link: 'https://www.natours.dev/',
+  bgImage: require('~/assets/images/My-works/ipa-mastery.jpg'),
+  link:
+    'https://play.google.com/store/apps/details?id=com.visualapplet.ipamastery',
   techUsed: 'Flutter'
 };
 
