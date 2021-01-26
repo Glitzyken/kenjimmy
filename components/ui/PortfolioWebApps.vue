@@ -61,7 +61,7 @@ export default {
     return {
       kenJimmy: kenJimmy,
       webApps: [natours, eloquent],
-      message: "You are already on Ken's website. Thanks for visiting! :)",
+      message: 'Ken says you are awesome 😎. Thanks for visiting! :)',
       showAlert: false
     };
   },
