@@ -27,7 +27,8 @@ module.exports = {
         sans: ['Roboto', 'sans-serif']
       },
       height: {
-        '128': '320px'
+        '128': '320px',
+        '256': '600px'
       },
       width: {
         '128': '320px'

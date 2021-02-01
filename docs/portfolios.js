@@ -25,10 +25,3 @@ export const ipaMastery = {
     'https://play.google.com/store/apps/details?id=com.visualapplet.ipamastery',
   techUsed: 'Flutter'
 };
-
-// // GRAPHIC DESIGNS
-// export const vscode = {
-//   name: 'vscode',
-//   url: require('../assets/brands/vscode.png'),
-//   website: 'https://visualstudio.com/'
-// };

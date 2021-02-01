@@ -15,7 +15,9 @@
 
     <h1 class="mt-6 text-2xl font-bold capitalize">Graphic Designs</h1>
     <CustomBorder />
-    <div class="mt-8"></div>
+    <div class="mt-8">
+      <PortfolioGraphic />
+    </div>
 
     <div
       class="max-w-xl shadow-2xl h-40 py-5 md:py-0 px-5 md:px-10 mt-10 md:flex justify-between items-center"

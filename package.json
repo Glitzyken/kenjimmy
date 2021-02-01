@@ -25,7 +25,8 @@
     "nuxt-fontawesome": "^0.4.0",
     "storyblok-nuxt": "^1.3.0",
     "tailwindcss-dark-mode": "^1.1.6",
-    "vue-scrollmagic": "^1.2.0"
+    "vue-scrollmagic": "^1.2.0",
+    "vue-slick-carousel": "^1.0.6"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^3.0.0",
