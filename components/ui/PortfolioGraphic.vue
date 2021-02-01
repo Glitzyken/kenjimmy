@@ -26,7 +26,8 @@ import {
   slide3,
   slide4,
   slide5,
-  slide6
+  slide6,
+  slide7
 } from '~/docs/graphic.js';
 
 export default {
@@ -39,7 +40,7 @@ export default {
         autoplay: true,
         pauseOnFocus: true
       },
-      slides: [slide1, slide2, slide3, slide4, slide5, slide6]
+      slides: [slide1, slide2, slide3, slide4, slide5, slide6, slide7]
     };
   }
 };

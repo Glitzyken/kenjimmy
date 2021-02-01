@@ -22,9 +22,9 @@ export const slide6 = {
   src: require('~/assets/images/My-works/graphic/slide6.jpg')
 };
 
-// export const slide7 = {
-//   src: require('~/assets/images/My-works/graphic/slide7.jpg')
-// };
+export const slide7 = {
+  src: require('~/assets/images/My-works/graphic/slide7.jpg')
+};
 
 // export const slide8 = {
 //   src: require('~/assets/images/My-works/graphic/slide8.jpg')
