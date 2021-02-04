@@ -1,6 +1,6 @@
 # 👨‍💻Kenneth Jimmy
 
-> 👨‍💻 My personal site. My passion for coding is reflected on this [website](https://www.kenjimmy.me).
+> 👨‍💻 This is my personal site. My passion for software development is reflected on this [website](https://www.kenjimmy.me).
 
 ## 🏗 Building Materials
 
@@ -22,3 +22,8 @@
 - Social media and messanger buttons
 - Resume
 - Portfolio
+- Carousel
+
+## 🔖 License
+
+You are free to use this software as long as you keep the 'kj-' prefixes and the signature on the footer section.
