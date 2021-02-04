@@ -4,10 +4,8 @@
 
 ## 🏗 Building Materials
 
-| Nuxt
-
-| TailwindCSS | GSAP | Storyblok |
-| :---------: | :--: | :-------: |
+| Nuxt | TailwindCSS | GSAP | Storyblok |
+| :--: | :---------: | :--: | :-------: |
 
 
 ## 🎨 Features
