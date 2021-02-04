@@ -9,3 +9,16 @@
 
 
 ## 🎨 Features
+
+- Full static Nuxt site
+- SSR
+- SPA
+- Blog
+- Tags functionality
+- SEO and social media sharing
+- Dark mode
+- Responsive design
+- Animation
+- Social media and messanger buttons
+- Resume
+- Portfolio
