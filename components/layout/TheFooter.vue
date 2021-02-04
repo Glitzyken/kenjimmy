@@ -34,13 +34,13 @@
       <!-- 
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ---------------------------------------------------------------------------------------------------------LICENSE-------------------------------------------LICENSE----------------------------------LICENSE------------------------------LICENSE-------------------------------------------LICENSE-------------------------------------------LICENSE---------------------LICENSE-------------------------------------------LICENSE--------------------------------LICENSE-------------------------------------------LICENSE-------------------------------------------LICENSE---------------
         
-        YOU MUST UNCOMMENT AND KEEP THE FOLLOWING CODE IF YOU WANT TO USE THIS SOFTWARE FOR YOURSELF FREELY: 👇
-        
+        YOU MUST UNCOMMENT AND KEEP THE FOLLOWING SIGNATURE IF YOU WANT TO FREELY USE THIS CODEBASE FOR YOURSELF: 👇
+        -->
+
+      <!-- 
         <p class="py-1 px-2">
         Made with ♥ by <a href="https/www.kenjimmy.me" target="_blank">Ken</a>
-      </p>
-        
-        
+      </p>       
        -->
       <p class="py-1 px-2">
         &copy; 2020 ken. all rights reserved
