@@ -15,12 +15,13 @@
           <div class="p-4">
             <div class="mt-20">
               <div class="text-lg mb-5">
-                <span class="font-medium uppercase">About Ken</span>
+                <span class="font-medium uppercase">About Me</span>
                 <CustomBorder />
               </div>
 
               <p>
-                A full stack developer with a passion for thoughtful UI design.
+                I am a full stack developer with a passion for thoughtful UI
+                design.
               </p>
 
               <p class="mt-2">
@@ -33,12 +34,15 @@
               </p>
 
               <p class="mt-2">
-                When you engage my services for your project, you can rest
-                assured that I will deliver high-quality content and keep to
-                deadlines. I have worked on many clients' projects, and 95% of
-                my clients have left an excellent remarks for me, which shows
-                just how important I showed that they were to me. I will be
-                bringing my A-game to the table always.
+                When I am not coding, I am either playing chess, soccer, video
+                game, or watching a movie. Other times I am reading or learning
+                a new technology.
+              </p>
+              <p class="mt-2">
+                Currently, I work as a remote fullstack engineer at
+                <a href="https://novugrid.com" target="_blank"
+                  ><u>NovuGrid</u></a
+                >.
               </p>
             </div>
           </div>
