@@ -25,8 +25,8 @@
               </p>
 
               <p class="mt-2">
-                Besides participating in tech programs where I have been trained
-                to have both technical and soft skills, I have also acquired
+                Besides participating in many tech programs where I have been
+                trained to have both technical and soft skills, I have acquired
                 high level programming knowledge from taking online courses on
                 Udemy, Pluralsight and Udacity, bagging a Node.js certificate,
                 Expert in JavaScript IQ test and JavaScript Certificate
