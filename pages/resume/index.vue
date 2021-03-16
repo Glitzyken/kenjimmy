@@ -18,8 +18,8 @@
         <p class="mt-2">Full-stack developer</p>
       </div>
       <div class="ml-8">
-        <h3 class="font-bold">Freelance</h3>
-        <p class="mt-2">Front-end developer</p>
+        <h3 class="font-bold">Novugrid</h3>
+        <p class="mt-2">Fullstack developer</p>
       </div>
       <div class="flex justify-between items-center flex-wrap">
         <a
