@@ -54,13 +54,13 @@
 </template>
 
 <script>
-import { kenJimmy, natours, eloquent } from '~/docs/portfolios.js';
+import { kenJimmy, mazino, natours, eloquent } from '~/docs/portfolios.js';
 
 export default {
   data() {
     return {
       kenJimmy: kenJimmy,
-      webApps: [natours, eloquent],
+      webApps: [mazino, natours, eloquent],
       message: 'Ken says you are awesome 😎. Thanks for visiting! :)',
       showAlert: false
     };

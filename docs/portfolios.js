@@ -1,6 +1,9 @@
 // WEB APPS
-export const kenJimmy = {
-  bgImage: require('~/assets/images/My-works/kenjimmy.jpg')
+export const mazino = {
+  name: 'mazino makeovers',
+  bgImage: require('~/assets/images/My-works/mazino.jpg'),
+  link: 'https://mazinomakeovers.netlify.app',
+  techUsed: 'Nuxt Tailwind Node.js Moment.js'
 };
 
 export const natours = {
@@ -15,6 +18,10 @@ export const eloquent = {
   bgImage: require('~/assets/images/My-works/eloquent.jpg'),
   link: 'https://eloquent.kenjimmy.me/',
   techUsed: 'Angular Sass'
+};
+
+export const kenJimmy = {
+  bgImage: require('~/assets/images/My-works/kenjimmy.jpg')
 };
 
 // NATIVE APPS
