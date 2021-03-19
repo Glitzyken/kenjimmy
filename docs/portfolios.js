@@ -9,7 +9,7 @@ export const mazino = {
 export const natours = {
   name: 'natours',
   bgImage: require('~/assets/images/My-works/natours.jpg'),
-  link: 'https://www.natours.dev/',
+  link: 'https://natours-glitzy.herokuapp.com/',
   techUsed: 'Node.js Express.js MongoDb'
 };
 
