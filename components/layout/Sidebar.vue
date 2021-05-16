@@ -49,9 +49,9 @@
                 class="text-lg ml-3"
               />
             </a>
-            <a href="https://twitter.com/glitzyken17" target="_blank">
+            <a href="https://www.instagram.com/glitzyken/" target="_blank">
               <font-awesome-icon
-                :icon="['fab', 'twitter']"
+                :icon="['fab', 'instagram']"
                 class="text-lg ml-3"
               />
             </a>
