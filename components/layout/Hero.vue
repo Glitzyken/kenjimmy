@@ -52,7 +52,7 @@
     </div>
     <div class="mt-10 md:flex-1">
       <img
-        class="w-128"
+        class="w-40 ml-auto mr-auto md:ml-0 md:mr-0 md:w-128"
         src="@/assets/images/kenjimmydotmepic.png"
         alt="ken photo"
       />
