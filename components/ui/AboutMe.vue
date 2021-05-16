@@ -1,21 +1,65 @@
 <template>
   <div class="md:w-3/4 px-2 py-4 mt-12 md:mt-32 m-auto">
     <div class="select-none mb-6 w-full">
-      <div class="relative pb-64 bg-img">
-        <img
-          class="absolute w-full h-128 rounded-lg object-cover object-top border-b shadow-2xl img z-10"
-          src="../../assets/images/ken-face.jpg"
-        />
-      </div>
-
       <div class="px-4 relative">
         <div
           class="bg-kjColorLight dark:bg-kjColorBlack rounded-lg shadow-2xl border-2 border-kjColorLight"
         >
+          <div class="p-4 grid md:gap-5 grid-cols-1 md:grid-cols-2">
+            <img
+              class="w-128 rounded-lg"
+              src="../../assets/images/ken-face.jpeg"
+            />
+            <div class="pt-10">
+              <div>
+                <font-awesome-icon
+                  :icon="['fas', 'microscope']"
+                  class="text-xl inline-block"
+                />
+                <p class="inline-block ml-1">
+                  Working on
+                  <a
+                    href="https://www.spasora.com/"
+                    target="_blank"
+                    class="font-bold underline"
+                    >spasora.com</a
+                  >
+                </p>
+              </div>
+
+              <div class="mt-2">
+                <font-awesome-icon
+                  :icon="['fas', 'seedling']"
+                  class="text-xl inline-block"
+                />
+                <p class="inline-block ml-1">
+                  Currently learning Flutter
+                </p>
+              </div>
+
+              <div class="mt-2">
+                <font-awesome-icon
+                  :icon="['fas', 'chess-knight']"
+                  class="text-xl inline-block"
+                />
+                <p class="inline-block ml-1">
+                  Leisure game is chess
+                </p>
+              </div>
+
+              <div class="mt-2">
+                <p class="inline-block ml-1">
+                  <span class="font-bold">Fun Fact:</span> Sometimes I sing when
+                  I am alone and no one is watching 😁
+                </p>
+              </div>
+            </div>
+          </div>
+
           <div class="p-4">
-            <div class="mt-20">
+            <div class="mt-10">
               <div class="text-lg mb-5">
-                <span class="font-medium uppercase">About Me</span>
+                <span class="font-medium uppercase">README</span>
                 <CustomBorder />
               </div>
 
@@ -36,10 +80,10 @@
               <p class="mt-2">
                 When I am not coding, I am either playing chess, soccer, video
                 game, or watching a movie. Other times I am reading or learning
-                a new technology.
+                a new language or framework.
               </p>
               <p class="mt-2">
-                Currently, I work as a remote fullstack engineer at
+                Currently, I am a remote fullstack engineer at
                 <a href="https://novugrid.com" target="_blank"
                   ><u>NovuGrid</u></a
                 >.
@@ -51,9 +95,3 @@
     </div>
   </div>
 </template>
-
-<style lang="scss" scoped>
-.img {
-  filter: grayscale(100%);
-}
-</style>

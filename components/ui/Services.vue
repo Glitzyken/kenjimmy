@@ -30,7 +30,13 @@
           Creating illustrations, logos and vector graphics used for app
           development or designing a book, flyer, magazine, brochure or even a
           banner is a cinch. Feel free to check out one of my books on
-          <a href="" target="_blank" class="font-bold underline"> Amazon </a>
+          <a
+            href="https://www.amazon.com/dp/B07RZQ5Q2D"
+            target="_blank"
+            class="font-bold underline"
+          >
+            Amazon
+          </a>
         </p>
         <div class="mt-8 see-project-btn">
           <Button displayTitle="SEE MY WORKS" linkTo="/portfolio" />
