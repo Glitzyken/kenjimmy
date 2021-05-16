@@ -14,7 +14,7 @@
               <div>
                 <font-awesome-icon
                   :icon="['fas', 'microscope']"
-                  class="text-xl inline-block"
+                  class="text-lg inline-block"
                 />
                 <p class="inline-block ml-1">
                   Working on
@@ -30,7 +30,7 @@
               <div class="mt-2">
                 <font-awesome-icon
                   :icon="['fas', 'seedling']"
-                  class="text-xl inline-block"
+                  class="text-lg inline-block"
                 />
                 <p class="inline-block ml-1">
                   Currently learning Flutter
@@ -40,7 +40,7 @@
               <div class="mt-2">
                 <font-awesome-icon
                   :icon="['fas', 'chess-knight']"
-                  class="text-xl inline-block"
+                  class="text-lg inline-block"
                 />
                 <p class="inline-block ml-1">
                   Leisure game is chess
