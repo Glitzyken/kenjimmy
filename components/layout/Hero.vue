@@ -38,7 +38,7 @@
       </p>
 
       <div class="mt-10 talk-wrapper">
-        <a href="tel:+2348133930845">
+        <a href="https://twitter.com/glitzyken17" target="_blank">
           <div ref="talk" class="talk">
             <img
               src="@/assets/images/talkButton.png"
