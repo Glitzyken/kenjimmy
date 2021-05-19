@@ -42,12 +42,28 @@
         Made with ♥ by <a href="https/www.kenjimmy.me" target="_blank">Ken</a>
       </p>       
        -->
-      <p class="py-1 px-2">
-        &copy; 2020 ken. all rights reserved
-      </p>
+      <p class="py-1 px-2">&copy; {{ year }} ken. all rights reserved</p>
     </div>
   </footer>
 </template>
+
+<script>
+export default {
+  mounted() {
+    this.getYear();
+  },
+  data() {
+    return {
+      year: null
+    };
+  },
+  methods: {
+    getYear() {
+      this.year = new Date().getFullYear();
+    }
+  }
+};
+</script>
 
 <style lang="scss">
 .f-link {
