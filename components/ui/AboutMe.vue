@@ -8,7 +8,7 @@
           <div class="p-4 grid md:gap-5 grid-cols-1 md:grid-cols-2">
             <img
               class="w-128 rounded-lg"
-              src="../../assets/images/ken-face.jpeg"
+              src="../../assets/images/ken-face.jpg"
             />
             <div class="pt-10">
               <div>
