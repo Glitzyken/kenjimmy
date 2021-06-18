@@ -34,7 +34,7 @@
       </div>
     </div>
     <p id="replay" class="text-white text-3xl">
-      The conscientious engineer.
+      A conscientious engineer.
     </p>
   </div>
 </template>
