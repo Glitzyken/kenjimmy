@@ -33,8 +33,8 @@
         </svg>
       </div>
     </div>
-    <p id="replay" class="text-white text-3xl">
-      A conscientious engineer.
+    <p id="replay" class="text-white text-xl md:text-3xl">
+      conscientious - talented - adaptible - fast learner
     </p>
   </div>
 </template>

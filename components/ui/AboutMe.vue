@@ -50,7 +50,7 @@
               <div class="mt-2">
                 <p class="inline-block ml-1">
                   <span class="font-bold">Fun Fact:</span> Sometimes I sing when
-                  I am alone and no one is watching 😁
+                  I am alone with no one watching 😁
                 </p>
               </div>
             </div>
