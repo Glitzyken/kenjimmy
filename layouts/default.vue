@@ -46,7 +46,6 @@ export default {
 </script>
 
 <style lang="scss">
-// GLOBAL STYLES
 .card {
   position: relative;
   min-height: 23rem;
@@ -62,8 +61,6 @@ export default {
     transform: translateY(-5px);
   }
 }
-
-// PAGE TRANSITION CLASS
 .page-enter-active,
 .page-leave-active {
   transition: all 0.3s;
