@@ -38,7 +38,7 @@
       </p>
 
       <div class="mt-10 talk-wrapper">
-        <a href="https://twitter.com/glitzyken17" target="_blank">
+        <a href="mailto:kenjimmy17@gmail.com" target="_blank">
           <div ref="talk" class="talk">
             <img
               src="@/assets/images/talkButton.png"
