@@ -121,7 +121,7 @@
         </span>
       </div>
     </div>
-    <!-- GRAPHIC TOOLS -->
+    <!-- GRAPHIC TOOLS 
     <h1 class="mt-6 text-2xl font-bold capitalize">graphic tools I use</h1>
     <CustomBorder />
     <div
@@ -146,6 +146,7 @@
         </span>
       </div>
     </div>
+    -->
   </div>
 </template>
 
@@ -155,7 +156,6 @@ import {
   sass,
   tailwindcss,
   javascript,
-  angular,
   vuejs,
   vuetify,
   nuxt,
@@ -190,7 +190,6 @@ export default {
         sass,
         tailwindcss,
         javascript,
-        angular,
         vuejs,
         vuetify,
         nuxt,

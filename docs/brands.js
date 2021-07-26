@@ -23,12 +23,6 @@ export const javascript = {
   website: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
 };
 
-export const angular = {
-  name: 'angular',
-  url: require('../assets/brands/angular.png'),
-  website: 'https://angular.io/'
-};
-
 export const vuejs = {
   name: 'vuejs',
   url: require('../assets/brands/vuejs.png'),

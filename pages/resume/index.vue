@@ -37,7 +37,7 @@
         >
           <p class="text-lg font-bold mr-4 mb-3 md:mb-0">
             I also write about tech I use! <br />
-            See my articles.
+            See my articles 👉
           </p>
           <Button displayTitle="MY SHELF" linkTo="/shelf" />
         </div>
