@@ -11,11 +11,13 @@
         kenjimmy17@gmail.com
       </a>
     </div>
+    <!--
     <div class="text-sm mt-4">
       <a href="tel:+2348133930845">
         (+234) 813 - 3930 - 845
       </a>
     </div>
+    -->
     <div class="mt-12 flex justify-center">
       <div class="w-8 h-8 rounded-full">
         <a href="https://t.me/Glitzyken" target="_blank">
@@ -27,6 +29,7 @@
           <font-awesome-icon :icon="['fab', 'twitter']" class="text-2xl" />
         </a>
       </div>
+      <!--
       <div class="w-8 h-8 rounded-full ml-5 lg:hidden">
         <a href="https://wa.me/2348133930845">
           <font-awesome-icon :icon="['fab', 'whatsapp']" class="text-2xl" />
@@ -41,6 +44,7 @@
           <font-awesome-icon :icon="['fab', 'whatsapp']" class="text-2xl" />
         </a>
       </div>
+      -->
     </div>
   </section>
 </template>

@@ -3,6 +3,7 @@
     <!--ON DESKTOP VIEW-->
     <div class="hidden md:flex">
       <div class="text-kjColorGray text-sm md:flex-1">
+        <!--
         <div class="font-bold md:mr-4 inline-block py-1 px-2 f-link">
           <a href="tel:+2348133930845">
             Call me (+234) 8133930845
@@ -10,6 +11,7 @@
           </a>
         </div>
         /
+        -->
         <div class="font-bold md:ml-4 inline-block py-1 px-2 f-link">
           <a href="mailto:kenjimmy17@gmail.com">
             kenjimmy17@gmail.com
