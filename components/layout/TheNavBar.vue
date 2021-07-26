@@ -14,11 +14,11 @@
         -->
         <div class="font-bold md:ml-4 inline-block py-1 px-2 f-link">
           <a href="mailto:kenjimmy17@gmail.com">
-            kenjimmy17@gmail.com
             <font-awesome-icon
               :icon="['fas', 'envelope']"
-              class="text-lg ml-1"
+              class="text-lg mr-1"
             />
+            kenjimmy17@gmail.com
           </a>
         </div>
 
@@ -26,12 +26,29 @@
         <ToggleDarkLightMode />
         <!------------------------------>
       </div>
-      <nuxt-link to="/shelf">
-        <button class="focus:outline-none py-1 px-2 capitalize f-link">
-          shelf
-          <font-awesome-icon :icon="['fas', 'book']" class="text-lg ml-1" />
-        </button>
-      </nuxt-link>
+      <div>
+        <nuxt-link to="/resume">
+          <button class="focus:outline-none py-1 px-2 capitalize f-link">
+            <font-awesome-icon
+              :icon="['fas', 'user-tie']"
+              class="text-lg mr-1"
+            />
+            resume
+          </button>
+        </nuxt-link>
+        <nuxt-link to="/portfolio">
+          <button class="focus:outline-none py-1 px-2 capitalize f-link">
+            <font-awesome-icon :icon="['fas', 'file']" class="text-lg mr-1" />
+            works
+          </button>
+        </nuxt-link>
+        <nuxt-link to="/shelf">
+          <button class="focus:outline-none py-1 px-2 capitalize f-link">
+            <font-awesome-icon :icon="['fas', 'book']" class="text-lg mr-1" />
+            shelf
+          </button>
+        </nuxt-link>
+      </div>
     </div>
 
     <!--ON MOBILE VIEW-->

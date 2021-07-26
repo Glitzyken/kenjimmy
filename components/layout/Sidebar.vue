@@ -12,12 +12,14 @@
       >
         <div class="h-full pt-10 px-5 relative">
           <div @click="closeSidebarPanel">
+            <!--
             <a href="tel:+2348139113069">
               <div>
                 <font-awesome-icon :icon="['fas', 'phone']" class="text-lg" />
                 <span class="ml-4 capitalize">Call me</span>
               </div>
             </a>
+            -->
 
             <a href="mailto:kenjimmy17@gmail.com">
               <div class="mt-3">
@@ -25,10 +27,25 @@
                   :icon="['fas', 'envelope']"
                   class="text-lg"
                 />
-                <span class="ml-4 capitalize">Email me</span>
+                <span class="ml-4 capitalize">Email</span>
               </div>
             </a>
 
+            <nuxt-link to="/resume">
+              <div class="mt-3">
+                <font-awesome-icon
+                  :icon="['fas', 'user-tie']"
+                  class="text-lg"
+                />
+                <span class="ml-4 capitalize">resume</span>
+              </div>
+            </nuxt-link>
+            <nuxt-link to="/portfolio">
+              <div class="mt-3">
+                <font-awesome-icon :icon="['fas', 'file']" class="text-lg" />
+                <span class="ml-4 capitalize">works</span>
+              </div>
+            </nuxt-link>
             <nuxt-link to="/shelf">
               <div class="mt-3">
                 <font-awesome-icon :icon="['fas', 'book']" class="text-lg" />

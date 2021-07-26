@@ -15,17 +15,17 @@
       <ul>
         <nuxt-link to="/resume">
           <li class="uppercase inline-block text-xs md:mr-6 py-1 px-2 f-link">
-            my resume
+            resume
           </li>
         </nuxt-link>
         <nuxt-link to="/portfolio">
           <li class="uppercase inline-block text-xs md:mr-6 py-1 px-2 f-link">
-            my works
+            works
           </li>
         </nuxt-link>
         <nuxt-link to="/shelf">
           <li class="uppercase inline-block text-xs md:mr-6 py-1 px-2 f-link">
-            my shelf
+            shelf
           </li>
         </nuxt-link>
       </ul>
