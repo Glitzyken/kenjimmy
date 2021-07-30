@@ -10,33 +10,27 @@
     >
       <div class="p-5 md:mx-8 services__data">
         <h2 class="text-lg font-black uppercase mb-3 data-1">
-          app development
+          frontend apps
         </h2>
         <p class="mb-5 data-1">
-          I build modern-driven web and mobile applications using modern
-          technology stacks such as Node.js
+          Build client-side applications with modern features like SPA and
+          maintain semantic coding style among other best practices for SEO
+          optimisation. Use modern tech such as Nuxt (Vue.js), TailwindCSS, and
+          GSAP.
         </p>
         <h2 class="text-lg font-black uppercase mb-3 data-2">
-          ui/ux design
+          backend apps
         </h2>
         <p class="mb-5 data-2">
-          I create jaw-dropping mobile and web designs and prototypes using
-          Adobe XD or Figma
+          Build scalable and maintainable server applications using modern
+          technology stacks such as Node.js, Express, and MongoDB
         </p>
         <h2 class="text-lg font-black uppercase mb-3 data-3">
-          graphic design
+          native apps
         </h2>
         <p class="data-3">
-          Creating illustrations, logos and vector graphics used for app
-          development or designing a book, flyer, magazine, brochure or even a
-          banner is a cinch. Feel free to check out one of my books on
-          <a
-            href="https://www.amazon.com/dp/B07RZQ5Q2D"
-            target="_blank"
-            class="font-bold underline"
-          >
-            Amazon
-          </a>
+          Use Flutter for building simple native mobile applications. Flutter is
+          modern, fast, cross-platform, and popular.
         </p>
         <div class="mt-8 see-project-btn">
           <Button displayTitle="SEE MY WORKS" linkTo="/portfolio" />
