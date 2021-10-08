@@ -34,7 +34,7 @@
         class="text-kjColorGray text-sm mt-10 text-center md:text-left px-5 md:px-0 md:w-64 message"
       >
         AKA Glitzyken, I am a software developer in Lagos Nigeria. I build
-        anything from mobile to web app. Feel free to say hi.
+        anything web and mobile app. Feel free to say hi.
       </p>
 
       <div class="mt-10 talk-wrapper">

@@ -83,9 +83,9 @@
                 a new language or framework.
               </p>
               <p class="mt-2">
-                Currently, I am a remote fullstack engineer at
-                <a href="https://novugrid.com" target="_blank"
-                  ><u>NovuGrid</u></a
+                Currently, I am a remote backend engineer at
+                <a href="https://bossbusworld.com" target="_blank"
+                  ><u>BossBus Technologies</u></a
                 >.
               </p>
             </div>

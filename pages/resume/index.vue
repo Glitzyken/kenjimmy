@@ -12,14 +12,40 @@
         <div
           class="p-2 mr-4 md:mr-10 -mt-2 md:-mt-4 w-40 text-center text-white font-semibold bg-kjColorSecondary shadow-lg absolute right-0 top-0"
         >
-          2016 - Present
+          Since 2016
         </div>
         <h3 class="mt-8 md:mt-0 font-bold">Working remotely</h3>
         <p class="mt-2">Full-stack developer</p>
       </div>
       <div class="ml-8">
-        <h3 class="font-bold">Novugrid</h3>
-        <p class="mt-2">Fullstack developer</p>
+        <h3 class="font-bold">
+          <a href="https://bossbusworld.com" target="_blank"
+            ><u>BossBus Technologies</u></a
+          >
+        </h3>
+        <p class="mt-2">Backend developer (Full-time)</p>
+      </div>
+      <div class="ml-8 mt-8">
+        <h3 class="font-bold">
+          <a href="https://spasora.com" target="_blank"
+            ><u>Spasora Limited</u></a
+          >
+        </h3>
+        <p class="mt-2">Fullstack developer (Contractor)</p>
+      </div>
+      <div class="ml-8 mt-8">
+        <h3 class="font-bold">
+          <a href="https://novugrid.com" target="_blank"><u>Novugrid</u></a>
+        </h3>
+        <p class="mt-2">Fullstack developer (full-time)</p>
+      </div>
+      <div class="ml-8 mt-8">
+        <h3 class="font-bold">
+          <a href="https://www.remoteplatz.com" target="_blank"
+            ><u>Remoteplatz</u></a
+          >
+        </h3>
+        <p class="mt-2">Freelancer</p>
       </div>
       <div class="flex justify-between items-center flex-wrap">
         <a

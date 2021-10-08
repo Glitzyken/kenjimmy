@@ -27,6 +27,12 @@
         <!------------------------------>
       </div>
       <div>
+        <nuxt-link to="/portfolio">
+          <button class="focus:outline-none py-1 px-2 capitalize f-link">
+            <font-awesome-icon :icon="['fas', 'file']" class="text-lg mr-1" />
+            works
+          </button>
+        </nuxt-link>
         <nuxt-link to="/resume">
           <button class="focus:outline-none py-1 px-2 capitalize f-link">
             <font-awesome-icon
@@ -34,12 +40,6 @@
               class="text-lg mr-1"
             />
             resume
-          </button>
-        </nuxt-link>
-        <nuxt-link to="/portfolio">
-          <button class="focus:outline-none py-1 px-2 capitalize f-link">
-            <font-awesome-icon :icon="['fas', 'file']" class="text-lg mr-1" />
-            works
           </button>
         </nuxt-link>
         <nuxt-link to="/shelf">
