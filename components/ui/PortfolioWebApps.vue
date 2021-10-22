@@ -6,66 +6,158 @@
       :message="message"
     />
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 dark:text-kjColorGray">
-      <a
-        v-for="webApp in webApps"
-        :key="webApp.name"
-        :href="webApp.link"
-        target="_blank"
-      >
+      <a :href="spasora.link" target="_blank">
         <div
-          :style="{
-            background: 'url(' + webApp.bgImage + ')',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center'
-          }"
-          class="h-128 rounded-lg card pf-card"
+          class="relative pf-card rounded-lg"
+          @mouseenter="showDetails(1)"
+          @mouseleave="hideDetails"
         >
-          <div class="p-8 md:flex justify-between align-bottom">
-            <h2 class="font-bold text-lg capitalize">
-              {{ webApp.name }}
-            </h2>
-            <p class="text-xs mt-2">
-              {{ webApp.techUsed }}
-            </p>
-          </div>
+          <transition name="slide">
+            <div
+              v-if="showDetials1"
+              class="py-4 px-8 w-full bg-kjColorSecondary bg-opacity-75 absolute bottom-0 z-50 rounded-br-lg rounded-bl-lg"
+            >
+              <h2 class="font-bold text-lg text-kjColorLight capitalize">
+                {{ spasora.name }}
+              </h2>
+              <p class="text w-2/3 text-kjColorLight mt-2">
+                {{ spasora.techUsed }}
+              </p>
+            </div>
+          </transition>
+
+          <video class="rounded-lg" autoplay muted loop>
+            <source :src="spasora.videoLink" type="video/mp4" />
+            Your browser is not supported!
+          </video>
         </div>
       </a>
 
       <div
-        :style="{
-          background: 'url(' + kenJimmy.bgImage + ')',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
-        }"
-        class="h-128 rounded-lg cursor-pointer card"
+        class="relative pf-card rounded-lg"
+        @mouseenter="showDetails(2)"
+        @mouseleave="hideDetails"
         @click="showHideAlert"
       >
-        <div class="p-8 md:flex justify-between align-bottom">
-          <h2 class="font-bold text-lg capitalize">
-            kenneth jimmy
-          </h2>
-          <p class="text-xs mt-2">
-            Nuxt.js TailwindCSS GSAP Storyblok
-          </p>
-        </div>
+        <transition name="slide">
+          <div
+            v-if="showDetials2"
+            class="py-4 px-8 w-full bg-kjColorSecondary bg-opacity-75 absolute bottom-0 z-50 rounded-br-lg rounded-bl-lg"
+          >
+            <h2 class="font-bold text-lg text-kjColorLight capitalize">
+              kenneth jimmy
+            </h2>
+            <p class="text w-2/3 text-kjColorLight mt-1">
+              Nuxt.js TailwindCSS GSAP Storyblok
+            </p>
+          </div>
+        </transition>
+
+        <video class="rounded-lg" autoplay muted loop>
+          <source :src="kenJimmy.videoLink" type="video/mp4" />
+          Your browser is not supported!
+        </video>
       </div>
+
+      <a :href="mazino.link" target="_blank">
+        <div
+          class="relative pf-card rounded-lg"
+          @mouseenter="showDetails(3)"
+          @mouseleave="hideDetails"
+        >
+          <transition name="slide">
+            <div
+              v-if="showDetials3"
+              class="py-4 px-8 w-full bg-kjColorSecondary bg-opacity-75 absolute bottom-0 z-50 rounded-br-lg rounded-bl-lg"
+            >
+              <h2 class="font-bold text-lg text-kjColorLight capitalize">
+                {{ mazino.name }}
+              </h2>
+              <p class="text w-2/3 text-kjColorLight mt-2">
+                {{ mazino.techUsed }}
+              </p>
+            </div>
+          </transition>
+
+          <video class="rounded-lg" autoplay muted loop>
+            <source :src="mazino.videoLink" type="video/mp4" />
+            Your browser is not supported!
+          </video>
+        </div>
+      </a>
+
+      <a :href="eloquent.link" target="_blank">
+        <div
+          class="relative pf-card rounded-lg"
+          @mouseenter="showDetails(4)"
+          @mouseleave="hideDetails"
+        >
+          <transition name="slide">
+            <div
+              v-if="showDetials4"
+              class="py-4 px-8 w-full bg-kjColorSecondary bg-opacity-75 absolute bottom-0 z-50 rounded-br-lg rounded-bl-lg"
+            >
+              <h2 class="font-bold text-lg text-kjColorLight capitalize">
+                {{ eloquent.name }}
+              </h2>
+              <p class="text w-2/3 text-kjColorLight mt-2">
+                {{ eloquent.techUsed }}
+              </p>
+            </div>
+          </transition>
+
+          <video class="rounded-lg" autoplay muted loop>
+            <source :src="eloquent.videoLink" type="video/mp4" />
+            Your browser is not supported!
+          </video>
+        </div>
+      </a>
     </div>
   </div>
 </template>
 
 <script>
-import { kenJimmy, mazino, natours, eloquent } from '~/docs/portfolios.js';
+import { spasora, kenJimmy, mazino, eloquent } from '~/docs/portfolios.js';
 
 export default {
   data() {
     return {
+      showDetials1: false,
+      showDetials2: false,
+      showDetials3: false,
+      showDetials4: false,
+      spasora: spasora,
       kenJimmy: kenJimmy,
-      webApps: [mazino, natours, eloquent],
-      message: 'Ken says you are awesome 😎. Thanks for visiting! :)',
+      mazino: mazino,
+      eloquent: eloquent,
+      message: 'Ken appreciates you 😎. Thanks for visiting! :)',
       showAlert: false
     };
   },
   methods: {
+    showDetails(num) {
+      if (num == 1) {
+        this.showDetials1 = true;
+      }
+
+      if (num == 2) {
+        this.showDetials2 = true;
+      }
+
+      if (num == 3) {
+        this.showDetials3 = true;
+      }
+
+      if (num == 4) {
+        this.showDetials4 = true;
+      }
+    },
+    hideDetails() {
+      this.showDetials1 = false;
+      this.showDetials2 = false;
+      this.showDetials3 = false;
+      this.showDetials4 = false;
+    },
     showHideAlert() {
       this.showAlert = true;
       setTimeout(() => {
@@ -75,3 +167,16 @@ export default {
   }
 };
 </script>
+
+<style lang="scss" scoped>
+.slide-enter-active,
+.slide-leave-active {
+  transition: transform 0.2s ease;
+}
+
+.slide-enter,
+.slide-leave-to {
+  transform: translateY(10%);
+  transition: all 150ms ease-in 0s;
+}
+</style>
