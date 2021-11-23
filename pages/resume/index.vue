@@ -62,8 +62,7 @@
           class="max-w-xl shadow-2xl h-40 py-5 md:py-0 px-5 md:px-10 mt-10 md:flex justify-between items-center"
         >
           <p class="text-lg font-bold mr-4 mb-3 md:mb-0">
-            Ocationally, I write about some of the tech I use! <br />
-            See my articles 👉
+            I ocationally write tech articles too! See them 👉
           </p>
           <Button displayTitle="MY SHELF" linkTo="/shelf" />
         </div>

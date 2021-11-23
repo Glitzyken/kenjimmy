@@ -30,7 +30,7 @@
                   class="text-lg inline-block"
                 />
                 <p class="inline-block ml-1">
-                  Currently learning Flutter
+                  Currently learning GraphQL
                 </p>
               </div>
 
