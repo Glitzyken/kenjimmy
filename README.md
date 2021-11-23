@@ -26,4 +26,4 @@
 
 ## 🔖 License
 
-This is my portfolio site, which means that it is a reflection of what I can do with my skills. Usually, you are supposed to create your own unique portfolio but if for any other reason you wish to use this codebase for your project, you must keep the 'kj-' prefixes and the signature at the footer section.
+This is my portfolio site, which means that it is a reflection of what I can do with my skills. Usually, you should create your own unique portfolio but if for any other reasons you wish to use this source code in whole or in part for your project, you must keep the 'kj-' prefixes and the signature at the footer section.
