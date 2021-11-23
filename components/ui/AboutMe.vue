@@ -6,10 +6,7 @@
           class="bg-kjColorLight dark:bg-kjColorBlack rounded-lg shadow-2xl border-2 border-kjColorLight"
         >
           <div class="p-4 grid md:gap-5 grid-cols-1 md:grid-cols-2">
-            <img
-              class="w-128 rounded-lg"
-              src="../../assets/images/ken-face.jpg"
-            />
+            <img class="w-128 rounded-lg" src="../../assets/images/meee.jpg" />
             <div class="pt-10">
               <div>
                 <font-awesome-icon
