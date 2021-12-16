@@ -33,7 +33,7 @@
                   class="text-lg inline-block"
                 />
                 <p class="inline-block ml-1">
-                  Currently learning GraphQL
+                  Currently learning Web3
                 </p>
               </div>
 
