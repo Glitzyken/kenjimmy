@@ -85,39 +85,12 @@
           </video>
         </div>
       </a>
-
-      <a :href="eloquent.link" target="_blank">
-        <div
-          class="relative pf-card rounded-lg"
-          @mouseenter="showDetails(4)"
-          @mouseleave="hideDetails"
-        >
-          <transition name="slide">
-            <div
-              v-if="showDetials4"
-              class="py-4 px-8 w-full bg-kjColorSecondary bg-opacity-75 absolute bottom-0 z-50 rounded-br-lg rounded-bl-lg"
-            >
-              <h2 class="font-bold text-lg text-kjColorLight capitalize">
-                {{ eloquent.name }}
-              </h2>
-              <p class="text w-2/3 text-kjColorLight mt-2">
-                {{ eloquent.techUsed }}
-              </p>
-            </div>
-          </transition>
-
-          <video class="rounded-lg" autoplay muted loop>
-            <source :src="eloquent.videoLink" type="video/mp4" />
-            Your browser is not supported!
-          </video>
-        </div>
-      </a>
     </div>
   </div>
 </template>
 
 <script>
-import { spasora, kenJimmy, mazino, eloquent } from '~/docs/portfolios.js';
+import { spasora, kenJimmy, mazino } from '~/docs/portfolios.js';
 
 export default {
   data() {
@@ -129,7 +102,6 @@ export default {
       spasora: spasora,
       kenJimmy: kenJimmy,
       mazino: mazino,
-      eloquent: eloquent,
       message: 'Ken appreciates you 😎. Thanks for visiting! :)',
       showAlert: false
     };
