@@ -113,7 +113,17 @@ export default {
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
-  build: { transpile: ['gsap'] },
+  build: {
+    transpile: ['gsap'],
+    loaders: {
+      sass: {
+        implementation: require('sass')
+      },
+      scss: {
+        implementation: require('sass')
+      }
+    }
+  },
   pageTransition: {
     name: 'page',
     mode: 'out-in'
