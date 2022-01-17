@@ -20,6 +20,14 @@ export const spasora = {
   techUsed: 'Nuxt.js TailwindCSS Chakra-UI Axios Node.js Express MongoDB'
 };
 
+export const bossbus = {
+  name: 'Bossbus',
+  videoLink:
+    'https://res.cloudinary.com/dwa1jtluu/video/upload/v1642430641/kenjimmy.me/bossbus___ride_charter_-_google_chrome_2022-01-17_15-35-19.mp4_360p_ixizhq.mp4',
+  link: 'https://bossbusworld.com/',
+  techUsed: '**classified'
+};
+
 // NATIVE APPS
 export const ipaMastery = {
   name: 'IPA Mastery',

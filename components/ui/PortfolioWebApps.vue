@@ -90,7 +90,7 @@
 </template>
 
 <script>
-import { spasora, kenJimmy, mazino } from '~/docs/portfolios.js';
+import { spasora, bossbus, kenJimmy, mazino } from '~/docs/portfolios.js';
 
 export default {
   data() {
@@ -100,6 +100,7 @@ export default {
       showDetials3: false,
       showDetials4: false,
       spasora: spasora,
+      bossbus: bossbus,
       kenJimmy: kenJimmy,
       mazino: mazino,
       message: 'Ken appreciates you 😎. Thanks for visiting! :)',
