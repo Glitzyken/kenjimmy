@@ -3,7 +3,7 @@
     <h1 class="capitalize text-3xl md:text-4xl font-bold leading-none">
       My Works
     </h1>
-    <p class="capitalize mt-2 text-lg">Some of my past projects</p>
+    <p class="capitalize mt-2 text-lg">Some of my projects</p>
     <CustomBorder />
 
     <div>
