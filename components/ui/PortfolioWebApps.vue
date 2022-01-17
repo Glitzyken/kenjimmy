@@ -33,6 +33,33 @@
         </div>
       </a>
 
+      <a :href="bossbus.link" target="_blank">
+        <div
+          class="relative pf-card rounded-lg"
+          @mouseenter="showDetails(5)"
+          @mouseleave="hideDetails"
+        >
+          <transition name="slide">
+            <div
+              v-if="showDetials5"
+              class="py-4 px-8 w-full bg-kjColorSecondary bg-opacity-75 absolute bottom-0 z-50 rounded-br-lg rounded-bl-lg"
+            >
+              <h2 class="font-bold text-lg text-kjColorLight capitalize">
+                {{ bossbus.name }}
+              </h2>
+              <p class="text w-2/3 text-kjColorLight mt-2">
+                {{ bossbus.techUsed }}
+              </p>
+            </div>
+          </transition>
+
+          <video class="rounded-lg" autoplay muted loop>
+            <source :src="bossbus.videoLink" type="video/mp4" />
+            Your browser is not supported!
+          </video>
+        </div>
+      </a>
+
       <div
         class="relative pf-card rounded-lg"
         @mouseenter="showDetails(2)"
@@ -99,6 +126,7 @@ export default {
       showDetials2: false,
       showDetials3: false,
       showDetials4: false,
+      showDetials5: false,
       spasora: spasora,
       bossbus: bossbus,
       kenJimmy: kenJimmy,
@@ -124,12 +152,17 @@ export default {
       if (num == 4) {
         this.showDetials4 = true;
       }
+
+      if (num == 5) {
+        this.showDetials5 = true;
+      }
     },
     hideDetails() {
       this.showDetials1 = false;
       this.showDetials2 = false;
       this.showDetials3 = false;
       this.showDetials4 = false;
+      this.showDetials5 = false;
     },
     showHideAlert() {
       this.showAlert = true;
