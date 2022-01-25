@@ -1,6 +1,7 @@
 <template>
   <div>
     <PreLoader v-if="showHideSpinner" />
+    <CustomCursor />
 
     <div class="md:bg-kjColorLight dark:bg-kjColorBlack md:py-16">
       <div
