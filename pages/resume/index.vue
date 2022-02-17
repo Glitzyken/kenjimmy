@@ -23,7 +23,7 @@
             ><u>BossBus Technologies</u></a
           >
         </h3>
-        <p class="mt-2">Backend developer (Full-time)</p>
+        <p class="mt-2">Backend developer (Remote)</p>
       </div>
       <div class="ml-8 mt-8">
         <h3 class="font-bold">
@@ -31,13 +31,13 @@
             ><u>Spasora Limited</u></a
           >
         </h3>
-        <p class="mt-2">Fullstack developer (Contractor)</p>
+        <p class="mt-2">Fullstack developer (Part-time)</p>
       </div>
       <div class="ml-8 mt-8">
         <h3 class="font-bold">
           <a href="https://novugrid.com" target="_blank"><u>Novugrid</u></a>
         </h3>
-        <p class="mt-2">Fullstack developer (full-time)</p>
+        <p class="mt-2">Fullstack developer (Full-time)</p>
       </div>
       <div class="ml-8 mt-8">
         <h3 class="font-bold">
@@ -49,7 +49,7 @@
       </div>
       <div class="flex justify-between items-center flex-wrap">
         <a
-          href="https://drive.google.com/file/d/1xGYPHKEBNwwuxyhz-tk8EpqWANHfX8ud/view?usp=sharing"
+          href="https://drive.google.com/file/d/1C0spQeln1R-UdF5lPIrht4f-iBj8iR1e/view?usp=sharing"
           target="_blank"
         >
           <button
