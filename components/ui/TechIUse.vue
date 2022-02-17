@@ -76,6 +76,7 @@
       </div>
     </div>
     <!-- CMS TOOLS -->
+    <!--
     <div
       class="mb-8 p-3 md:px-10 md:py-5 bg-kjColorLight dark:bg-kjColorBlack border-2 border-kjColorLight"
     >
@@ -98,6 +99,7 @@
         </span>
       </div>
     </div>
+    -->
     <!-- OTHER -->
     <div
       class="mb-8 p-3 md:px-10 md:py-5 bg-kjColorLight dark:bg-kjColorBlack border-2 border-kjColorLight"
@@ -163,6 +165,8 @@ import {
   mongodb,
   express,
   mongoose,
+  prisma,
+  postgresql,
   vscode,
   postman,
   webpack,
@@ -195,7 +199,7 @@ export default {
         nuxt,
         flutter
       ],
-      backStack: [nodejs, express, mongodb, mongoose],
+      backStack: [nodejs, express, mongodb, mongoose, prisma, postgresql],
       buildTools: [vscode, postman, webpack, npm],
       cmsTools: [wordpress, vapid],
       others: [git, github, netlify, heroku, puppeteer, storyblok],

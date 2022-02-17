@@ -29,11 +29,8 @@
           </a>
         </div>
         <div class="md:h-6 md:w-6 md:mt-5">
-          <a href="https://www.instagram.com/glitzyken/" target="_blank">
-            <font-awesome-icon
-              :icon="['fab', 'instagram']"
-              class="text-2xl hidden md:block"
-            />
+          <a href="https://twitter.com/glitzyken17" target="_blank">
+            <font-awesome-icon :icon="['fab', 'twitter']" class="text-2xl" />
           </a>
         </div>
       </div>

@@ -25,8 +25,11 @@
         </a>
       </div>
       <div class="w-8 h-8 rounded-full ml-5">
-        <a href="https://twitter.com/glitzyken17" target="_blank">
-          <font-awesome-icon :icon="['fab', 'twitter']" class="text-2xl" />
+        <a href="https://www.instagram.com/glitzyken/" target="_blank">
+          <font-awesome-icon
+            :icon="['fab', 'instagram']"
+            class="text-2xl hidden md:block"
+          />
         </a>
       </div>
       <!--

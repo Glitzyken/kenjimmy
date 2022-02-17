@@ -72,6 +72,18 @@ export const mongoose = {
   website: 'https://mongoosejs.com/'
 };
 
+export const prisma = {
+  name: 'prisma',
+  url: require('../assets/brands/prisma.png'),
+  website: 'https://www.prisma.io/'
+};
+
+export const postgresql = {
+  name: 'postgresql',
+  url: require('../assets/brands/postgresql.png'),
+  website: 'https://www.postgresql.org/'
+};
+
 // BUILD TOOLS
 
 export const vscode = {
