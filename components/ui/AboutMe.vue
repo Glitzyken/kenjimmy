@@ -17,7 +17,7 @@
                   class="text-lg inline-block"
                 />
                 <p class="inline-block ml-1">
-                  Working on
+                  Building
                   <a
                     href="https://www.spasora.com/"
                     target="_blank"
@@ -33,7 +33,7 @@
                   class="text-lg inline-block"
                 />
                 <p class="inline-block ml-1">
-                  Currently learning Web3
+                  Learning Web3
                 </p>
               </div>
 
@@ -43,14 +43,14 @@
                   class="text-lg inline-block"
                 />
                 <p class="inline-block ml-1">
-                  Leisure game is chess
+                  Play chess at leisure
                 </p>
               </div>
 
               <div class="mt-2">
                 <p class="inline-block ml-1">
                   <span class="font-bold">Fun Fact:</span> Sometimes I sing when
-                  I am alone with no one watching 😁
+                  I am alone 😁
                 </p>
               </div>
             </div>

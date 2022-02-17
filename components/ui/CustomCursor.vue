@@ -73,9 +73,11 @@ export default {
 
 <style>
 @media screen and (min-width: 1100px) {
+  /*
   * {
     cursor: none !important;
   }
+  */
 
   .custom-cursor__ball {
     position: fixed;
@@ -90,16 +92,16 @@ export default {
 
   .custom-cursor__ball--big {
     content: '';
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
     background: white;
     border-radius: 50%;
   }
 
   .custom-cursor__ball--small {
     content: '';
-    width: 6px;
-    height: 6px;
+    width: 4px;
+    height: 4px;
     background: #f1515c;
     border-radius: 50%;
   }

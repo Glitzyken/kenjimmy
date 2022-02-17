@@ -28,13 +28,13 @@
       </div>
 
       <p class="uppercase font-bold des text-center md:text-left px-5 md:px-0">
-        Cofounder at Spasora.com
+        Cofounder of Spasora
       </p>
       <p
         class="text-kjColorGray text-sm mt-10 text-center md:text-left px-5 md:px-0 md:w-64 message"
       >
-        AKA Glitzyken, I am a software developer in Lagos Nigeria. I build
-        anything web and mobile app. Feel free to say hi.
+        AKA Glitzyken. Software Developer from Lagos, Nigeria with rock-solid
+        experience in building complex applications with modern technologies.
       </p>
 
       <div class="mt-10 talk-wrapper">
