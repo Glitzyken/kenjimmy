@@ -49,7 +49,7 @@
       </div>
       <div class="flex justify-between items-center flex-wrap">
         <a
-          href="https://drive.google.com/file/d/11DZ3MB-W1Vpx0V_2PUwGsIc_7KTaTU-m/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Ge740vg7xXVb4ZxS7f-0BfLvMQ65ZcCt/view?usp=sharing"
           target="_blank"
         >
           <button
