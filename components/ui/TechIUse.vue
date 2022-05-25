@@ -6,8 +6,8 @@
     >
       <h2 class="text-gray mb-10">
         <i
-          >These are, but not limited to, the tech I use to develop beautiful
-          user interface and experience</i
+          >These are, but not limited to, the tech I use for building
+          client-side applications</i
         >
       </h2>
       <div
@@ -32,8 +32,8 @@
     >
       <h2 class="text-gray mb-10">
         <i
-          >These are, but not limited to, the tech I use to develop fast and
-          scalable back-end applications</i
+          >These are, but not limited to, the tech I use for building fast and
+          scalable backend applications</i
         >
       </h2>
       <div
@@ -53,7 +53,7 @@
       </div>
     </div>
     <!-- BUILD TOOLS -->
-    <div
+    <!-- <div
       class="mb-8 p-3 md:px-10 md:py-5 bg-kjColorLight dark:bg-kjColorBlack border-2 border-kjColorLight"
     >
       <h2 class="text-gray mb-10">
@@ -74,10 +74,9 @@
           </a>
         </span>
       </div>
-    </div>
+    </div> -->
     <!-- CMS TOOLS -->
-    <!--
-    <div
+    <!-- <div
       class="mb-8 p-3 md:px-10 md:py-5 bg-kjColorLight dark:bg-kjColorBlack border-2 border-kjColorLight"
     >
       <h2 class="text-gray mb-10">
@@ -98,8 +97,7 @@
           </a>
         </span>
       </div>
-    </div>
-    -->
+    </div> -->
     <!-- OTHER -->
     <div
       class="mb-8 p-3 md:px-10 md:py-5 bg-kjColorLight dark:bg-kjColorBlack border-2 border-kjColorLight"
@@ -107,20 +105,19 @@
       <h2 class="text-gray mb-10">
         <i>Other tech tools I use...and much more!</i>
       </h2>
-      <div
-        v-for="other in others"
-        :key="other.name"
-        class="w-16 inline-block brand"
-      >
-        <span :title="other.name">
-          <a :href="other.website" target="_blank">
-            <img
-              :src="other.url"
-              :alt="other.name"
-              class="h-12 inline brand__img"
-            />
-          </a>
-        </span>
+
+      <div class="flex flex-wrap">
+        <div
+          v-for="other in others"
+          :key="other.name"
+          class="w-16 brand md:mb-4"
+        >
+          <span :title="other.name">
+            <a :href="other.website" target="_blank">
+              <img :src="other.url" :alt="other.name" class="h-12 brand__img" />
+            </a>
+          </span>
+        </div>
       </div>
     </div>
     <!-- GRAPHIC TOOLS 
@@ -165,25 +162,33 @@ import {
   mongodb,
   express,
   mongoose,
-  prisma,
-  postgresql,
-  vscode,
+  // vscode,
   postman,
   webpack,
   npm,
   puppeteer,
   storyblok,
-  wordpress,
-  vapid,
+  // wordpress,
+  // vapid,
   git,
   github,
   netlify,
   heroku,
-  indesign,
-  illustrator,
-  photoshop,
-  xd,
-  flutter
+  // indesign,
+  // illustrator,
+  // photoshop,
+  // xd,
+  flutter,
+  prisma,
+  postgresql,
+  redis,
+  digitalocean,
+  docker,
+  prometheus,
+  aws,
+  typescript,
+  gsap,
+  css
 } from '~/docs/brands.js';
 export default {
   name: 'Resume',
@@ -191,19 +196,42 @@ export default {
     return {
       frontStack: [
         html,
+        css,
         sass,
         tailwindcss,
         javascript,
-        vuejs,
-        vuetify,
         nuxt,
+        gsap,
         flutter
       ],
-      backStack: [nodejs, express, mongodb, mongoose, prisma, postgresql],
-      buildTools: [vscode, postman, webpack, npm],
-      cmsTools: [wordpress, vapid],
-      others: [git, github, netlify, heroku, puppeteer, storyblok],
-      graphicTools: [indesign, illustrator, photoshop, xd]
+      backStack: [
+        nodejs,
+        express,
+        mongodb,
+        postgresql,
+        mongoose,
+        prisma,
+        typescript
+      ],
+      // buildTools: [vscode, postman, webpack, npm],
+      // cmsTools: [wordpress, vapid],
+      others: [
+        npm,
+        git,
+        github,
+        redis,
+        docker,
+        aws,
+        prometheus,
+        netlify,
+        heroku,
+        digitalocean,
+        puppeteer,
+        storyblok,
+        webpack,
+        postman
+      ]
+      // graphicTools: [indesign, illustrator, photoshop, xd]
     };
   }
 };

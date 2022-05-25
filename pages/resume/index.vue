@@ -23,7 +23,7 @@
             ><u>BossBus Technologies</u></a
           >
         </h3>
-        <p class="mt-2">Backend developer (Remote)</p>
+        <p class="mt-2">Backend developer (Full-time)</p>
       </div>
       <div class="ml-8 mt-8">
         <h3 class="font-bold">
@@ -39,11 +39,9 @@
         </h3>
         <p class="mt-2">Fullstack developer (Full-time)</p>
       </div>
+
       <div class="flex justify-between items-center flex-wrap">
-        <a
-          href="https://drive.google.com/file/d/1bvXz4N1fpJrWF__ndoyuNb3vuozgjX3l/view?usp=sharing"
-          target="_blank"
-        >
+        <a href="" target="_blank">
           <button
             class="p-2 mt-10 mb-10 md:mb-0 w-48 text-center text-white font-semibold bg-kjColorSecondary shadow-lg cursor-pointer my-cv"
           >
