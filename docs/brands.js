@@ -235,6 +235,13 @@ export const storyblok = {
   website: 'https://www.storyblok.com/'
 };
 
+export const circleci = {
+  name: 'circleci',
+  url:
+    'https://res.cloudinary.com/dwa1jtluu/image/upload/v1653467129/kenjimmy.me/kisspng-circleci-logo-continuous-integration-computer-icon-find-cloud-computing-companies-using-node-js-in-sf-5b80afa4267303.3328983015351602281575_nsguoz.png',
+  website: 'https://circleci.com/'
+};
+
 // GRAPHICS
 // export const indesign = {
 //   name: 'indesign',
