@@ -12,7 +12,7 @@
         <div
           class="p-2 mr-4 md:mr-10 -mt-2 md:-mt-4 w-40 text-center text-white font-semibold bg-kjColorSecondary shadow-lg absolute right-0 top-0"
         >
-          Since 2016
+          Since 2018
         </div>
         <h3 class="mt-8 md:mt-0 font-bold">Working remotely</h3>
         <p class="mt-2">Full-stack developer</p>
@@ -23,7 +23,7 @@
             ><u>BossBus Technologies</u></a
           >
         </h3>
-        <p class="mt-2">Backend developer (Remote)</p>
+        <p class="mt-2">Backend developer (Full-time)</p>
       </div>
       <div class="ml-8 mt-8">
         <h3 class="font-bold">
@@ -39,19 +39,9 @@
         </h3>
         <p class="mt-2">Fullstack developer (Full-time)</p>
       </div>
-      <div class="ml-8 mt-8">
-        <h3 class="font-bold">
-          <a href="https://www.remoteplatz.com" target="_blank"
-            ><u>Remoteplatz</u></a
-          >
-        </h3>
-        <p class="mt-2">Freelancer</p>
-      </div>
+
       <div class="flex justify-between items-center flex-wrap">
-        <a
-          href="https://drive.google.com/file/d/1C0spQeln1R-UdF5lPIrht4f-iBj8iR1e/view?usp=sharing"
-          target="_blank"
-        >
+        <a href="" target="_blank">
           <button
             class="p-2 mt-10 mb-10 md:mb-0 w-48 text-center text-white font-semibold bg-kjColorSecondary shadow-lg cursor-pointer my-cv"
           >
