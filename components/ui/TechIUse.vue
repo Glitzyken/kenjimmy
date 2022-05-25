@@ -188,7 +188,8 @@ import {
   aws,
   typescript,
   gsap,
-  css
+  css,
+  circleci
 } from '~/docs/brands.js';
 export default {
   name: 'Resume',
@@ -223,6 +224,7 @@ export default {
         docker,
         aws,
         prometheus,
+        circleci,
         netlify,
         heroku,
         digitalocean,
