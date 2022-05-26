@@ -55,8 +55,15 @@ export const javascript = {
 export const nuxt = {
   name: 'nuxt',
   url:
-    'https://res.cloudinary.com/dwa1jtluu/image/upload/v1653464816/kenjimmy.me/nuxt_ukcrfw.png',
-  website: 'https://nuxtjs.org/'
+    'https://res.cloudinary.com/dwa1jtluu/image/upload/v1653560323/kenjimmy.me/kisspng-vue-js-javascript-angularjs-front-and-back-ends-ty-5ae6b3d5c7bc63.9855637415250687578181_k9cnsm.png',
+  website: 'https://vuejs.org/'
+};
+
+export const react = {
+  name: 'react',
+  url:
+    'https://res.cloudinary.com/dwa1jtluu/image/upload/v1653559880/kenjimmy.me/kisspng-game-react-native-javascript-android-physics-5ac6d5f51879e8.6623465115229803411003_ugk9af.png',
+  website: 'https://reactjs.org/'
 };
 
 export const flutter = {

@@ -103,7 +103,7 @@
       class="mb-8 p-3 md:px-10 md:py-5 bg-kjColorLight dark:bg-kjColorBlack border-2 border-kjColorLight"
     >
       <h2 class="text-gray mb-10">
-        <i>Other tech tools I use...and much more!</i>
+        <i>Others...and more!</i>
       </h2>
 
       <div class="flex flex-wrap">
@@ -189,7 +189,8 @@ import {
   typescript,
   gsap,
   css,
-  circleci
+  circleci,
+  react
 } from '~/docs/brands.js';
 export default {
   name: 'Resume',
@@ -202,6 +203,7 @@ export default {
         tailwindcss,
         javascript,
         nuxt,
+        react,
         gsap,
         flutter
       ],
