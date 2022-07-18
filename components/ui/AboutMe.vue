@@ -19,6 +19,22 @@
                 <p class="inline-block ml-1">
                   Building
                   <a
+                    href="https://veethq.com/"
+                    target="_blank"
+                    class="font-bold underline"
+                    >veethq.com</a
+                  >
+                </p>
+              </div>
+
+              <div>
+                <font-awesome-icon
+                  :icon="['fas', 'users']"
+                  class="text-lg inline-block"
+                />
+                <p class="inline-block ml-1">
+                  Scaling
+                  <a
                     href="https://www.spasora.com/"
                     target="_blank"
                     class="font-bold underline"
@@ -64,8 +80,8 @@
               </div>
 
               <p>
-                I am a full stack developer with a passion for thoughtful UI
-                design.
+                I am a full stack developer with over {{ numOfYears }} years of
+                rock-solid experience in building scalable products.
               </p>
 
               <p class="mt-2">
@@ -95,3 +111,16 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      numOfYears: 5
+    };
+  },
+  mounted() {
+    this.numOfYears = new Date().getFullYear() - 2018;
+  }
+};
+</script>
