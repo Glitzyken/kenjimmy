@@ -53,7 +53,7 @@
     <div class="mt-10 md:flex-1">
       <img
         class="w-40 ml-auto mr-auto md:ml-0 md:mr-0 md:w-128"
-        src="https://res.cloudinary.com/dwa1jtluu/image/upload/v1653600089/kenjimmy.me/Portfolio_ngecqk.png"
+        src="https://res.cloudinary.com/dwa1jtluu/image/upload/q_auto,f_auto/v1653600089/kenjimmy.me/Portfolio_ngecqk.png"
         alt="ken photo"
       />
     </div>

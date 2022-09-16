@@ -6,14 +6,14 @@ export const mazino = {
   link: 'https://mazinomakeovers.netlify.app',
   techUsed: 'Nuxt Tailwind Node.js Moment.js',
   imgUrl:
-    'https://res.cloudinary.com/dwa1jtluu/image/upload/v1663252544/kenjimmy.me/444_a17rec.jpg'
+    'https://res.cloudinary.com/dwa1jtluu/image/upload/q_auto,f_auto/v1663252544/kenjimmy.me/444_a17rec.jpg'
 };
 
 export const kenJimmy = {
   videoLink:
     'https://res.cloudinary.com/dwa1jtluu/video/upload/v1640766644/kenjimmy.me/DARKMODE.mp4_bj94zf.mp4',
   imgUrl:
-    'https://res.cloudinary.com/dwa1jtluu/image/upload/v1663252535/kenjimmy.me/112_xoqgia.jpg'
+    'https://res.cloudinary.com/dwa1jtluu/image/upload/q_auto,f_auto/v1663252535/kenjimmy.me/112_xoqgia.jpg'
 };
 
 export const spasora = {
@@ -23,7 +23,7 @@ export const spasora = {
   link: 'https://spasora.com/',
   techUsed: 'Nuxt.js TailwindCSS Chakra-UI Element-UI Node.js Express MongoDB',
   imgUrl:
-    'https://res.cloudinary.com/dwa1jtluu/image/upload/v1663252550/kenjimmy.me/333_kq5r5b.jpg'
+    'https://res.cloudinary.com/dwa1jtluu/image/upload/q_auto,f_auto/v1663252550/kenjimmy.me/333_kq5r5b.jpg'
 };
 
 export const bossbus = {
@@ -33,7 +33,7 @@ export const bossbus = {
   link: 'https://bossbusworld.com/',
   techUsed: '**classified',
   imgUrl:
-    'https://res.cloudinary.com/dwa1jtluu/image/upload/v1663252537/kenjimmy.me/222_c7tsjz.jpg'
+    'https://res.cloudinary.com/dwa1jtluu/image/upload/q_auto,f_auto/v1663252537/kenjimmy.me/222_c7tsjz.jpg'
 };
 
 export const flexicreate = {
@@ -41,7 +41,7 @@ export const flexicreate = {
   link: 'https://flexicreate.com/',
   techUsed: 'Vanila HTML, CSS, and JavaScript',
   imgUrl:
-    'https://res.cloudinary.com/dwa1jtluu/image/upload/v1663252564/kenjimmy.me/555_ahwodb.jpg'
+    'https://res.cloudinary.com/dwa1jtluu/image/upload/q_auto,f_auto/v1663252564/kenjimmy.me/555_ahwodb.jpg'
 };
 
 // NATIVE APPS
