@@ -81,6 +81,13 @@ export const nodejs = {
   website: 'https://nodejs.org/'
 };
 
+export const nestjs = {
+  name: 'nestjs',
+  url:
+    'https://res.cloudinary.com/dwa1jtluu/image/upload/v1673206261/kenjimmy.me/PngItem_1390279_cjvdhy.png',
+  website: 'https://nestjs.com/'
+};
+
 export const mongodb = {
   name: 'mongodb',
   url:

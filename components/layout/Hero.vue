@@ -28,7 +28,7 @@
       </div>
 
       <p class="uppercase font-bold des text-center md:text-left px-5 md:px-0">
-        Cofounder of Spasora
+        Cofounder of Veet
       </p>
       <p
         class="text-kjColorGray text-sm mt-10 text-center md:text-left px-5 md:px-0 md:w-64 message"

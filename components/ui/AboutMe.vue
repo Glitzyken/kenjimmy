@@ -19,10 +19,10 @@
                 <p class="inline-block ml-1">
                   Building
                   <a
-                    href="https://veethq.com/"
+                    href="https://joinveet.com/"
                     target="_blank"
                     class="font-bold underline"
-                    >veethq.com</a
+                    >joinveet.com</a
                   >
                 </p>
               </div>
