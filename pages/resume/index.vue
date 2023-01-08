@@ -19,6 +19,14 @@
       </div>
       <div class="ml-8">
         <h3 class="font-bold">
+          <a href="https://emedicstore.org" target="_blank"
+            ><u>eMedicstore</u></a
+          >
+        </h3>
+        <p class="mt-2">Solution Architect (Full-time)</p>
+      </div>
+      <div class="ml-8 mt-8">
+        <h3 class="font-bold">
           <a href="https://bossbusworld.com" target="_blank"
             ><u>BossBus Technologies</u></a
           >
