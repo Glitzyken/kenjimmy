@@ -21,7 +21,7 @@ export const spasora = {
   videoLink:
     'https://res.cloudinary.com/dwa1jtluu/video/upload/v1640766649/kenjimmy.me/Spasora___Marketplace_to_discover_and_book_physical_spaces_-_Google_Chrome_2021-10-22_19-48-03.compressed.mp4_gho0ql.mp4',
   link: 'https://spasora.com/',
-  techUsed: 'Nuxt.js TailwindCSS Chakra-UI Element-UI Node.js Express MongoDB',
+  techUsed: 'Nuxt.js TailwindCSS Node.js Express MongoDB',
   imgUrl:
     'https://res.cloudinary.com/dwa1jtluu/image/upload/q_auto,f_auto/v1663252550/kenjimmy.me/333_kq5r5b.jpg'
 };
@@ -42,6 +42,14 @@ export const flexicreate = {
   techUsed: 'Vanila HTML, CSS, and JavaScript',
   imgUrl:
     'https://res.cloudinary.com/dwa1jtluu/image/upload/q_auto,f_auto/v1663252564/kenjimmy.me/555_ahwodb.jpg'
+};
+
+export const veet = {
+  name: 'Veet',
+  link: 'https://joinveet.com/',
+  techUsed: 'Nest.js MongoDB Redis Docker AWS',
+  imgUrl:
+    'https://res.cloudinary.com/dwa1jtluu/image/upload/v1673204918/kenjimmy.me/veet-shot_lerl5h.jpg'
 };
 
 // NATIVE APPS

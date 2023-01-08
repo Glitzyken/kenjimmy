@@ -6,7 +6,7 @@
       :message="message"
     />
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 dark:text-kjColorGray">
-      <a :href="spasora.link" target="_blank">
+      <a :href="veet.link" target="_blank">
         <div
           class="relative pf-card rounded-lg"
           @mouseenter="showDetails(1)"
@@ -15,6 +15,30 @@
           <transition name="slide">
             <div
               v-if="showDetials1"
+              class="py-4 px-8 w-full bg-kjColorSecondary bg-opacity-75 absolute bottom-0 z-50 rounded-br-lg rounded-bl-lg"
+            >
+              <h2 class="font-bold text-lg text-kjColorLight capitalize">
+                {{ veet.name }}
+              </h2>
+              <p class="text w-2/3 text-kjColorLight mt-2">
+                {{ veet.techUsed }}
+              </p>
+            </div>
+          </transition>
+
+          <img :src="veet.imgUrl" alt="veet" class="rounded-lg" />
+        </div>
+      </a>
+
+      <a :href="spasora.link" target="_blank">
+        <div
+          class="relative pf-card rounded-lg"
+          @mouseenter="showDetails(2)"
+          @mouseleave="hideDetails"
+        >
+          <transition name="slide">
+            <div
+              v-if="showDetials2"
               class="py-4 px-8 w-full bg-kjColorSecondary bg-opacity-75 absolute bottom-0 z-50 rounded-br-lg rounded-bl-lg"
             >
               <h2 class="font-bold text-lg text-kjColorLight capitalize">
@@ -37,12 +61,12 @@
       <a :href="bossbus.link" target="_blank">
         <div
           class="relative pf-card rounded-lg"
-          @mouseenter="showDetails(5)"
+          @mouseenter="showDetails(3)"
           @mouseleave="hideDetails"
         >
           <transition name="slide">
             <div
-              v-if="showDetials5"
+              v-if="showDetials3"
               class="py-4 px-8 w-full bg-kjColorSecondary bg-opacity-75 absolute bottom-0 z-50 rounded-br-lg rounded-bl-lg"
             >
               <h2 class="font-bold text-lg text-kjColorLight capitalize">
@@ -64,13 +88,13 @@
 
       <div
         class="relative pf-card rounded-lg"
-        @mouseenter="showDetails(2)"
+        @mouseenter="showDetails(4)"
         @mouseleave="hideDetails"
         @click="showHideAlert"
       >
         <transition name="slide">
           <div
-            v-if="showDetials2"
+            v-if="showDetials4"
             class="py-4 px-8 w-full bg-kjColorSecondary bg-opacity-75 absolute bottom-0 z-50 rounded-br-lg rounded-bl-lg"
           >
             <h2 class="font-bold text-lg text-kjColorLight capitalize">
@@ -92,12 +116,12 @@
       <a :href="mazino.link" target="_blank">
         <div
           class="relative pf-card rounded-lg"
-          @mouseenter="showDetails(3)"
+          @mouseenter="showDetails(5)"
           @mouseleave="hideDetails"
         >
           <transition name="slide">
             <div
-              v-if="showDetials3"
+              v-if="showDetials5"
               class="py-4 px-8 w-full bg-kjColorSecondary bg-opacity-75 absolute bottom-0 z-50 rounded-br-lg rounded-bl-lg"
             >
               <h2 class="font-bold text-lg text-kjColorLight capitalize">
@@ -146,6 +170,7 @@
 
 <script>
 import {
+  veet,
   spasora,
   bossbus,
   kenJimmy,
@@ -162,11 +187,12 @@ export default {
       showDetials4: false,
       showDetials5: false,
       showDetials6: false,
-      spasora: spasora,
-      bossbus: bossbus,
-      kenJimmy: kenJimmy,
-      mazino: mazino,
-      flexicreate: flexicreate,
+      veet,
+      spasora,
+      bossbus,
+      kenJimmy,
+      mazino,
+      flexicreate,
       message: 'Ken appreciates you 😎. Thanks for visiting! :)',
       showAlert: false
     };
