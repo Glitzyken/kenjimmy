@@ -20,7 +20,7 @@ export const spasora = {
   name: 'Spasora',
   videoLink:
     'https://res.cloudinary.com/dwa1jtluu/video/upload/v1640766649/kenjimmy.me/Spasora___Marketplace_to_discover_and_book_physical_spaces_-_Google_Chrome_2021-10-22_19-48-03.compressed.mp4_gho0ql.mp4',
-  link: 'https://spasora.com/',
+  link: 'https://spasora.netlify.app/',
   techUsed: 'Nuxt.js TailwindCSS Node.js Express MongoDB',
   imgUrl:
     'https://res.cloudinary.com/dwa1jtluu/image/upload/q_auto,f_auto/v1663252550/kenjimmy.me/333_kq5r5b.jpg'
