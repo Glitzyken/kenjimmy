@@ -35,7 +35,7 @@
                 <p class="inline-block ml-1">
                   Scaling
                   <a
-                    href="https://www.spasora.com/"
+                    href="https://spasora.netlify.app/"
                     target="_blank"
                     class="font-bold underline"
                     >spasora.com</a

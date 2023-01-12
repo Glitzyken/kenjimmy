@@ -22,8 +22,8 @@
           backend apps
         </h2>
         <p class="mb-5 data-2">
-          Build scalable and maintainable server applications using modern
-          technology stacks such as Node.js, Express, and MongoDB
+          Build scalable and maintainable server applications using cutting-edge
+          technologies such as Nest.js, Docker, and MongoDB
         </p>
         <h2 class="text-lg font-black uppercase mb-3 data-3">
           native apps

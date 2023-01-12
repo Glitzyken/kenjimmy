@@ -8,17 +8,17 @@
           It's me
         </div>
         <h1 class="text-5xl font-black leading-none mb-4">
+          <span class="letter">O</span>
+          <span class="letter">m</span>
+          <span class="letter">o</span>
+          <span class="letter">n</span>
+          <span class="letter">i</span>
+          <span class="letter">g</span>
+          <span class="letter">h</span>
+          <span class="letter">o</span> <br />
           <span class="letter">K</span>
-          <span class="letter">e</span>
-          <span class="letter">n</span>
-          <span class="letter">n</span>
-          <span class="letter">e</span>
-          <span class="letter">t</span>
-          <span class="letter">h</span> <br />
-          <span class="letter"> &nbsp; </span>
-          <span class="letter"> &nbsp; </span>
-          <span class="letter"> &nbsp; </span>
-          <span class="letter"> &nbsp; </span>
+          <span class="letter">.</span>
+          <span class="letter">&nbsp;</span>
           <span class="letter">J</span>
           <span class="letter">i</span>
           <span class="letter">m</span>
@@ -28,7 +28,8 @@
       </div>
 
       <p class="uppercase font-bold des text-center md:text-left px-5 md:px-0">
-        Cofounder of Veet
+        Cofounder of
+        <a href="https://www.joinveet.com/" target="_blank"><u>Veet</u></a>
       </p>
       <p
         class="text-kjColorGray text-sm mt-10 text-center md:text-left px-5 md:px-0 md:w-64 message"
