@@ -35,7 +35,7 @@
         class="text-kjColorGray text-sm mt-10 text-center md:text-left px-5 md:px-0 md:w-64 message"
       >
         AKA Glitzyken. Software Developer from Lagos, Nigeria with rock-solid
-        experience in building complex applications with modern technologies.
+        experience in building complex applications with cutting-edge technologies.
       </p>
 
       <div class="mt-10 talk-wrapper">
