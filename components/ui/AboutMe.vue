@@ -80,17 +80,13 @@
               </div>
 
               <p>
-                I am a full stack developer with over {{ numOfYears }} years of
-                rock-solid experience in building scalable products.
+                I am a full stack developer with almost half a decade of experience in building scalable products.
               </p>
 
               <p class="mt-2">
-                Besides participating in many tech programs where I have been
-                trained to have both technical and soft skills, I have acquired
-                high level programming knowledge from taking online courses on
-                Udemy, Pluralsight and Udacity, bagging a Node.js certificate,
-                Expert in JavaScript IQ test and JavaScript Certificate
-                respectively.
+                I have participated in a number of intense tech programs where I acquired both technical and soft skills. I have also acquired
+                high level programming skills from online courses on
+                renowned platforms like Udemy, Pluralsight, and Udacity. I am a self-taught software developer with a strong discipline to learn, improve, and evolve.
               </p>
 
               <p class="mt-2">
