@@ -7,7 +7,6 @@
 | Nuxt | TailwindCSS | GSAP | Storyblok |
 | :--: | :---------: | :--: | :-------: |
 
-
 ## 🎨 Features
 
 - Full static Nuxt site
@@ -23,7 +22,3 @@
 - Resume
 - Portfolio
 - Carousel
-
-## 🔖 License
-
-This is my portfolio site, which means that it is a reflection of what I can do with my skills. Usually, you should create your own unique portfolio but if for any other reasons you wish to use this source code in whole or in part for your project, you must keep the 'kj-' prefixes and the signature at the footer section.

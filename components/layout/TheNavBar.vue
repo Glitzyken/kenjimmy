@@ -2,7 +2,7 @@
   <nav>
     <!--ON DESKTOP VIEW-->
     <div class="hidden md:flex">
-      <div class="text-kjColorGray text-sm md:flex-1">
+      <div class="text-kjColorGray dark:text-kjColorLight text-sm md:flex-1">
         <!--
         <div class="font-bold md:mr-4 inline-block py-1 px-2 f-link">
           <a href="tel:+2348133930845">

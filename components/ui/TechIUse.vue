@@ -6,8 +6,8 @@
     >
       <h2 class="text-gray mb-10">
         <i
-          >These are, but not limited to, the tech I use for building
-          client-side applications</i
+          >These include, but are not limited to, the technologies I use for
+          building client-side applications</i
         >
       </h2>
       <div
@@ -32,8 +32,8 @@
     >
       <h2 class="text-gray mb-10">
         <i
-          >These are, but not limited to, the tech I use for building fast and
-          scalable backend applications</i
+          >These include, but are not limited to, the technologies I use for
+          building fast and scalable backend applications</i
         >
       </h2>
       <div
@@ -191,7 +191,7 @@ import {
   gsap,
   css,
   circleci,
-  react
+  pinia
 } from '~/docs/brands.js';
 export default {
   name: 'Resume',
@@ -204,9 +204,9 @@ export default {
         tailwindcss,
         javascript,
         nuxt,
-        react,
         gsap,
-        flutter
+        flutter,
+        pinia
       ],
       backStack: [
         nodejs,

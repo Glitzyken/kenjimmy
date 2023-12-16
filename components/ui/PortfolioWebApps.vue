@@ -5,7 +5,7 @@
       @alertJimmy="showHideAlert"
       :message="message"
     />
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 dark:text-kjColorGray">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 dark:text-kjColorLight">
       <a :href="veet.link" target="_blank">
         <div
           class="relative pf-card rounded-lg"
@@ -55,34 +55,6 @@
             Your browser is not supported!
           </video> -->
           <img :src="spasora.imgUrl" alt="spasora" class="rounded-lg" />
-        </div>
-      </a>
-
-      <a :href="bossbus.link" target="_blank">
-        <div
-          class="relative pf-card rounded-lg"
-          @mouseenter="showDetails(3)"
-          @mouseleave="hideDetails"
-        >
-          <transition name="slide">
-            <div
-              v-if="showDetials3"
-              class="py-4 px-8 w-full bg-kjColorSecondary bg-opacity-75 absolute bottom-0 z-50 rounded-br-lg rounded-bl-lg"
-            >
-              <h2 class="font-bold text-lg text-kjColorLight capitalize">
-                {{ bossbus.name }}
-              </h2>
-              <p class="text w-2/3 text-kjColorLight mt-2">
-                {{ bossbus.techUsed }}
-              </p>
-            </div>
-          </transition>
-
-          <!-- <video class="rounded-lg" autoplay muted loop>
-            <source :src="bossbus.videoLink" type="video/mp4" />
-            Your browser is not supported!
-          </video> -->
-          <img :src="bossbus.imgUrl" alt="bossbus" class="rounded-lg" />
         </div>
       </a>
 
@@ -140,43 +112,12 @@
           <img :src="mazino.imgUrl" alt="mazino" class="rounded-lg" />
         </div>
       </a>
-
-      <a :href="flexicreate.link" target="_blank">
-        <div
-          class="relative pf-card rounded-lg"
-          @mouseenter="showDetails(6)"
-          @mouseleave="hideDetails"
-        >
-          <transition name="slide">
-            <div
-              v-if="showDetials6"
-              class="py-4 px-8 w-full bg-kjColorSecondary bg-opacity-75 absolute bottom-0 z-50 rounded-br-lg rounded-bl-lg"
-            >
-              <h2 class="font-bold text-lg text-kjColorLight capitalize">
-                {{ flexicreate.name }}
-              </h2>
-              <p class="text w-2/3 text-kjColorLight mt-2">
-                {{ flexicreate.techUsed }}
-              </p>
-            </div>
-          </transition>
-
-          <img :src="flexicreate.imgUrl" alt="flexicreate" class="rounded-lg" />
-        </div>
-      </a>
     </div>
   </div>
 </template>
 
 <script>
-import {
-  veet,
-  spasora,
-  bossbus,
-  kenJimmy,
-  mazino,
-  flexicreate
-} from '~/docs/portfolios.js';
+import { veet, spasora, kenJimmy, mazino } from '~/docs/portfolios.js';
 
 export default {
   data() {
@@ -189,10 +130,8 @@ export default {
       showDetials6: false,
       veet,
       spasora,
-      bossbus,
       kenJimmy,
       mazino,
-      flexicreate,
       message: 'Ken appreciates you 😎. Thanks for visiting! :)',
       showAlert: false
     };

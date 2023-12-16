@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import { createSEOMeta } from '@/utils/seo';
+// import { createSEOMeta } from '@/utils/seo';
 import kebabCase from 'lodash/kebabCase';
 
 export default {

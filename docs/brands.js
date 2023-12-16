@@ -73,6 +73,13 @@ export const flutter = {
   website: 'https://api.flutter.dev/'
 };
 
+export const pinia = {
+  name: 'Pinia',
+  url:
+    'https://res.cloudinary.com/dwa1jtluu/image/upload/v1702746490/kenjimmy.me/pinia-seeklogo.com_elr2fn.svg',
+  website: 'https://pinia.vuejs.org/'
+};
+
 // BACK-END STACK
 export const nodejs = {
   name: 'nodejs',

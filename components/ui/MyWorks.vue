@@ -3,7 +3,7 @@
     <h1 class="capitalize text-3xl md:text-4xl font-bold leading-none">
       My Works
     </h1>
-    <p class="capitalize mt-2 text-lg">Some of my projects</p>
+    <p class="capitalize mt-2 text-lg">few of my past and present projects</p>
     <CustomBorder />
 
     <div>
@@ -30,7 +30,7 @@
         class="max-w-xl shadow-2xl h-40 py-5 md:py-0 px-5 md:px-10 mt-10 md:flex justify-between items-center"
       >
         <p class="text-lg font-bold mb-3 md:mb-0">
-          Want to know about my profession? See my resume 👉
+          I cook with these ingredients 👉
         </p>
         <Button displayTitle="MY RESUME" linkTo="/resume" />
       </div>

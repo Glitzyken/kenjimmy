@@ -1,37 +1,40 @@
 <template>
   <section class="mt-12 md:mt-32 services">
     <h1 class="capitalize text-3xl md:text-4xl font-bold leading-none">
-      what i can do
+      my top skills
     </h1>
-    <p class="capitalize mt-2 text-lg">service offers</p>
+    <p class="capitalize mt-2 text-lg">what i do</p>
     <CustomBorder />
     <div
       class="grid grid-cols-1 lg:grid-cols-2 mt-10 rounded-lg bg-kjColorLight dark:bg-kjColorBlack border-2 border-kjColorLight"
     >
       <div class="p-5 md:mx-8 services__data">
-        <h2 class="text-lg font-black uppercase mb-3 data-1">
-          frontend apps
-        </h2>
-        <p class="mb-5 data-1">
-          Build client-side applications with modern features like SPA and
-          maintain semantic coding style among other best practices for SEO
-          optimisation. Use modern tech such as Nuxt (Vue.js), TailwindCSS, and
-          GSAP.
-        </p>
         <h2 class="text-lg font-black uppercase mb-3 data-2">
-          backend apps
+          backend
         </h2>
         <p class="mb-5 data-2">
-          Build scalable and maintainable server applications using cutting-edge
-          technologies such as Nest.js, Docker, and MongoDB
+          I build scalable and maintainable backend applications using
+          cutting-edge technologies like Nest.js, Docker, Redis, PostgreSQL, and
+          MongoDB
         </p>
-        <h2 class="text-lg font-black uppercase mb-3 data-3">
-          native apps
+
+        <h2 class="text-lg font-black uppercase mb-3 data-1">
+          frontend
+        </h2>
+        <p class="mb-5 data-1">
+          I build client-side applications with modern features like SPA and
+          maintain semantic coding style among other best practices for SEO
+          optimisation, using modern tech like Nuxt (Vue.js), TailwindCSS,
+          Pinia, and GSAP.
+        </p>
+
+        <!-- <h2 class="text-lg font-black uppercase mb-3 data-3">
+          native
         </h2>
         <p class="data-3">
           Use Flutter for building simple native mobile applications. Flutter is
           modern, fast, cross-platform, and popular.
-        </p>
+        </p> -->
         <div class="mt-8 see-project-btn">
           <Button displayTitle="SEE MY WORKS" linkTo="/portfolio" />
         </div>

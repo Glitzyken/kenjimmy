@@ -35,10 +35,10 @@
                 <p class="inline-block ml-1">
                   Scaling
                   <a
-                    href="https://spasora.netlify.app/"
+                    href="https://spasora.xyz/"
                     target="_blank"
                     class="font-bold underline"
-                    >spasora.com</a
+                    >spasora.xyz</a
                   >
                 </p>
               </div>
@@ -49,7 +49,7 @@
                   class="text-lg inline-block"
                 />
                 <p class="inline-block ml-1">
-                  Learning Web3
+                  Fancy Web3
                 </p>
               </div>
 
@@ -59,14 +59,14 @@
                   class="text-lg inline-block"
                 />
                 <p class="inline-block ml-1">
-                  Play chess at leisure
+                  Play online chess at leisure
                 </p>
               </div>
 
               <div class="mt-2">
                 <p class="inline-block ml-1">
-                  <span class="font-bold">Fun Fact:</span> Sometimes I sing when
-                  I am alone 😁
+                  <span class="font-bold">Fun Fact:</span> I am a pretty good
+                  dancer 😁
                 </p>
               </div>
             </div>
@@ -80,25 +80,23 @@
               </div>
 
               <p>
-                I am a full stack developer with almost half a decade of experience in building scalable products.
+                I am a seasoned software engineer with strong knowledge and
+                experience in the ever-evolving realm of technology.
               </p>
 
               <p class="mt-2">
-                I have participated in a number of intense tech programs where I acquired both technical and soft skills. I have also acquired
-                high level programming skills from online courses on
-                renowned platforms like Udemy, Pluralsight, and Udacity. I am a self-taught software developer with a strong discipline to learn, improve, and evolve.
+                I participated in several intense tech programs where I acquired
+                both technical and soft skills. I have also acquired high-level
+                programming skills from online courses on renowned platforms
+                like Udemy, Pluralsight, and Udacity. I am a self-taught
+                software developer with a strong discipline to learn, improve,
+                and evolve.
               </p>
 
               <p class="mt-2">
                 When I am not coding, I am either playing chess, soccer, video
-                game, or watching a movie. Other times I am reading or learning
-                a new language or framework.
-              </p>
-              <p class="mt-2">
-                Currently, I am a remote backend engineer at
-                <a href="https://bossbusworld.com" target="_blank"
-                  ><u>BossBus Technologies</u></a
-                >.
+                games, or watching a movie. Other times I am reading a
+                newsletter or learning a new tech.
               </p>
             </div>
           </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 dark:text-kjColorGray">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 dark:text-kjColorLight">
     <a
       v-for="nativeApp in nativeApps"
       :key="nativeApp.name"

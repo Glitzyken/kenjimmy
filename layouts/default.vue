@@ -1,11 +1,11 @@
 <template>
   <div>
     <PreLoader v-if="showHideSpinner" />
-    <CustomCursor />
+    <!-- <CustomCursor /> -->
 
     <div class="md:bg-kjColorLight dark:bg-kjColorBlack md:py-16">
       <div
-        class="bg-white dark:bg-kjColorBlack md:max-w-6xl md:m-auto sm:rounded-lg p-2 md:p-8 text-kjColorGray md:shadow-2xl"
+        class="bg-white dark:bg-kjColorBlack md:max-w-6xl md:m-auto sm:rounded-lg p-2 md:p-8 text-kjColorGray dark:text-kjColorLight md:shadow-2xl"
       >
         <div class="md:flex">
           <div>
@@ -17,7 +17,9 @@
           </div>
         </div>
       </div>
-      <div class="md:max-w-6xl md:m-auto p-2 md:p-8 text-kjColorGray">
+      <div
+        class="md:max-w-6xl md:m-auto p-2 md:p-8 text-kjColorGray dark:text-kjColorLight"
+      >
         <TheFooter />
         <div class="h-3 mt-5 flex">
           <div class="h-full w-1/4 bg-kjColorPrime"></div>

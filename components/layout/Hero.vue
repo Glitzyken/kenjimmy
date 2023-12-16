@@ -27,15 +27,19 @@
         </h1>
       </div>
 
-      <p class="uppercase font-bold des text-center md:text-left px-5 md:px-0">
+      <!-- <p class="uppercase font-bold des text-center md:text-left px-5 md:px-0">
         Cofounder of
         <a href="https://www.joinveet.com/" target="_blank"><u>Veet</u></a>
+      </p> -->
+      <p class="uppercase font-bold des text-center md:text-left px-5 md:px-0">
+        PRODUCT ENGINEER
       </p>
       <p
-        class="text-kjColorGray text-sm mt-10 text-center md:text-left px-5 md:px-0 md:w-64 message"
+        class="text-kjColorGray dark:text-kjColorLight text-sm mt-10 text-center md:text-left px-5 md:px-0 md:w-64 message"
       >
-        AKA Glitzyken. Software Developer from Lagos, Nigeria with rock-solid
-        experience in building complex applications with cutting-edge technologies.
+        A.K.A Glitzyken. Software Developer from Lagos, Nigeria with rock-solid
+        experience in building complex applications with cutting-edge
+        technologies.
       </p>
 
       <div class="mt-10 talk-wrapper">

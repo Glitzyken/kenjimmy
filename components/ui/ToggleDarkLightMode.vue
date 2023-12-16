@@ -1,5 +1,5 @@
 <template>
-  <span class="cursor-pointer ml-10 dark:text-kjColorGray">
+  <span class="cursor-pointer ml-10 dark:text-kjColorLight">
     <font-awesome-icon
       :icon="['fas', 'moon']"
       class="text-lg ml-1"

@@ -4,9 +4,9 @@
     <CustomBorder />
     <div class="mt-8">
       <TechIUse />
-      <h1 class="mt-6 text-2xl font-bold capitalize">experience</h1>
-      <CustomBorder />
-      <div
+      <!-- <h1 class="mt-6 text-2xl font-bold capitalize">experience</h1>
+      <CustomBorder /> -->
+      <!-- <div
         class="mt-10 md:mt-8 mb-10 max-w-lg h-32 md:h-24 p-5 shadow-xl relative"
       >
         <div
@@ -64,7 +64,7 @@
           </p>
           <Button displayTitle="MY SHELF" linkTo="/shelf" />
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

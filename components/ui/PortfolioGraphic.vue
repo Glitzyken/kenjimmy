@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-1 dark:text-kjColorGray">
+  <div class="grid grid-cols-1 dark:text-kjColorLight">
     <VueSlickCarousel v-bind="settings">
       <div
         v-for="slide in slides"
