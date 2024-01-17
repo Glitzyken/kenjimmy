@@ -10,10 +10,7 @@
       </nuxt-link>
       <div class="md:mt-64">
         <div class="md:h-6 md:w-6 hidden md:block">
-          <a
-            href="https://www.linkedin.com/in/kenneth-jimmy-b84092191/"
-            target="_blank"
-          >
+          <a href="https://www.linkedin.com/in/omonigho-jimmy" target="_blank">
             <font-awesome-icon :icon="['fab', 'linkedin']" class="text-2xl" />
           </a>
         </div>

@@ -55,7 +55,7 @@
           </div>
           <div class="absolute bottom-0 mb-3">
             <a
-              href="https://www.linkedin.com/in/kenneth-jimmy-b84092191/"
+              href="https://www.linkedin.com/in/omonigho-jimmy"
               target="_blank"
             >
               <font-awesome-icon :icon="['fab', 'linkedin']" class="text-lg" />

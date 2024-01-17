@@ -8,7 +8,7 @@
           <div class="p-4 grid md:gap-5 grid-cols-1 md:grid-cols-2">
             <img
               class="w-128 rounded-lg"
-              src="https://res.cloudinary.com/dwa1jtluu/image/upload/q_auto,f_auto/v1643459345/kenjimmy.me/portfolioMe_ho8140.jpg"
+              src="https://res.cloudinary.com/dwa1jtluu/image/upload/q_auto,f_auto/v1643459345/kenjimmy.me/20230729_142013_m1pz1z.jpg"
             />
             <div class="pt-10">
               <div>
@@ -80,23 +80,25 @@
               </div>
 
               <p>
-                I am a seasoned software engineer with strong knowledge and
-                experience in the ever-evolving realm of technology.
+                I am an exceptional software engineer with solid knowledge and
+                experience in the ever-evolving realm of technology and as a
+                person, I have a strong discipline to learn, improve, and
+                evolve.
               </p>
 
               <p class="mt-2">
-                I participated in several intense tech programs where I acquired
-                both technical and soft skills. I have also acquired high-level
-                programming skills from online courses on renowned platforms
-                like Udemy, Pluralsight, and Udacity. I am a self-taught
-                software developer with a strong discipline to learn, improve,
-                and evolve.
+                My career has been marked by a dedication to technical
+                excellence and my expertise lies within the JavaScript
+                ecosystem, where I've honed my skills to deliver efficient and
+                user-centric software solutions. With a passion for solving
+                complex problems, I am committed to pushing the boundaries of
+                what's possible in software development.
               </p>
 
               <p class="mt-2">
                 When I am not coding, I am either playing chess, soccer, video
-                games, or watching a movie. Other times I am reading a
-                newsletter or learning a new tech.
+                games, or watching movies. Other times I am reading newsletters
+                or upskilling.
               </p>
             </div>
           </div>
