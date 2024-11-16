@@ -35,6 +35,9 @@
 <script>
 export default {
   beforeCreate() {
+    if (process.browser) {
+      localStorage.removeItem('nuxt-color-mode'); // Removes dark mode
+    }
     this.showHideSpinner = true;
   },
   mounted() {

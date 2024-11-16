@@ -128,7 +128,11 @@ export default {
     name: 'page',
     mode: 'out-in'
   },
-
+  colorMode: {
+    preference: 'light', // Set the default mode to light
+    fallback: 'light', // If no preference is set, fallback to light mode
+    storageKey: 'nuxt-color-mode' // Optional: Customize the storage key used in localStorage
+  },
   purgeCSS: {
     whitelist: ['dark-mode']
   }
